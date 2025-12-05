@@ -1,0 +1,61 @@
+{
+  "services": {
+    "netflix": {
+      "name": "Netflix",
+      "color": "#E50914",
+      "url": "https://www.netflix.com/au/",
+      "icon": "netflix"
+    },
+    "stan": {
+      "name": "Stan",
+      "color": "#002B5C",
+      "url": "https://www.stan.com.au/",
+      "icon": "stan"
+    },
+    "primeVideo": {
+      "name": "Prime Video",
+      "color": "#00A8E1",
+      "url": "https://www.primevideo.com/",
+      "icon": "prime"
+    },
+    "disneyPlus": {
+      "name": "Disney+",
+      "color": "#113CCF",
+      "url": "https://www.disneyplus.com/en-au",
+      "icon": "disney"
+    },
+    "binge": {
+      "name": "Binge",
+      "color": "#FF6B00",
+      "url": "https://binge.com.au/",
+      "icon": "binge"
+    },
+    "paramount": {
+      "name": "Paramount+",
+      "color": "#0064FF",
+      "url": "https://www.paramountplus.com/au/",
+      "icon": "paramount"
+    },
+    "appleTv": {
+      "name": "Apple TV+",
+      "color": "#000000",
+      "url": "https://tv.apple.com/au",
+      "icon": "apple"
+    }
+  },
+  "rentBuyServices": [
+    {
+      "name": "Google Play",
+      "url": "https://play.google.com/store/movies"
+    },
+    {
+      "name": "Apple TV",
+      "url": "https://tv.apple.com/au"
+    },
+    {
+      "name": "Amazon",
+      "url": "https://www.amazon.com.au/Prime-Video/"
+    }
+  ],
+  "referenceSource": "https://www.justwatch.com/au"
+}

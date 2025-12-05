@@ -1,0 +1,274 @@
+{
+  "episodes": [
+    {
+      "id": "heat-1995",
+      "title": "Heat",
+      "year": 1995,
+      "director": "Michael Mann",
+      "episodeDate": "2019-12-16",
+      "spotifyUrl": "https://open.spotify.com/episode/4W4xAGrgPCEqPhYfHNe3JD",
+      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "guests": [],
+      "hallOfFame": true,
+      "genres": ["Crime", "Drama", "Action"],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.8,
+        "votes": 142
+      }
+    },
+    {
+      "id": "the-godfather-1972",
+      "title": "The Godfather",
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "episodeDate": "2020-03-25",
+      "spotifyUrl": "https://open.spotify.com/episode/5DvJMlMfLhafHvDp27JqSK",
+      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "guests": [],
+      "hallOfFame": true,
+      "genres": ["Crime", "Drama"],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": true,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.9,
+        "votes": 198
+      }
+    },
+    {
+      "id": "goodfellas-1990",
+      "title": "Goodfellas",
+      "year": 1990,
+      "director": "Martin Scorsese",
+      "episodeDate": "2018-09-26",
+      "spotifyUrl": "https://open.spotify.com/episode/6zWqE5GR5L8F9SAYyNMkPb",
+      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "guests": [],
+      "hallOfFame": true,
+      "genres": ["Crime", "Drama", "Biography"],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": true,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.9,
+        "votes": 176
+      }
+    },
+    {
+      "id": "die-hard-1988",
+      "title": "Die Hard",
+      "year": 1988,
+      "director": "John McTiernan",
+      "episodeDate": "2018-12-19",
+      "spotifyUrl": "https://open.spotify.com/episode/4TdCXlRPjfGZkJqMJ7L8tL",
+      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "guests": [],
+      "hallOfFame": true,
+      "genres": ["Action", "Thriller"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": true,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.7,
+        "votes": 165
+      }
+    },
+    {
+      "id": "top-gun-1986",
+      "title": "Top Gun",
+      "year": 1986,
+      "director": "Tony Scott",
+      "episodeDate": "2020-05-13",
+      "spotifyUrl": "https://open.spotify.com/episode/1EXWlhXxr3LVmJKs7iFuKR",
+      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "guests": [],
+      "hallOfFame": false,
+      "genres": ["Action", "Drama"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": true,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.3,
+        "votes": 134
+      }
+    },
+    {
+      "id": "the-shawshank-redemption-1994",
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "director": "Frank Darabont",
+      "episodeDate": "2019-09-23",
+      "spotifyUrl": "https://open.spotify.com/episode/0Wbhz7fMxSzNrXWKXCE5pP",
+      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "guests": [],
+      "hallOfFame": false,
+      "genres": ["Drama"],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": true,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.6,
+        "votes": 152
+      }
+    },
+    {
+      "id": "pulp-fiction-1994",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "episodeDate": "2019-05-21",
+      "spotifyUrl": "https://open.spotify.com/episode/7dWh3VH1yjDyuQwZNsUlqR",
+      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "guests": [],
+      "hallOfFame": true,
+      "genres": ["Crime", "Drama"],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.8,
+        "votes": 189
+      }
+    },
+    {
+      "id": "the-dark-knight-2008",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "episodeDate": "2020-07-22",
+      "spotifyUrl": "https://open.spotify.com/episode/6qiX1B4YVJJqgFPvL0YzLQ",
+      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "guests": [],
+      "hallOfFame": false,
+      "genres": ["Action", "Crime", "Drama"],
+      "streaming": {
+        "netflix": true,
+        "stan": false,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": true,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.7,
+        "votes": 178
+      }
+    },
+    {
+      "id": "raiders-of-the-lost-ark-1981",
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "director": "Steven Spielberg",
+      "episodeDate": "2019-06-12",
+      "spotifyUrl": "https://open.spotify.com/episode/1uKJYHJLwdLnJFCQNqeV3q",
+      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "guests": [],
+      "hallOfFame": true,
+      "genres": ["Action", "Adventure"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": true,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": true,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.8,
+        "votes": 167
+      }
+    },
+    {
+      "id": "back-to-the-future-1985",
+      "title": "Back to the Future",
+      "year": 1985,
+      "director": "Robert Zemeckis",
+      "episodeDate": "2020-10-21",
+      "spotifyUrl": "https://open.spotify.com/episode/3pKWxyVaBJGGDxKwXqZLvT",
+      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "guests": [],
+      "hallOfFame": false,
+      "genres": ["Adventure", "Comedy", "Sci-Fi"],
+      "streaming": {
+        "netflix": true,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2024-12-05",
+      "communityRating": {
+        "average": 4.5,
+        "votes": 143
+      }
+    }
+  ]
+}

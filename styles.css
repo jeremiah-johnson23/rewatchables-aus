@@ -1,0 +1,122 @@
+/* Custom styles for The Rewatchables AU */
+
+/* Streaming service badge colors */
+.badge-netflix { background-color: #E50914; }
+.badge-stan { background-color: #002B5C; }
+.badge-prime { background-color: #00A8E1; }
+.badge-disney { background-color: #113CCF; }
+.badge-binge { background-color: #FF6B00; }
+.badge-paramount { background-color: #0064FF; }
+.badge-apple { background-color: #000000; border: 1px solid #333; }
+.badge-rent { background-color: #4B5563; }
+
+/* Episode card styling */
+.episode-card {
+    background: linear-gradient(145deg, #1a1a1a 0%, #0f0f0f 100%);
+    border: 1px solid #262626;
+    transition: all 0.3s ease;
+}
+
+.episode-card:hover {
+    border-color: #d4af37;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Hall of Fame badge */
+.hof-badge {
+    background: linear-gradient(135deg, #d4af37 0%, #f5d76e 50%, #d4af37 100%);
+    color: #0a0a0a;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Movie poster placeholder gradient */
+.poster-gradient {
+    background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
+}
+
+/* Active filter state */
+.filter-active {
+    border-color: #d4af37 !important;
+    background-color: rgba(212, 175, 55, 0.1) !important;
+}
+
+/* Streaming badge base */
+.streaming-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+/* Star rating */
+.star-rating {
+    color: #d4af37;
+}
+
+.star-empty {
+    color: #4B5563;
+}
+
+/* Spotify button */
+.spotify-btn {
+    background-color: #1DB954;
+    transition: background-color 0.2s ease;
+}
+
+.spotify-btn:hover {
+    background-color: #1ed760;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+/* Focus states for accessibility */
+input:focus,
+select:focus,
+button:focus {
+    outline: 2px solid #d4af37;
+    outline-offset: 2px;
+}
+
+/* Animation for loading */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.animate-pulse-slow {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .episode-card {
+        margin-bottom: 1rem;
+    }
+
+    .streaming-badge {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.4rem;
+    }
+}

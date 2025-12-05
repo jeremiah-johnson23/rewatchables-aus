@@ -1,0 +1,28 @@
+{
+  "framework": {
+    "version": "0.8.0",
+    "intensity": "medium"
+  },
+  "collaboration": {
+    "aiName": "Rog",
+    "humanName": "Murph",
+    "healthCheckCadence": 20,
+    "currentSession": 1,
+    "lastHealthCheck": null
+  },
+  "provider": {
+    "primary": "claude-code",
+    "features": {
+      "autoReadCLAUDE": true
+    }
+  },
+  "upstreamContributions": {
+    "policy": "enabled"
+  },
+  "project": {
+    "name": "The Rewatchables AU",
+    "type": "static-website",
+    "repo": "https://github.com/jeremiah-johnson23/rewatchables-aus",
+    "hosting": "github-pages"
+  }
+}
