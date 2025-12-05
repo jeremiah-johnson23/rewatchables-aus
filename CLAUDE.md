@@ -102,7 +102,6 @@ rewatchables-aus/
   "spotifyUrl": "https://open.spotify.com/episode/...",
   "hosts": ["Bill Simmons", "Chris Ryan"],
   "guests": [],
-  "hallOfFame": true,
   "genres": ["Crime", "Drama", "Action"],
   "streaming": {
     "netflix": false,

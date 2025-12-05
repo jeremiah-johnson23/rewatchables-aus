@@ -23,15 +23,6 @@
     box-shadow: 0 8px 25px rgba(0, 51, 102, 0.15);
 }
 
-/* Hall of Fame badge */
-.hof-badge {
-    background: linear-gradient(135deg, #ffa500 0%, #ffcc66 50%, #ffa500 100%);
-    color: #003366;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
 /* Movie poster placeholder gradient */
 .poster-gradient {
     background: linear-gradient(145deg, #003366 0%, #004488 100%);

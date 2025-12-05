@@ -9,7 +9,6 @@ class RewatchablesApp {
         this.filters = {
             search: '',
             streaming: '',
-            hallOfFame: false,
             sort: 'episodeDate-desc'
         };
 
@@ -57,14 +56,6 @@ class RewatchablesApp {
         const streamingFilter = document.getElementById('streaming-filter');
         streamingFilter.addEventListener('change', (e) => {
             this.filters.streaming = e.target.value;
-            this.applyFilters();
-        });
-
-        // Hall of Fame filter
-        const hofFilter = document.getElementById('hof-filter');
-        hofFilter.addEventListener('click', () => {
-            this.filters.hallOfFame = !this.filters.hallOfFame;
-            hofFilter.classList.toggle('filter-active', this.filters.hallOfFame);
             this.applyFilters();
         });
 
@@ -149,11 +140,6 @@ class RewatchablesApp {
             }
         }
 
-        // Hall of Fame filter
-        if (this.filters.hallOfFame) {
-            results = results.filter(ep => ep.hallOfFame);
-        }
-
         // Sort
         results = this.sortEpisodes(results);
 
@@ -201,14 +187,12 @@ class RewatchablesApp {
         this.filters = {
             search: '',
             streaming: '',
-            hallOfFame: false,
             sort: 'episodeDate-desc'
         };
 
         document.getElementById('search-input').value = '';
         document.getElementById('streaming-filter').value = '';
         document.getElementById('sort-select').value = 'episodeDate-desc';
-        document.getElementById('hof-filter').classList.remove('filter-active');
 
         this.applyFilters();
     }
@@ -254,9 +238,6 @@ class RewatchablesApp {
     renderEpisodeCard(episode) {
         const streamingBadges = this.renderStreamingBadges(episode.streaming);
         const stars = this.renderStars(episode.communityRating.average);
-        const hofBadge = episode.hallOfFame
-            ? '<span class="hof-badge px-2 py-0.5 rounded text-xs">Hall of Fame</span>'
-            : '';
 
         const episodeDate = new Date(episode.episodeDate).toLocaleDateString('en-AU', {
             year: 'numeric',
@@ -272,7 +253,6 @@ class RewatchablesApp {
                         <h2 class="text-xl font-bold text-cinema-white">${episode.title}</h2>
                         <p class="text-cinema-light text-sm">${episode.year} · ${episode.director}</p>
                     </div>
-                    ${hofBadge ? `<div class="absolute top-2 right-2">${hofBadge}</div>` : ''}
                 </div>
 
                 <!-- Content -->
@@ -324,9 +304,6 @@ class RewatchablesApp {
 
     renderEpisodeListItem(episode) {
         const streamingBadges = this.renderStreamingBadges(episode.streaming);
-        const hofBadge = episode.hallOfFame
-            ? '<span class="hof-badge px-2 py-0.5 rounded text-xs mr-2">HOF</span>'
-            : '';
 
         const episodeDate = new Date(episode.episodeDate).toLocaleDateString('en-AU', {
             year: 'numeric',
@@ -339,7 +316,6 @@ class RewatchablesApp {
                 <!-- Title & Info -->
                 <div class="flex-1 min-w-0">
                     <div class="flex items-center gap-2 mb-1">
-                        ${hofBadge}
                         <h2 class="text-lg font-bold text-cinema-navy truncate">${episode.title}</h2>
                         <span class="text-gray-500 text-sm">(${episode.year})</span>
                     </div>

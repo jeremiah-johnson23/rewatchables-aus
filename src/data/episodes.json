@@ -7,10 +7,16 @@
       "director": "Michael Mann",
       "episodeDate": "2015-12-22",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama", "Action"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -19,10 +25,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.8, "votes": 245 }
+      "communityRating": {
+        "average": 4.8,
+        "votes": 245
+      }
     },
     {
       "id": "jerry-maguire-1996",
@@ -31,10 +44,17 @@
       "director": "Cameron Crowe",
       "episodeDate": "2016-01-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Drama", "Romance", "Sport"],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Sport"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -43,10 +63,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 156 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 156
+      }
     },
     {
       "id": "the-godfather-1972",
@@ -55,10 +82,16 @@
       "director": "Francis Ford Coppola",
       "episodeDate": "2020-03-25",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama"],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -67,10 +100,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.9, "votes": 312 }
+      "communityRating": {
+        "average": 4.9,
+        "votes": 312
+      }
     },
     {
       "id": "goodfellas-1990",
@@ -79,10 +119,16 @@
       "director": "Martin Scorsese",
       "episodeDate": "2018-09-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama", "Biography"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Biography"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -91,10 +137,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.9, "votes": 287 }
+      "communityRating": {
+        "average": 4.9,
+        "votes": 287
+      }
     },
     {
       "id": "die-hard-1988",
@@ -103,10 +156,15 @@
       "director": "John McTiernan",
       "episodeDate": "2018-12-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Thriller"],
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -115,10 +173,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 234 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 234
+      }
     },
     {
       "id": "top-gun-1986",
@@ -127,10 +192,15 @@
       "director": "Tony Scott",
       "episodeDate": "2020-05-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Drama"],
+      "genres": [
+        "Action",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -139,10 +209,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 178 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 178
+      }
     },
     {
       "id": "the-shawshank-redemption-1994",
@@ -151,10 +228,14 @@
       "director": "Frank Darabont",
       "episodeDate": "2019-09-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama"],
+      "genres": [
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -163,10 +244,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.8, "votes": 267 }
+      "communityRating": {
+        "average": 4.8,
+        "votes": 267
+      }
     },
     {
       "id": "pulp-fiction-1994",
@@ -175,10 +263,15 @@
       "director": "Quentin Tarantino",
       "episodeDate": "2019-05-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama"],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -187,10 +280,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.8, "votes": 298 }
+      "communityRating": {
+        "average": 4.8,
+        "votes": 298
+      }
     },
     {
       "id": "the-dark-knight-2008",
@@ -199,10 +299,17 @@
       "director": "Christopher Nolan",
       "episodeDate": "2020-07-22",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Crime", "Drama"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -211,10 +318,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 256 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 256
+      }
     },
     {
       "id": "raiders-of-the-lost-ark-1981",
@@ -223,10 +337,15 @@
       "director": "Steven Spielberg",
       "episodeDate": "2019-06-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Adventure"],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -235,10 +354,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.8, "votes": 234 }
+      "communityRating": {
+        "average": 4.8,
+        "votes": 234
+      }
     },
     {
       "id": "back-to-the-future-1985",
@@ -247,10 +373,16 @@
       "director": "Robert Zemeckis",
       "episodeDate": "2020-10-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Adventure", "Comedy", "Sci-Fi"],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": true,
         "stan": true,
@@ -259,10 +391,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 212 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 212
+      }
     },
     {
       "id": "moneyball-2011",
@@ -271,10 +410,16 @@
       "director": "Bennett Miller",
       "episodeDate": "2017-03-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Biography", "Drama", "Sport"],
+      "genres": [
+        "Biography",
+        "Drama",
+        "Sport"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -283,10 +428,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 167 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 167
+      }
     },
     {
       "id": "any-given-sunday-1999",
@@ -295,10 +447,15 @@
       "director": "Oliver Stone",
       "episodeDate": "2018-02-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Drama", "Sport"],
+      "genres": [
+        "Drama",
+        "Sport"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -307,10 +464,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.1, "votes": 134 }
+      "communityRating": {
+        "average": 4.1,
+        "votes": 134
+      }
     },
     {
       "id": "white-men-cant-jump-1992",
@@ -319,10 +483,16 @@
       "director": "Ron Shelton",
       "episodeDate": "2018-05-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Drama", "Sport"],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -331,10 +501,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.2, "votes": 145 }
+      "communityRating": {
+        "average": 4.2,
+        "votes": 145
+      }
     },
     {
       "id": "point-break-1991",
@@ -343,10 +520,16 @@
       "director": "Kathryn Bigelow",
       "episodeDate": "2017-08-09",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Crime", "Thriller"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -355,10 +538,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 189 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 189
+      }
     },
     {
       "id": "the-silence-of-the-lambs-1991",
@@ -367,10 +557,16 @@
       "director": "Jonathan Demme",
       "episodeDate": "2018-10-31",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama", "Thriller"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -379,10 +575,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 223 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 223
+      }
     },
     {
       "id": "speed-1994",
@@ -391,10 +594,15 @@
       "director": "Jan de Bont",
       "episodeDate": "2018-06-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Thriller"],
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -403,10 +611,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.2, "votes": 167 }
+      "communityRating": {
+        "average": 4.2,
+        "votes": 167
+      }
     },
     {
       "id": "titanic-1997",
@@ -415,10 +630,16 @@
       "director": "James Cameron",
       "episodeDate": "2019-04-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Amanda Dobbins"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Amanda Dobbins"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Drama", "Romance"],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -427,10 +648,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 198 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 198
+      }
     },
     {
       "id": "clueless-1995",
@@ -439,10 +667,15 @@
       "director": "Amy Heckerling",
       "episodeDate": "2018-07-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Amanda Dobbins"],
+      "hosts": [
+        "Bill Simmons",
+        "Amanda Dobbins"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Romance"],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -451,10 +684,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 156 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 156
+      }
     },
     {
       "id": "scream-1996",
@@ -463,10 +703,15 @@
       "director": "Wes Craven",
       "episodeDate": "2018-10-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Horror", "Mystery"],
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -475,10 +720,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 178 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 178
+      }
     },
     {
       "id": "face-off-1997",
@@ -487,10 +739,16 @@
       "director": "John Woo",
       "episodeDate": "2017-06-28",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -499,10 +757,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 201 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 201
+      }
     },
     {
       "id": "the-fugitive-1993",
@@ -511,10 +776,16 @@
       "director": "Andrew Davis",
       "episodeDate": "2017-09-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Crime", "Drama"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -523,10 +794,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 167 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 167
+      }
     },
     {
       "id": "48-hrs-1982",
@@ -535,10 +813,16 @@
       "director": "Walter Hill",
       "episodeDate": "2017-12-06",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Comedy", "Crime"],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -547,10 +831,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.1, "votes": 134 }
+      "communityRating": {
+        "average": 4.1,
+        "votes": 134
+      }
     },
     {
       "id": "zodiac-2007",
@@ -559,10 +850,16 @@
       "director": "David Fincher",
       "episodeDate": "2019-03-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama", "Mystery"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -571,10 +868,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "good-will-hunting-1997",
@@ -583,10 +887,15 @@
       "director": "Gus Van Sant",
       "episodeDate": "2017-11-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama", "Romance"],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -595,10 +904,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 212 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 212
+      }
     },
     {
       "id": "the-big-lebowski-1998",
@@ -607,10 +923,15 @@
       "director": "Joel Coen",
       "episodeDate": "2018-03-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Comedy", "Crime"],
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -619,10 +940,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 234 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 234
+      }
     },
     {
       "id": "creed-2015",
@@ -631,10 +959,15 @@
       "director": "Ryan Coogler",
       "episodeDate": "2018-11-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Drama", "Sport"],
+      "genres": [
+        "Drama",
+        "Sport"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -643,10 +976,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 178 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 178
+      }
     },
     {
       "id": "inception-2010",
@@ -655,10 +995,17 @@
       "director": "Christopher Nolan",
       "episodeDate": "2020-07-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -667,10 +1014,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 223 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 223
+      }
     },
     {
       "id": "the-princess-bride-1987",
@@ -679,10 +1033,16 @@
       "director": "Rob Reiner",
       "episodeDate": "2019-02-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Adventure", "Comedy", "Fantasy"],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -691,10 +1051,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "the-social-network-2010",
@@ -703,10 +1070,15 @@
       "director": "David Fincher",
       "episodeDate": "2020-10-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Biography", "Drama"],
+      "genres": [
+        "Biography",
+        "Drama"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -715,10 +1087,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 201 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 201
+      }
     },
     {
       "id": "training-day-2001",
@@ -727,10 +1106,16 @@
       "director": "Antoine Fuqua",
       "episodeDate": "2019-01-16",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama", "Thriller"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -739,10 +1124,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 178 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 178
+      }
     },
     {
       "id": "oceans-eleven-2001",
@@ -751,10 +1143,15 @@
       "director": "Steven Soderbergh",
       "episodeDate": "2017-12-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Thriller"],
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -763,10 +1160,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 198 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 198
+      }
     },
     {
       "id": "jurassic-park-1993",
@@ -775,10 +1179,17 @@
       "director": "Steven Spielberg",
       "episodeDate": "2018-06-22",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -787,10 +1198,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 245 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 245
+      }
     },
     {
       "id": "forrest-gump-1994",
@@ -799,10 +1217,15 @@
       "director": "Robert Zemeckis",
       "episodeDate": "2019-07-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Drama", "Romance"],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -811,10 +1234,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 189 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 189
+      }
     },
     {
       "id": "jaws-1975",
@@ -823,10 +1253,15 @@
       "director": "Steven Spielberg",
       "episodeDate": "2017-06-14",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Adventure", "Thriller"],
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -835,10 +1270,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 234 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 234
+      }
     },
     {
       "id": "step-brothers-2008",
@@ -847,10 +1289,14 @@
       "director": "Adam McKay",
       "episodeDate": "2018-07-25",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -859,10 +1305,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 167 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 167
+      }
     },
     {
       "id": "mission-impossible-1996",
@@ -871,10 +1324,17 @@
       "director": "Brian De Palma",
       "episodeDate": "2018-07-27",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Adventure", "Thriller"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -883,10 +1343,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 156 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 156
+      }
     },
     {
       "id": "wedding-crashers-2005",
@@ -895,10 +1362,15 @@
       "director": "David Dobkin",
       "episodeDate": "2018-07-11",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Romance"],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -907,10 +1379,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.2, "votes": 145 }
+      "communityRating": {
+        "average": 4.2,
+        "votes": 145
+      }
     },
     {
       "id": "mad-max-fury-road-2015",
@@ -919,10 +1398,17 @@
       "director": "George Miller",
       "episodeDate": "2019-05-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -931,10 +1417,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 212 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 212
+      }
     },
     {
       "id": "taken-2008",
@@ -943,10 +1436,15 @@
       "director": "Pierre Morel",
       "episodeDate": "2019-01-09",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Thriller"],
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -955,10 +1453,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.1, "votes": 134 }
+      "communityRating": {
+        "average": 4.1,
+        "votes": 134
+      }
     },
     {
       "id": "rounders-1998",
@@ -967,10 +1472,15 @@
       "director": "John Dahl",
       "episodeDate": "2017-09-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama"],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -979,10 +1489,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 178 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 178
+      }
     },
     {
       "id": "true-romance-1993",
@@ -991,10 +1508,16 @@
       "director": "Tony Scott",
       "episodeDate": "2018-02-14",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama", "Romance"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1003,10 +1526,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "dazed-and-confused-1993",
@@ -1015,10 +1545,14 @@
       "director": "Richard Linklater",
       "episodeDate": "2018-05-16",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1027,10 +1561,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 167 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 167
+      }
     },
     {
       "id": "tombstone-1993",
@@ -1039,10 +1580,16 @@
       "director": "George P. Cosmatos",
       "episodeDate": "2018-10-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Drama", "Western"],
+      "genres": [
+        "Action",
+        "Drama",
+        "Western"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1051,10 +1598,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 198 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 198
+      }
     },
     {
       "id": "con-air-1997",
@@ -1063,10 +1617,16 @@
       "director": "Simon West",
       "episodeDate": "2017-07-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Crime", "Thriller"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1075,10 +1635,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 167 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 167
+      }
     },
     {
       "id": "old-school-2003",
@@ -1087,10 +1654,14 @@
       "director": "Todd Phillips",
       "episodeDate": "2018-02-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1099,10 +1670,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.2, "votes": 156 }
+      "communityRating": {
+        "average": 4.2,
+        "votes": 156
+      }
     },
     {
       "id": "the-matrix-1999",
@@ -1111,10 +1689,16 @@
       "director": "The Wachowskis",
       "episodeDate": "2019-03-31",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1123,10 +1707,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 267 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 267
+      }
     },
     {
       "id": "mean-girls-2004",
@@ -1135,10 +1726,14 @@
       "director": "Mark Waters",
       "episodeDate": "2019-10-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Amanda Dobbins"],
+      "hosts": [
+        "Bill Simmons",
+        "Amanda Dobbins"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1147,10 +1742,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 178 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 178
+      }
     },
     {
       "id": "john-wick-2014",
@@ -1159,10 +1761,16 @@
       "director": "Chad Stahelski",
       "episodeDate": "2019-05-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Crime", "Thriller"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1171,10 +1779,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 201 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 201
+      }
     },
     {
       "id": "the-hangover-2009",
@@ -1183,10 +1798,14 @@
       "director": "Todd Phillips",
       "episodeDate": "2019-06-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1195,10 +1814,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.2, "votes": 156 }
+      "communityRating": {
+        "average": 4.2,
+        "votes": 156
+      }
     },
     {
       "id": "office-space-1999",
@@ -1207,10 +1833,14 @@
       "director": "Mike Judge",
       "episodeDate": "2019-02-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1219,10 +1849,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 189 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 189
+      }
     },
     {
       "id": "no-country-for-old-men-2007",
@@ -1231,10 +1868,16 @@
       "director": "Joel & Ethan Coen",
       "episodeDate": "2018-11-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama", "Thriller"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1243,10 +1886,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 234 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 234
+      }
     },
     {
       "id": "inglourious-basterds-2009",
@@ -1255,10 +1905,16 @@
       "director": "Quentin Tarantino",
       "episodeDate": "2019-08-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Adventure", "Drama", "War"],
+      "genres": [
+        "Adventure",
+        "Drama",
+        "War"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1267,10 +1923,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 212 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 212
+      }
     },
     {
       "id": "the-town-2010",
@@ -1279,10 +1942,16 @@
       "director": "Ben Affleck",
       "episodeDate": "2018-09-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama", "Thriller"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1291,10 +1960,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 167 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 167
+      }
     },
     {
       "id": "collateral-2004",
@@ -1303,10 +1979,16 @@
       "director": "Michael Mann",
       "episodeDate": "2018-08-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama", "Thriller"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1315,10 +1997,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "gone-girl-2014",
@@ -1327,10 +2016,17 @@
       "director": "David Fincher",
       "episodeDate": "2019-10-02",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey", "Amanda Dobbins"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey",
+        "Amanda Dobbins"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Drama", "Mystery", "Thriller"],
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1339,10 +2035,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 198 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 198
+      }
     },
     {
       "id": "beverly-hills-cop-1984",
@@ -1351,10 +2054,16 @@
       "director": "Martin Brest",
       "episodeDate": "2017-07-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Comedy", "Crime"],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1363,10 +2072,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 156 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 156
+      }
     },
     {
       "id": "the-shining-1980",
@@ -1375,10 +2091,16 @@
       "director": "Stanley Kubrick",
       "episodeDate": "2019-10-30",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama", "Horror"],
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1387,10 +2109,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 245 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 245
+      }
     },
     {
       "id": "se7en-1995",
@@ -1399,10 +2128,17 @@
       "director": "David Fincher",
       "episodeDate": "2020-09-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Crime", "Drama", "Mystery"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1411,10 +2147,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 256 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 256
+      }
     },
     {
       "id": "fight-club-1999",
@@ -1423,10 +2166,15 @@
       "director": "David Fincher",
       "episodeDate": "2019-10-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama"],
+      "genres": [
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1435,10 +2183,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 267 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 267
+      }
     },
     {
       "id": "superbad-2007",
@@ -1447,10 +2202,14 @@
       "director": "Greg Mottola",
       "episodeDate": "2020-08-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1459,10 +2218,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 178 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 178
+      }
     },
     {
       "id": "argo-2012",
@@ -1471,10 +2237,16 @@
       "director": "Ben Affleck",
       "episodeDate": "2020-10-28",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Biography", "Drama", "Thriller"],
+      "genres": [
+        "Biography",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1483,10 +2255,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 167 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 167
+      }
     },
     {
       "id": "gladiator-2000",
@@ -1495,10 +2274,17 @@
       "director": "Ridley Scott",
       "episodeDate": "2020-05-27",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Adventure", "Drama"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1507,10 +2293,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 234 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 234
+      }
     },
     {
       "id": "groundhog-day-1993",
@@ -1519,10 +2312,16 @@
       "director": "Harold Ramis",
       "episodeDate": "2020-02-02",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Drama", "Fantasy"],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1531,10 +2330,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "ferris-buellers-day-off-1986",
@@ -1543,10 +2349,14 @@
       "director": "John Hughes",
       "episodeDate": "2020-06-10",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1555,10 +2365,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 178 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 178
+      }
     },
     {
       "id": "the-breakfast-club-1985",
@@ -1567,10 +2384,15 @@
       "director": "John Hughes",
       "episodeDate": "2020-03-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Drama"],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1579,10 +2401,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 167 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 167
+      }
     },
     {
       "id": "terminator-2-1991",
@@ -1591,10 +2420,16 @@
       "director": "James Cameron",
       "episodeDate": "2021-07-14",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1603,10 +2438,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 256 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 256
+      }
     },
     {
       "id": "alien-1979",
@@ -1615,10 +2457,16 @@
       "director": "Ridley Scott",
       "episodeDate": "2022-05-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Horror", "Sci-Fi"],
+      "genres": [
+        "Horror",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1627,10 +2475,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 234 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 234
+      }
     },
     {
       "id": "predator-1987",
@@ -1639,10 +2494,16 @@
       "director": "John McTiernan",
       "episodeDate": "2021-06-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Horror", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1651,10 +2512,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 189 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 189
+      }
     },
     {
       "id": "lethal-weapon-1987",
@@ -1663,10 +2531,16 @@
       "director": "Richard Donner",
       "episodeDate": "2021-03-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Crime", "Thriller"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1675,10 +2549,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 167 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 167
+      }
     },
     {
       "id": "coming-to-america-1988",
@@ -1687,10 +2568,15 @@
       "director": "John Landis",
       "episodeDate": "2021-03-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Romance"],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1699,10 +2585,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 178 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 178
+      }
     },
     {
       "id": "boyz-n-the-hood-1991",
@@ -1711,10 +2604,15 @@
       "director": "John Singleton",
       "episodeDate": "2021-07-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama"],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1723,10 +2621,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "the-rock-1996",
@@ -1735,10 +2640,16 @@
       "director": "Michael Bay",
       "episodeDate": "2021-06-09",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Adventure", "Thriller"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1747,10 +2658,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 198 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 198
+      }
     },
     {
       "id": "casino-1995",
@@ -1759,10 +2677,16 @@
       "director": "Martin Scorsese",
       "episodeDate": "2020-11-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Crime", "Drama"],
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1771,10 +2695,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 201 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 201
+      }
     },
     {
       "id": "boogie-nights-1997",
@@ -1783,10 +2714,15 @@
       "director": "Paul Thomas Anderson",
       "episodeDate": "2021-10-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama"],
+      "genres": [
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1795,10 +2731,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 223 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 223
+      }
     },
     {
       "id": "saving-private-ryan-1998",
@@ -1807,10 +2750,16 @@
       "director": "Steven Spielberg",
       "episodeDate": "2022-11-11",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama", "War"],
+      "genres": [
+        "Drama",
+        "War"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1819,10 +2768,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.8, "votes": 267 }
+      "communityRating": {
+        "average": 4.8,
+        "votes": 267
+      }
     },
     {
       "id": "there-will-be-blood-2007",
@@ -1831,10 +2787,14 @@
       "director": "Paul Thomas Anderson",
       "episodeDate": "2022-04-06",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama"],
+      "genres": [
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1843,10 +2803,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 234 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 234
+      }
     },
     {
       "id": "unforgiven-1992",
@@ -1855,10 +2822,15 @@
       "director": "Clint Eastwood",
       "episodeDate": "2022-03-30",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama", "Western"],
+      "genres": [
+        "Drama",
+        "Western"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1867,10 +2839,17 @@
         "binge": true,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 198 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 198
+      }
     },
     {
       "id": "top-gun-maverick-2022",
@@ -1879,10 +2858,16 @@
       "director": "Joseph Kosinski",
       "episodeDate": "2022-06-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Drama"],
+      "genres": [
+        "Action",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1891,10 +2876,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.7, "votes": 312 }
+      "communityRating": {
+        "average": 4.7,
+        "votes": 312
+      }
     },
     {
       "id": "whiplash-2014",
@@ -1903,10 +2895,15 @@
       "director": "Damien Chazelle",
       "episodeDate": "2022-10-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Drama", "Music"],
+      "genres": [
+        "Drama",
+        "Music"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1915,10 +2912,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 212 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 212
+      }
     },
     {
       "id": "catch-me-if-you-can-2002",
@@ -1927,10 +2931,16 @@
       "director": "Steven Spielberg",
       "episodeDate": "2022-12-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Biography", "Crime", "Drama"],
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": true,
         "stan": false,
@@ -1939,10 +2949,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "road-house-1989",
@@ -1951,10 +2968,15 @@
       "director": "Rowdy Herrington",
       "episodeDate": "2022-03-16",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Thriller"],
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -1963,10 +2985,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.2, "votes": 167 }
+      "communityRating": {
+        "average": 4.2,
+        "votes": 167
+      }
     },
     {
       "id": "fast-times-at-ridgemont-high-1982",
@@ -1975,10 +3004,15 @@
       "director": "Amy Heckerling",
       "episodeDate": "2022-08-24",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Drama"],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -1987,10 +3021,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 156 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 156
+      }
     },
     {
       "id": "robocop-1987",
@@ -1999,10 +3040,16 @@
       "director": "Paul Verhoeven",
       "episodeDate": "2023-07-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Crime", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Crime",
+        "Sci-Fi"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -2011,10 +3058,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.4, "votes": 178 }
+      "communityRating": {
+        "average": 4.4,
+        "votes": 178
+      }
     },
     {
       "id": "rocky-1976",
@@ -2023,10 +3077,15 @@
       "director": "John G. Avildsen",
       "episodeDate": "2023-03-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Drama", "Sport"],
+      "genres": [
+        "Drama",
+        "Sport"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -2035,10 +3094,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.6, "votes": 234 }
+      "communityRating": {
+        "average": 4.6,
+        "votes": 234
+      }
     },
     {
       "id": "wayne-s-world-1992",
@@ -2047,10 +3113,15 @@
       "director": "Penelope Spheeris",
       "episodeDate": "2023-02-22",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Music"],
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -2059,10 +3130,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 167 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 167
+      }
     },
     {
       "id": "die-hard-with-a-vengeance-1995",
@@ -2071,10 +3149,15 @@
       "director": "John McTiernan",
       "episodeDate": "2023-05-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Action", "Thriller"],
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -2083,10 +3166,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.3, "votes": 156 }
+      "communityRating": {
+        "average": 4.3,
+        "votes": 156
+      }
     },
     {
       "id": "star-wars-1977",
@@ -2095,10 +3185,17 @@
       "director": "George Lucas",
       "episodeDate": "2023-05-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": true,
-      "genres": ["Action", "Adventure", "Fantasy"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -2107,10 +3204,17 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.8, "votes": 345 }
+      "communityRating": {
+        "average": 4.8,
+        "votes": 345
+      }
     },
     {
       "id": "airplane-1980",
@@ -2119,10 +3223,14 @@
       "director": "Jim Abrahams, David Zucker",
       "episodeDate": "2023-09-06",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Chris Ryan"],
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -2131,10 +3239,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 189 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 189
+      }
     },
     {
       "id": "the-truman-show-1998",
@@ -2143,10 +3258,15 @@
       "director": "Peter Weir",
       "episodeDate": "2023-06-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "hosts": ["Bill Simmons", "Sean Fennessey"],
+      "hosts": [
+        "Bill Simmons",
+        "Sean Fennessey"
+      ],
       "guests": [],
-      "hallOfFame": false,
-      "genres": ["Comedy", "Drama"],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -2155,10 +3275,17 @@
         "binge": false,
         "paramount": true,
         "appleTv": false,
-        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
+        "rentBuy": [
+          "Google Play",
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2024-12-05",
-      "communityRating": { "average": 4.5, "votes": 201 }
+      "communityRating": {
+        "average": 4.5,
+        "votes": 201
+      }
     }
   ]
 }
