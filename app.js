@@ -5,6 +5,7 @@ class RewatchablesApp {
         this.episodes = [];
         this.filteredEpisodes = [];
         this.streamingServices = {};
+        this.viewMode = 'grid'; // 'grid' or 'list'
         this.filters = {
             search: '',
             streaming: '',
@@ -74,9 +75,48 @@ class RewatchablesApp {
             this.applyFilters();
         });
 
+        // View toggle
+        const viewGrid = document.getElementById('view-grid');
+        const viewList = document.getElementById('view-list');
+
+        viewGrid?.addEventListener('click', () => {
+            this.viewMode = 'grid';
+            this.updateViewToggle();
+            this.render();
+        });
+
+        viewList?.addEventListener('click', () => {
+            this.viewMode = 'list';
+            this.updateViewToggle();
+            this.render();
+        });
+
         // Clear/Reset filters
         document.getElementById('clear-filters')?.addEventListener('click', () => this.resetFilters());
         document.getElementById('reset-filters')?.addEventListener('click', () => this.resetFilters());
+    }
+
+    updateViewToggle() {
+        const viewGrid = document.getElementById('view-grid');
+        const viewList = document.getElementById('view-list');
+        const grid = document.getElementById('episodes-grid');
+
+        if (this.viewMode === 'grid') {
+            viewGrid.classList.add('bg-gray-700', 'text-white');
+            viewGrid.classList.remove('bg-gray-900', 'text-gray-400');
+            viewList.classList.add('bg-gray-900', 'text-gray-400');
+            viewList.classList.remove('bg-gray-700', 'text-white');
+            grid.classList.remove('list-view');
+            grid.classList.add('grid', 'grid-cols-1', 'md:grid-cols-2', 'lg:grid-cols-3', 'gap-6');
+        } else {
+            viewList.classList.add('bg-gray-700', 'text-white');
+            viewList.classList.remove('bg-gray-900', 'text-gray-400');
+            viewGrid.classList.add('bg-gray-900', 'text-gray-400');
+            viewGrid.classList.remove('bg-gray-700', 'text-white');
+            grid.classList.add('list-view');
+            grid.classList.remove('grid', 'grid-cols-1', 'md:grid-cols-2', 'lg:grid-cols-3');
+            grid.classList.add('flex', 'flex-col', 'gap-2');
+        }
     }
 
     applyFilters() {
@@ -201,7 +241,14 @@ class RewatchablesApp {
 
     render() {
         const grid = document.getElementById('episodes-grid');
-        grid.innerHTML = this.filteredEpisodes.map(ep => this.renderEpisodeCard(ep)).join('');
+
+        if (this.viewMode === 'grid') {
+            grid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
+            grid.innerHTML = this.filteredEpisodes.map(ep => this.renderEpisodeCard(ep)).join('');
+        } else {
+            grid.className = 'flex flex-col gap-2';
+            grid.innerHTML = this.filteredEpisodes.map(ep => this.renderEpisodeListItem(ep)).join('');
+        }
     }
 
     renderEpisodeCard(episode) {
@@ -271,6 +318,59 @@ class RewatchablesApp {
                         Streaming checked: ${new Date(episode.lastStreamingCheck).toLocaleDateString('en-AU')}
                     </p>
                 </div>
+            </article>
+        `;
+    }
+
+    renderEpisodeListItem(episode) {
+        const streamingBadges = this.renderStreamingBadges(episode.streaming);
+        const hofBadge = episode.hallOfFame
+            ? '<span class="hof-badge px-2 py-0.5 rounded text-xs mr-2">HOF</span>'
+            : '';
+
+        const episodeDate = new Date(episode.episodeDate).toLocaleDateString('en-AU', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+        });
+
+        return `
+            <article class="episode-card rounded-lg p-4 flex flex-col sm:flex-row sm:items-center gap-4">
+                <!-- Title & Info -->
+                <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-2 mb-1">
+                        ${hofBadge}
+                        <h2 class="text-lg font-bold text-white truncate">${episode.title}</h2>
+                        <span class="text-gray-500 text-sm">(${episode.year})</span>
+                    </div>
+                    <p class="text-gray-400 text-sm truncate">
+                        ${episode.director} · ${episode.hosts.join(', ')}
+                    </p>
+                </div>
+
+                <!-- Streaming Badges -->
+                <div class="flex flex-wrap gap-1 sm:justify-end sm:w-48">
+                    ${streamingBadges}
+                </div>
+
+                <!-- Rating & Date -->
+                <div class="flex items-center gap-4 sm:w-32 sm:justify-end">
+                    <div class="flex items-center gap-1">
+                        <span class="text-cinema-gold">★</span>
+                        <span class="text-gray-300 text-sm">${episode.communityRating.average.toFixed(1)}</span>
+                    </div>
+                    <span class="text-gray-500 text-xs">${episodeDate}</span>
+                </div>
+
+                <!-- Spotify Link -->
+                ${episode.spotifyUrl ? `
+                    <a href="${episode.spotifyUrl}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="spotify-btn px-4 py-2 rounded text-white text-sm font-medium whitespace-nowrap">
+                        Spotify
+                    </a>
+                ` : '<div class="w-20"></div>'}
             </article>
         `;
     }
