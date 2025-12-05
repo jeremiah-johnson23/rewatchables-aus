@@ -63,6 +63,16 @@
     background-color: #1ed760;
 }
 
+/* Apple Podcasts button */
+.apple-btn {
+    background-color: #872EC4;
+    transition: background-color 0.2s ease;
+}
+
+.apple-btn:hover {
+    background-color: #9b3edb;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 8px;

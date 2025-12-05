@@ -288,7 +288,15 @@ class RewatchablesApp {
                                target="_blank"
                                rel="noopener noreferrer"
                                class="spotify-btn flex-1 text-center py-2 rounded text-cinema-white text-sm font-medium">
-                                Listen on Spotify
+                                Spotify
+                            </a>
+                        ` : ''}
+                        ${episode.applePodcastsUrl ? `
+                            <a href="${episode.applePodcastsUrl}"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="apple-btn flex-1 text-center py-2 rounded text-cinema-white text-sm font-medium">
+                                Apple
                             </a>
                         ` : ''}
                     </div>
@@ -338,15 +346,25 @@ class RewatchablesApp {
                     <span class="text-gray-500 text-xs">${episodeDate}</span>
                 </div>
 
-                <!-- Spotify Link -->
-                ${episode.spotifyUrl ? `
-                    <a href="${episode.spotifyUrl}"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="spotify-btn px-4 py-2 rounded text-cinema-white text-sm font-medium whitespace-nowrap">
-                        Spotify
-                    </a>
-                ` : '<div class="w-20"></div>'}
+                <!-- Podcast Links -->
+                <div class="flex gap-2">
+                    ${episode.spotifyUrl ? `
+                        <a href="${episode.spotifyUrl}"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="spotify-btn px-3 py-2 rounded text-cinema-white text-sm font-medium whitespace-nowrap">
+                            Spotify
+                        </a>
+                    ` : ''}
+                    ${episode.applePodcastsUrl ? `
+                        <a href="${episode.applePodcastsUrl}"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="apple-btn px-3 py-2 rounded text-cinema-white text-sm font-medium whitespace-nowrap">
+                            Apple
+                        </a>
+                    ` : ''}
+                </div>
             </article>
         `;
     }
