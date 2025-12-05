@@ -21,10 +21,10 @@
                 extend: {
                     colors: {
                         cinema: {
-                            dark: '#0f0f0f',
-                            darker: '#0a0a0a',
-                            red: '#dc2626',
-                            gold: '#d4af37',
+                            light: '#e5e5e5',
+                            white: '#ffffff',
+                            orange: '#ffa500',
+                            navy: '#003366',
                         }
                     }
                 }
@@ -33,22 +33,22 @@
     </script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-cinema-dark text-gray-100 min-h-screen">
+<body class="bg-cinema-light text-cinema-navy min-h-screen">
     <!-- Header -->
-    <header class="bg-cinema-darker border-b border-gray-800 sticky top-0 z-50">
+    <header class="bg-cinema-navy border-b border-cinema-navy sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div>
                     <h1 class="text-2xl sm:text-3xl font-bold">
-                        <span class="text-cinema-red">The Rewatchables</span>
-                        <span class="text-cinema-gold">AU</span>
+                        <span class="text-cinema-white">The Rewatchables</span>
+                        <span class="text-cinema-orange">AU</span>
                     </h1>
-                    <p class="text-gray-400 text-sm">Australian Streaming Guide</p>
+                    <p class="text-cinema-light text-sm">Australian Streaming Guide</p>
                 </div>
                 <div class="flex items-center gap-4">
                     <a href="https://github.com/jeremiah-johnson23/rewatchables-aus"
                        target="_blank"
-                       class="text-gray-400 hover:text-white transition-colors"
+                       class="text-cinema-light hover:text-cinema-orange transition-colors"
                        aria-label="GitHub Repository">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
@@ -63,20 +63,20 @@
     <main class="max-w-7xl mx-auto px-4 py-6">
         <!-- Search and Filters -->
         <section class="mb-8">
-            <div class="bg-cinema-darker rounded-lg p-4 border border-gray-800">
+            <div class="bg-cinema-white rounded-lg p-4 border border-cinema-light shadow-sm">
                 <!-- Search -->
                 <div class="mb-4">
                     <input type="text"
                            id="search-input"
                            placeholder="Search movies, hosts, directors..."
-                           class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cinema-gold transition-colors">
+                           class="w-full bg-cinema-light border border-gray-300 rounded-lg px-4 py-3 text-cinema-navy placeholder-gray-500 focus:outline-none focus:border-cinema-orange transition-colors">
                 </div>
 
                 <!-- Filter Row -->
                 <div class="flex flex-wrap gap-3">
                     <!-- Streaming Filter -->
                     <select id="streaming-filter"
-                            class="bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-cinema-gold">
+                            class="bg-cinema-white border border-gray-300 rounded-lg px-4 py-2 text-cinema-navy focus:outline-none focus:border-cinema-orange">
                         <option value="">All Streaming Services</option>
                         <option value="netflix">Netflix</option>
                         <option value="stan">Stan</option>
@@ -90,14 +90,14 @@
 
                     <!-- Hall of Fame Filter -->
                     <button id="hof-filter"
-                            class="bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white hover:border-cinema-gold transition-colors flex items-center gap-2">
-                        <span class="text-cinema-gold">★</span>
+                            class="bg-cinema-white border border-gray-300 rounded-lg px-4 py-2 text-cinema-navy hover:border-cinema-orange transition-colors flex items-center gap-2">
+                        <span class="text-cinema-orange">★</span>
                         <span>Hall of Fame</span>
                     </button>
 
                     <!-- Sort -->
                     <select id="sort-select"
-                            class="bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-cinema-gold">
+                            class="bg-cinema-white border border-gray-300 rounded-lg px-4 py-2 text-cinema-navy focus:outline-none focus:border-cinema-orange">
                         <option value="episodeDate-desc">Newest Episodes</option>
                         <option value="episodeDate-asc">Oldest Episodes</option>
                         <option value="title-asc">Title A-Z</option>
@@ -108,13 +108,13 @@
                     </select>
 
                     <!-- View Toggle -->
-                    <div class="flex border border-gray-700 rounded-lg overflow-hidden ml-auto">
-                        <button id="view-grid" class="px-3 py-2 bg-gray-700 text-white" title="Grid View">
+                    <div class="flex border border-gray-300 rounded-lg overflow-hidden ml-auto">
+                        <button id="view-grid" class="px-3 py-2 bg-cinema-navy text-cinema-white" title="Grid View">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
                             </svg>
                         </button>
-                        <button id="view-list" class="px-3 py-2 bg-gray-900 text-gray-400 hover:text-white" title="List View">
+                        <button id="view-list" class="px-3 py-2 bg-cinema-white text-gray-400 hover:text-cinema-navy" title="List View">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                             </svg>
@@ -126,8 +126,8 @@
 
         <!-- Results Count -->
         <div class="mb-4 flex items-center justify-between">
-            <p id="results-count" class="text-gray-400"></p>
-            <button id="clear-filters" class="text-cinema-gold hover:underline text-sm hidden">Clear filters</button>
+            <p id="results-count" class="text-gray-500"></p>
+            <button id="clear-filters" class="text-cinema-orange hover:underline text-sm hidden">Clear filters</button>
         </div>
 
         <!-- Episode Grid -->
@@ -137,36 +137,36 @@
 
         <!-- Loading State -->
         <div id="loading" class="text-center py-12">
-            <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-cinema-gold border-t-transparent"></div>
-            <p class="text-gray-400 mt-4">Loading episodes...</p>
+            <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-cinema-orange border-t-transparent"></div>
+            <p class="text-gray-500 mt-4">Loading episodes...</p>
         </div>
 
         <!-- No Results -->
         <div id="no-results" class="text-center py-12 hidden">
-            <p class="text-gray-400 text-lg">No episodes found matching your filters.</p>
-            <button id="reset-filters" class="mt-4 text-cinema-gold hover:underline">Reset filters</button>
+            <p class="text-gray-500 text-lg">No episodes found matching your filters.</p>
+            <button id="reset-filters" class="mt-4 text-cinema-orange hover:underline">Reset filters</button>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-cinema-darker border-t border-gray-800 mt-12">
+    <footer class="bg-cinema-navy border-t border-cinema-navy mt-12">
         <div class="max-w-7xl mx-auto px-4 py-8">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <div class="text-center md:text-left">
-                    <p class="text-gray-400 text-sm">
+                    <p class="text-cinema-light text-sm">
                         Made with love for Australian Rewatchables fans
                     </p>
-                    <p class="text-gray-500 text-xs mt-1">
+                    <p class="text-gray-400 text-xs mt-1">
                         Not affiliated with The Ringer or The Rewatchables podcast
                     </p>
                 </div>
                 <div class="flex items-center gap-6">
                     <a href="https://github.com/jeremiah-johnson23/rewatchables-aus/issues/new?template=streaming-update.md"
-                       class="text-gray-400 hover:text-cinema-gold transition-colors text-sm">
+                       class="text-cinema-light hover:text-cinema-orange transition-colors text-sm">
                         Report Streaming Update
                     </a>
                     <a href="https://github.com/jeremiah-johnson23/rewatchables-aus"
-                       class="text-gray-400 hover:text-cinema-gold transition-colors text-sm">
+                       class="text-cinema-light hover:text-cinema-orange transition-colors text-sm">
                         Contribute
                     </a>
                 </div>

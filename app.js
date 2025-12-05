@@ -102,17 +102,17 @@ class RewatchablesApp {
         const grid = document.getElementById('episodes-grid');
 
         if (this.viewMode === 'grid') {
-            viewGrid.classList.add('bg-gray-700', 'text-white');
-            viewGrid.classList.remove('bg-gray-900', 'text-gray-400');
-            viewList.classList.add('bg-gray-900', 'text-gray-400');
-            viewList.classList.remove('bg-gray-700', 'text-white');
+            viewGrid.classList.add('bg-cinema-navy', 'text-cinema-white');
+            viewGrid.classList.remove('bg-cinema-white', 'text-gray-400');
+            viewList.classList.add('bg-cinema-white', 'text-gray-400');
+            viewList.classList.remove('bg-cinema-navy', 'text-cinema-white');
             grid.classList.remove('list-view');
             grid.classList.add('grid', 'grid-cols-1', 'md:grid-cols-2', 'lg:grid-cols-3', 'gap-6');
         } else {
-            viewList.classList.add('bg-gray-700', 'text-white');
-            viewList.classList.remove('bg-gray-900', 'text-gray-400');
-            viewGrid.classList.add('bg-gray-900', 'text-gray-400');
-            viewGrid.classList.remove('bg-gray-700', 'text-white');
+            viewList.classList.add('bg-cinema-navy', 'text-cinema-white');
+            viewList.classList.remove('bg-cinema-white', 'text-gray-400');
+            viewGrid.classList.add('bg-cinema-white', 'text-gray-400');
+            viewGrid.classList.remove('bg-cinema-navy', 'text-cinema-white');
             grid.classList.add('list-view');
             grid.classList.remove('grid', 'grid-cols-1', 'md:grid-cols-2', 'lg:grid-cols-3');
             grid.classList.add('flex', 'flex-col', 'gap-2');
@@ -269,8 +269,8 @@ class RewatchablesApp {
                 <!-- Poster/Header Area -->
                 <div class="poster-gradient h-32 flex items-center justify-center relative">
                     <div class="text-center px-4">
-                        <h2 class="text-xl font-bold text-white">${episode.title}</h2>
-                        <p class="text-gray-400 text-sm">${episode.year} · ${episode.director}</p>
+                        <h2 class="text-xl font-bold text-cinema-white">${episode.title}</h2>
+                        <p class="text-cinema-light text-sm">${episode.year} · ${episode.director}</p>
                     </div>
                     ${hofBadge ? `<div class="absolute top-2 right-2">${hofBadge}</div>` : ''}
                 </div>
@@ -278,7 +278,7 @@ class RewatchablesApp {
                 <!-- Content -->
                 <div class="p-4">
                     <!-- Hosts -->
-                    <p class="text-gray-400 text-sm mb-3">
+                    <p class="text-cinema-navy text-sm mb-3">
                         <span class="text-gray-500">Hosts:</span> ${episode.hosts.join(', ')}
                         ${episode.guests.length ? `<br><span class="text-gray-500">Guests:</span> ${episode.guests.join(', ')}` : ''}
                     </p>
@@ -295,7 +295,7 @@ class RewatchablesApp {
                     <div class="flex items-center justify-between mb-3">
                         <div class="flex items-center gap-1">
                             ${stars}
-                            <span class="text-gray-400 text-sm ml-1">${episode.communityRating.average.toFixed(1)}</span>
+                            <span class="text-cinema-navy text-sm ml-1">${episode.communityRating.average.toFixed(1)}</span>
                             <span class="text-gray-500 text-xs">(${episode.communityRating.votes})</span>
                         </div>
                         <span class="text-gray-500 text-xs">${episodeDate}</span>
@@ -307,7 +307,7 @@ class RewatchablesApp {
                             <a href="${episode.spotifyUrl}"
                                target="_blank"
                                rel="noopener noreferrer"
-                               class="spotify-btn flex-1 text-center py-2 rounded text-white text-sm font-medium">
+                               class="spotify-btn flex-1 text-center py-2 rounded text-cinema-white text-sm font-medium">
                                 Listen on Spotify
                             </a>
                         ` : ''}
@@ -340,10 +340,10 @@ class RewatchablesApp {
                 <div class="flex-1 min-w-0">
                     <div class="flex items-center gap-2 mb-1">
                         ${hofBadge}
-                        <h2 class="text-lg font-bold text-white truncate">${episode.title}</h2>
+                        <h2 class="text-lg font-bold text-cinema-navy truncate">${episode.title}</h2>
                         <span class="text-gray-500 text-sm">(${episode.year})</span>
                     </div>
-                    <p class="text-gray-400 text-sm truncate">
+                    <p class="text-gray-600 text-sm truncate">
                         ${episode.director} · ${episode.hosts.join(', ')}
                     </p>
                 </div>
@@ -356,8 +356,8 @@ class RewatchablesApp {
                 <!-- Rating & Date -->
                 <div class="flex items-center gap-4 sm:w-32 sm:justify-end">
                     <div class="flex items-center gap-1">
-                        <span class="text-cinema-gold">★</span>
-                        <span class="text-gray-300 text-sm">${episode.communityRating.average.toFixed(1)}</span>
+                        <span class="text-cinema-orange">★</span>
+                        <span class="text-cinema-navy text-sm">${episode.communityRating.average.toFixed(1)}</span>
                     </div>
                     <span class="text-gray-500 text-xs">${episodeDate}</span>
                 </div>
@@ -367,7 +367,7 @@ class RewatchablesApp {
                     <a href="${episode.spotifyUrl}"
                        target="_blank"
                        rel="noopener noreferrer"
-                       class="spotify-btn px-4 py-2 rounded text-white text-sm font-medium whitespace-nowrap">
+                       class="spotify-btn px-4 py-2 rounded text-cinema-white text-sm font-medium whitespace-nowrap">
                         Spotify
                     </a>
                 ` : '<div class="w-20"></div>'}
@@ -391,18 +391,18 @@ class RewatchablesApp {
         // Check each streaming service
         for (const [key, config] of Object.entries(serviceMap)) {
             if (streaming[key]) {
-                badges.push(`<span class="streaming-badge ${config.class} text-white">${config.name}</span>`);
+                badges.push(`<span class="streaming-badge ${config.class} text-cinema-white">${config.name}</span>`);
             }
         }
 
         // If no streaming, show rent/buy
         if (badges.length === 0 && streaming.rentBuy.length > 0) {
-            badges.push(`<span class="streaming-badge badge-rent text-white">Rent/Buy</span>`);
+            badges.push(`<span class="streaming-badge badge-rent text-cinema-white">Rent/Buy</span>`);
         }
 
         // If nothing available
         if (badges.length === 0) {
-            badges.push(`<span class="streaming-badge bg-gray-700 text-gray-400">Not Available</span>`);
+            badges.push(`<span class="streaming-badge bg-gray-300 text-gray-600">Not Available</span>`);
         }
 
         return badges.join('');

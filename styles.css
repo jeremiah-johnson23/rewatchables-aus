@@ -12,21 +12,21 @@
 
 /* Episode card styling */
 .episode-card {
-    background: linear-gradient(145deg, #1a1a1a 0%, #0f0f0f 100%);
-    border: 1px solid #262626;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
     transition: all 0.3s ease;
 }
 
 .episode-card:hover {
-    border-color: #d4af37;
+    border-color: #ffa500;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 51, 102, 0.15);
 }
 
 /* Hall of Fame badge */
 .hof-badge {
-    background: linear-gradient(135deg, #d4af37 0%, #f5d76e 50%, #d4af37 100%);
-    color: #0a0a0a;
+    background: linear-gradient(135deg, #ffa500 0%, #ffcc66 50%, #ffa500 100%);
+    color: #003366;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -34,13 +34,13 @@
 
 /* Movie poster placeholder gradient */
 .poster-gradient {
-    background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
+    background: linear-gradient(145deg, #003366 0%, #004488 100%);
 }
 
 /* Active filter state */
 .filter-active {
-    border-color: #d4af37 !important;
-    background-color: rgba(212, 175, 55, 0.1) !important;
+    border-color: #ffa500 !important;
+    background-color: rgba(255, 165, 0, 0.1) !important;
 }
 
 /* Streaming badge base */
@@ -55,11 +55,11 @@
 
 /* Star rating */
 .star-rating {
-    color: #d4af37;
+    color: #ffa500;
 }
 
 .star-empty {
-    color: #4B5563;
+    color: #d1d5db;
 }
 
 /* Spotify button */
@@ -79,23 +79,23 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #0a0a0a;
+    background: #e5e5e5;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: #003366;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #444;
+    background: #004488;
 }
 
 /* Focus states for accessibility */
 input:focus,
 select:focus,
 button:focus {
-    outline: 2px solid #d4af37;
+    outline: 2px solid #ffa500;
     outline-offset: 2px;
 }
 
