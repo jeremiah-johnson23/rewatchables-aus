@@ -266,12 +266,17 @@ class RewatchablesApp {
                 <div class="poster-gradient h-32 flex items-center justify-center relative">
                     <div class="text-center px-4">
                         <h2 class="text-xl font-bold text-cinema-white">${episode.title}</h2>
-                        <p class="text-cinema-light text-sm">${episode.year} · ${episode.director}</p>
+                        <p class="text-cinema-light text-sm">${episode.year}</p>
                     </div>
                 </div>
 
                 <!-- Content -->
                 <div class="p-4">
+                    <!-- Director -->
+                    <p class="text-cinema-navy text-sm mb-2">
+                        <span class="text-gray-500">Director:</span> ${episode.director}
+                    </p>
+
                     <!-- Hosts -->
                     <p class="text-cinema-navy text-sm mb-3">
                         <span class="text-gray-500">Hosts:</span> ${episode.hosts.join(', ')}
@@ -342,8 +347,11 @@ class RewatchablesApp {
                         <h2 class="text-lg font-bold text-cinema-navy truncate">${episode.title}</h2>
                         <span class="text-gray-500 text-sm">(${episode.year})</span>
                     </div>
-                    <p class="text-gray-600 text-sm truncate">
-                        ${episode.director} · ${episode.hosts.join(', ')}
+                    <p class="text-gray-600 text-xs">
+                        <span class="text-gray-500">Dir:</span> ${episode.director}
+                    </p>
+                    <p class="text-gray-600 text-xs truncate">
+                        <span class="text-gray-500">Hosts:</span> ${episode.hosts.join(', ')}
                     </p>
                 </div>
 
