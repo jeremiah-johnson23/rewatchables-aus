@@ -66,7 +66,14 @@ def load_existing_episodes():
     """Load existing episodes from JSON."""
     with open(EPISODES_PATH) as f:
         data = json.load(f)
-    return {normalize_title(ep["title"]): ep for ep in data["episodes"]}
+    # Store list of episodes per title (to handle re-dos)
+    episodes_by_title = {}
+    for ep in data["episodes"]:
+        title = normalize_title(ep["title"])
+        if title not in episodes_by_title:
+            episodes_by_title[title] = []
+        episodes_by_title[title].append(ep)
+    return episodes_by_title
 
 
 def parse_title(raw_title):
@@ -125,21 +132,36 @@ def main():
     for item in channel.findall("item"):
         raw_title = item.find("title").text or ""
         title = parse_title(raw_title)
+        pub_date = item.find("pubDate").text
 
         if should_skip(title):
             continue
 
-        # Check if already exists
-        if normalize_title(title) in existing:
-            continue
-
         # Parse date
-        pub_date = item.find("pubDate").text
         try:
             dt = datetime.strptime(pub_date, "%a, %d %b %Y %H:%M:%S %z")
             episode_date = dt.strftime("%Y-%m-%d")
+            this_date = dt.date()
         except:
             episode_date = datetime.now().strftime("%Y-%m-%d")
+            this_date = None
+
+        # Check if already exists (but allow re-dos if date is > 7 days apart)
+        normalized = normalize_title(title)
+        if normalized in existing:
+            # Check if any existing episode has a date within 7 days
+            is_duplicate = False
+            for existing_ep in existing[normalized]:
+                try:
+                    existing_date = datetime.strptime(existing_ep["episodeDate"], "%Y-%m-%d").date()
+                    if this_date and abs((this_date - existing_date).days) < 7:
+                        is_duplicate = True
+                        break
+                except:
+                    pass
+
+            if is_duplicate:
+                continue
 
         # Get description for host extraction
         description = item.find("description").text or ""
