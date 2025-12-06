@@ -5,7 +5,7 @@ class RewatchablesApp {
         this.episodes = [];
         this.filteredEpisodes = [];
         this.streamingServices = {};
-        this.viewMode = 'grid'; // 'grid' or 'list'
+        this.viewMode = 'list'; // 'grid' or 'list'
         this.filters = {
             search: '',
             streaming: '',
