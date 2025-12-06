@@ -19,6 +19,7 @@ class RewatchablesApp {
     async init() {
         await this.loadData();
         this.setupEventListeners();
+        this.updateViewToggle();
         this.render();
     }
 
