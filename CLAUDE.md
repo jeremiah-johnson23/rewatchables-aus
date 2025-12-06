@@ -115,10 +115,7 @@ rewatchables-aus/
     "rentBuy": ["Google Play", "Apple TV", "Amazon"]
   },
   "lastStreamingCheck": "2024-11-20",
-  "communityRating": {
-    "average": 4.8,
-    "votes": 142
-  }
+  "editorPick": true
 }
 ```
 

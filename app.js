@@ -181,10 +181,6 @@ class RewatchablesApp {
                     valA = a.year;
                     valB = b.year;
                     break;
-                case 'rating':
-                    valA = a.communityRating.average;
-                    valB = b.communityRating.average;
-                    break;
                 default:
                     return 0;
             }
@@ -253,7 +249,7 @@ class RewatchablesApp {
 
     renderEpisodeCard(episode) {
         const streamingBadges = this.renderStreamingBadges(episode.streaming);
-        const stars = this.renderStars(episode.communityRating.average);
+        const isPick = episode.editorPick || false;
 
         const episodeDate = new Date(episode.episodeDate).toLocaleDateString('en-AU', {
             year: 'numeric',
@@ -292,13 +288,9 @@ class RewatchablesApp {
                         </div>
                     </div>
 
-                    <!-- Rating -->
+                    <!-- Editor Pick & Date -->
                     <div class="flex items-center justify-between mb-3">
-                        <div class="flex items-center gap-1">
-                            ${stars}
-                            <span class="text-cinema-navy text-sm ml-1">${episode.communityRating.average.toFixed(1)}</span>
-                            <span class="text-gray-500 text-xs">(${episode.communityRating.votes})</span>
-                        </div>
+                        ${isPick ? '<span class="text-cinema-orange text-sm font-medium">★ Murph\'s Pick</span>' : '<span></span>'}
                         <span class="text-gray-500 text-xs">${episodeDate}</span>
                     </div>
 
@@ -333,6 +325,7 @@ class RewatchablesApp {
 
     renderEpisodeListItem(episode) {
         const streamingBadges = this.renderStreamingBadges(episode.streaming);
+        const isPick = episode.editorPick || false;
 
         const episodeDate = new Date(episode.episodeDate).toLocaleDateString('en-AU', {
             year: 'numeric',
@@ -361,12 +354,9 @@ class RewatchablesApp {
                     ${streamingBadges}
                 </div>
 
-                <!-- Rating & Date -->
-                <div class="flex items-center gap-4 sm:w-32 sm:justify-end">
-                    <div class="flex items-center gap-1">
-                        <span class="text-cinema-orange">★</span>
-                        <span class="text-cinema-navy text-sm">${episode.communityRating.average.toFixed(1)}</span>
-                    </div>
+                <!-- Pick & Date -->
+                <div class="flex items-center gap-4 sm:w-36 sm:justify-end">
+                    ${isPick ? '<span class="text-cinema-orange text-sm font-medium">★ Pick</span>' : ''}
                     <span class="text-gray-500 text-xs">${episodeDate}</span>
                 </div>
 
@@ -426,27 +416,6 @@ class RewatchablesApp {
         return badges.join('');
     }
 
-    renderStars(rating) {
-        const fullStars = Math.floor(rating);
-        const hasHalf = rating % 1 >= 0.5;
-        const emptyStars = 5 - fullStars - (hasHalf ? 1 : 0);
-
-        let stars = '';
-
-        for (let i = 0; i < fullStars; i++) {
-            stars += '<span class="star-rating">★</span>';
-        }
-
-        if (hasHalf) {
-            stars += '<span class="star-rating">★</span>'; // Simplified - just use full star
-        }
-
-        for (let i = 0; i < emptyStars; i++) {
-            stars += '<span class="star-empty">★</span>';
-        }
-
-        return stars;
-    }
 }
 
 // Initialize app when DOM is ready
