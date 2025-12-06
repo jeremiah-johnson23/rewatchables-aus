@@ -102,15 +102,15 @@ class RewatchablesApp {
 
         if (this.viewMode === 'grid') {
             viewGrid.classList.add('bg-cinema-navy', 'text-cinema-white');
-            viewGrid.classList.remove('bg-cinema-white', 'text-gray-400');
-            viewList.classList.add('bg-cinema-white', 'text-gray-400');
+            viewGrid.classList.remove('bg-cinema-white', 'text-cinema-navy');
+            viewList.classList.add('bg-cinema-white', 'text-cinema-navy');
             viewList.classList.remove('bg-cinema-navy', 'text-cinema-white');
             grid.classList.remove('list-view');
             grid.classList.add('grid', 'grid-cols-1', 'md:grid-cols-2', 'lg:grid-cols-3', 'gap-6');
         } else {
             viewList.classList.add('bg-cinema-navy', 'text-cinema-white');
-            viewList.classList.remove('bg-cinema-white', 'text-gray-400');
-            viewGrid.classList.add('bg-cinema-white', 'text-gray-400');
+            viewList.classList.remove('bg-cinema-white', 'text-cinema-navy');
+            viewGrid.classList.add('bg-cinema-white', 'text-cinema-navy');
             viewGrid.classList.remove('bg-cinema-navy', 'text-cinema-white');
             grid.classList.add('list-view');
             grid.classList.remove('grid', 'grid-cols-1', 'md:grid-cols-2', 'lg:grid-cols-3');
