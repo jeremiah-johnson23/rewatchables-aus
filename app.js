@@ -9,6 +9,7 @@ class RewatchablesApp {
         this.filters = {
             search: '',
             streaming: '',
+            genre: '',
             sort: 'episodeDate-desc'
         };
 
@@ -56,6 +57,13 @@ class RewatchablesApp {
         const streamingFilter = document.getElementById('streaming-filter');
         streamingFilter.addEventListener('change', (e) => {
             this.filters.streaming = e.target.value;
+            this.applyFilters();
+        });
+
+        // Genre filter
+        const genreFilter = document.getElementById('genre-filter');
+        genreFilter.addEventListener('change', (e) => {
+            this.filters.genre = e.target.value;
             this.applyFilters();
         });
 
@@ -140,6 +148,11 @@ class RewatchablesApp {
             }
         }
 
+        // Genre filter
+        if (this.filters.genre) {
+            results = results.filter(ep => ep.genres.includes(this.filters.genre));
+        }
+
         // Sort
         results = this.sortEpisodes(results);
 
@@ -187,11 +200,13 @@ class RewatchablesApp {
         this.filters = {
             search: '',
             streaming: '',
+            genre: '',
             sort: 'episodeDate-desc'
         };
 
         document.getElementById('search-input').value = '';
         document.getElementById('streaming-filter').value = '';
+        document.getElementById('genre-filter').value = '';
         document.getElementById('sort-select').value = 'episodeDate-desc';
 
         this.applyFilters();
