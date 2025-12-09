@@ -116,9 +116,37 @@ rewatchables-aus/
     "rentBuy": ["Google Play", "Apple TV", "Amazon"]
   },
   "lastStreamingCheck": "2024-11-20",
-  "editorPick": true
+  "editorPick": true,
+  "studio": "warner-bros"
 }
 ```
+
+### Studios
+
+| Studio Key | Studio Name | Native Streamer |
+|------------|-------------|-----------------|
+| `warner-bros` | Warner Bros. | HBO Max |
+| `new-line` | New Line Cinema | HBO Max |
+| `disney` | Walt Disney Pictures | Disney+ |
+| `pixar` | Pixar | Disney+ |
+| `marvel` | Marvel Studios | Disney+ |
+| `lucasfilm` | Lucasfilm | Disney+ |
+| `20th-century` | 20th Century Studios | Disney+ |
+| `fox-searchlight` | Fox Searchlight | Disney+ |
+| `paramount` | Paramount Pictures | Paramount+ |
+| `miramax` | Miramax | Paramount+ |
+| `mgm` | MGM | Prime Video |
+| `amazon` | Amazon Studios | Prime Video |
+| `universal` | Universal Pictures | *Licensed* |
+| `sony` | Sony/Columbia | *Licensed* |
+| `lionsgate` | Lionsgate | *Licensed* |
+| `a24` | A24 | *Licensed* |
+| `orion` | Orion Pictures | *Licensed* |
+| `tristar` | TriStar Pictures | *Licensed* |
+| `dreamworks` | DreamWorks | *Licensed* |
+| `independent` | Independent/Other | *Licensed* |
+
+*Licensed* = No native streamer, availability rotates between services.
 
 ### Australian Streaming Services
 
@@ -135,6 +163,59 @@ rewatchables-aus/
 
 ---
 
+## Streaming Audit Process
+
+### Overview
+
+Movies fall into two categories:
+
+1. **Native Content (279 movies)** - From studios owned by streamers. Availability is stable.
+2. **Licensed Content (144 movies)** - Rotates between services. Needs monthly verification.
+
+### Monthly Audit Procedure
+
+Run the audit script to identify what needs checking:
+
+```bash
+# See what needs auditing
+python scripts/streaming_audit.py
+
+# View database stats
+python scripts/streaming_audit.py --stats
+
+# Check native content status
+python scripts/streaming_audit.py --native
+
+# Find movies not checked in 30+ days
+python scripts/streaming_audit.py --stale 30
+```
+
+### Audit Priorities
+
+1. **Licensed content first** - Universal, Sony, Lionsgate, A24, etc. (144 movies)
+2. **Stale data** - Anything not checked in 30+ days
+3. **Native content** - Only if streaming deals change (rare)
+
+### Studio-to-Streamer Rules
+
+Native content should *always* be available on its home service:
+
+| Studio Owner | Native Service |
+|--------------|----------------|
+| Warner Bros Discovery | HBO Max |
+| Disney (incl. Fox) | Disney+ |
+| Paramount Global | Paramount+ |
+| Amazon (MGM) | Prime Video |
+
+### Adding Streaming Data
+
+When checking a movie on JustWatch AU:
+1. Only mark `true` for **subscription** streaming (not rent/buy)
+2. Update `lastStreamingCheck` to today's date
+3. Add studio field if missing: `"studio": "studio-key"`
+
+---
+
 ## Common Tasks
 
 ### Add a New Episode
@@ -142,7 +223,8 @@ rewatchables-aus/
 1. Edit `src/data/episodes.json`
 2. Add new episode object following the schema
 3. Check streaming availability on [JustWatch AU](https://www.justwatch.com/au)
-4. Commit: `git commit -m "Add [Movie Name] episode"`
+4. **Add studio field** (see Studios table above)
+5. Commit: `git commit -m "Add [Movie Name] episode"`
 
 ### Update Streaming Availability
 

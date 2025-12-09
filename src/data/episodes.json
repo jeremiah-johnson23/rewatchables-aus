@@ -38,7 +38,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "two-for-the-money",
@@ -73,7 +74,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "weird-science",
@@ -112,7 +114,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "snake-eyes",
@@ -150,7 +153,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-truman-show",
@@ -190,7 +194,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "halloween-ii",
@@ -227,7 +232,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "quiz-show",
@@ -263,7 +269,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "sneakers",
@@ -303,7 +310,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "jeremiah-johnson",
@@ -343,7 +351,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-sting",
@@ -383,7 +392,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "airplane",
@@ -421,7 +431,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "tin-cup",
@@ -462,7 +473,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-legend-of-billie-jean",
@@ -501,7 +513,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "american-gangster",
@@ -541,7 +554,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "witness",
@@ -581,7 +595,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "sinners",
@@ -615,7 +630,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "rollerball-1975",
@@ -653,7 +669,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "robocop-1987",
@@ -693,7 +710,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "orion"
     },
     {
       "id": "brokeback-mountain",
@@ -730,7 +748,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "species",
@@ -771,7 +790,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "it",
@@ -809,7 +829,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "jaws-2",
@@ -850,7 +871,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "after-hours",
@@ -888,7 +910,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "die-hard-with-a-vengeance",
@@ -928,7 +951,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "marathon-man",
@@ -967,7 +991,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "working-girl",
@@ -1008,7 +1033,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "out-for-justice",
@@ -1048,7 +1074,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "heaven-can-wait",
@@ -1089,7 +1116,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "close-encounters-of-the-third-kind",
@@ -1129,7 +1157,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "death-wish",
@@ -1164,7 +1193,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "star-wars-a-new-hope",
@@ -1204,7 +1234,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lucasfilm"
     },
     {
       "id": "star-wars-a-new-hope-2025-05-06",
@@ -1244,7 +1275,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lucasfilm"
     },
     {
       "id": "someone-to-watch-over-me",
@@ -1284,7 +1316,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "minority-report",
@@ -1325,7 +1358,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-saint",
@@ -1365,7 +1399,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "good-will-hunting",
@@ -1405,7 +1440,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "blue-chips",
@@ -1445,7 +1481,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "days-of-thunder",
@@ -1486,7 +1523,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "best-in-show",
@@ -1525,7 +1563,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "rocky",
@@ -1565,7 +1604,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "crash",
@@ -1599,7 +1639,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lionsgate"
     },
     {
       "id": "the-blues-brothers",
@@ -1640,7 +1681,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "before-sunset",
@@ -1681,7 +1723,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "before-sunrise",
@@ -1721,7 +1764,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "den-of-thieves",
@@ -1762,7 +1806,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "friday-night-lights",
@@ -1801,7 +1846,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "home-alone-2-lost-in-new-york",
@@ -1840,7 +1886,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-gambler-2014",
@@ -1878,7 +1925,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "disclosure",
@@ -1919,7 +1967,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "running-scared-1986",
@@ -1957,7 +2006,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-replacements",
@@ -1997,7 +2047,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "meet-the-parents",
@@ -2035,7 +2086,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "body-double",
@@ -2074,7 +2126,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "halloween-4",
@@ -2108,7 +2161,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "hereditary",
@@ -2148,7 +2202,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "a24"
     },
     {
       "id": "the-silence-of-the-lambs",
@@ -2190,7 +2245,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "orion"
     },
     {
       "id": "poltergeist",
@@ -2229,7 +2285,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "the-blair-witch-project",
@@ -2267,7 +2324,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "over-the-top",
@@ -2305,7 +2363,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "john-wick",
@@ -2346,7 +2405,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lionsgate"
     },
     {
       "id": "the-sixth-sense",
@@ -2387,7 +2447,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "night-shift",
@@ -2425,7 +2486,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "purple-rain",
@@ -2464,7 +2526,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "rudy",
@@ -2504,7 +2567,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-grand-budapest-hotel",
@@ -2545,7 +2609,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "fox-searchlight"
     },
     {
       "id": "dodgeball",
@@ -2585,7 +2650,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "pulp-fiction",
@@ -2625,7 +2691,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "pulp-fiction-2024-07-29",
@@ -2665,7 +2732,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "no-way-out",
@@ -2706,7 +2774,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "orion"
     },
     {
       "id": "notting-hill",
@@ -2745,7 +2814,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "true-lies",
@@ -2785,7 +2855,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "for-love-of-the-game",
@@ -2825,7 +2896,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "twister",
@@ -2866,7 +2938,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "austin-powers-the-spy-who-shagged-me",
@@ -2902,7 +2975,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "the-naked-gun",
@@ -2940,7 +3014,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "big-daddy",
@@ -2981,7 +3056,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-bad-news-bears-1976",
@@ -3020,7 +3096,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-longest-yard-1974",
@@ -3062,7 +3139,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "breaking-away",
@@ -3103,7 +3181,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "slap-shot",
@@ -3144,7 +3223,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "fast-times-at-ridgemont-high",
@@ -3184,7 +3264,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "back-to-the-future-part-ii",
@@ -3225,7 +3306,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "jerry-maguire",
@@ -3265,7 +3347,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "along-came-polly",
@@ -3304,7 +3387,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-running-man",
@@ -3344,7 +3428,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "hardcore",
@@ -3384,7 +3469,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "magnolia",
@@ -3423,7 +3509,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "the-war-of-the-roses",
@@ -3464,7 +3551,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "shot-caller",
@@ -3504,7 +3592,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "manchester-by-the-sea",
@@ -3543,7 +3632,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "internal-affairs",
@@ -3584,7 +3674,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "risky-business",
@@ -3623,7 +3714,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "road-house",
@@ -3664,7 +3756,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "rounders",
@@ -3703,7 +3796,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "creed",
@@ -3744,7 +3838,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "forrest-gump",
@@ -3785,7 +3880,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-fugitive",
@@ -3826,7 +3922,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-insider",
@@ -3864,7 +3961,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "philadelphia",
@@ -3903,7 +4001,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "silver-linings-playbook",
@@ -3944,7 +4043,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lionsgate"
     },
     {
       "id": "flight",
@@ -3983,7 +4083,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "searching-for-bobby-fischer",
@@ -4024,7 +4125,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "under-siege",
@@ -4064,7 +4166,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "national-lampoon",
@@ -4104,7 +4207,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-pelican-brief",
@@ -4146,7 +4250,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "sea-of-love",
@@ -4185,7 +4290,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "american-pie",
@@ -4224,7 +4330,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "mr-and-mrs-smith",
@@ -4264,7 +4371,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "an-officer-and-a-gentleman",
@@ -4304,7 +4412,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "robin-hood-prince-of-thieves",
@@ -4345,7 +4454,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-omen",
@@ -4381,7 +4491,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "in-the-line-of-fire",
@@ -4421,7 +4532,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "so-i-married-an-axe-murderer",
@@ -4461,7 +4573,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "they-live",
@@ -4497,7 +4610,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "toy-soldiers",
@@ -4535,7 +4649,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-big-chill",
@@ -4575,7 +4690,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "a-bronx-tale",
@@ -4615,7 +4731,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "blackhat",
@@ -4655,7 +4772,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "lost-in-translation",
@@ -4695,7 +4813,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-equalizer",
@@ -4736,7 +4855,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "cruel-intentions",
@@ -4771,7 +4891,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "eyes-wide-shut",
@@ -4812,7 +4933,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "national-lampoon-2023-08-08",
@@ -4851,7 +4973,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "a-few-good-re-men",
@@ -4890,7 +5013,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-devil",
@@ -4931,7 +5055,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "and-justice-for-all",
@@ -4971,7 +5096,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "my-cousin-vinny",
@@ -5011,7 +5137,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "a-time-to-kill",
@@ -5051,7 +5178,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "primal-fear",
@@ -5092,7 +5220,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "this-is-the-end",
@@ -5129,7 +5258,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "indiana-jones-and-the-last-crusade",
@@ -5167,7 +5297,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "blood-diamond",
@@ -5205,7 +5336,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "dumb-and-dumber",
@@ -5243,7 +5375,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "casino-royale",
@@ -5284,7 +5417,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-last-days-of-disco",
@@ -5324,7 +5458,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "trading-places",
@@ -5363,7 +5498,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "chef",
@@ -5401,7 +5537,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "iron-man",
@@ -5441,7 +5578,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "marvel"
     },
     {
       "id": "sudden-death",
@@ -5481,7 +5619,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "alien",
@@ -5521,7 +5660,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "indecent-proposal",
@@ -5560,7 +5700,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "he-got-game",
@@ -5598,7 +5739,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "cape-fear",
@@ -5638,7 +5780,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "adventureland",
@@ -5678,7 +5821,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "bad-boys-1983",
@@ -5718,7 +5862,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-purge",
@@ -5758,7 +5903,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "catch-me-if-you-can",
@@ -5799,7 +5945,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "dreamworks"
     },
     {
       "id": "whiplash",
@@ -5838,7 +5985,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "sleepless-in-seattle",
@@ -5879,7 +6027,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "the-vanishing",
@@ -5913,7 +6062,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "deliverance",
@@ -5954,7 +6104,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "big",
@@ -5995,7 +6146,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "alive",
@@ -6036,7 +6188,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "sideways",
@@ -6076,7 +6229,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "fox-searchlight"
     },
     {
       "id": "cliffhanger",
@@ -6116,7 +6270,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "mission-impossible-fallout",
@@ -6157,7 +6312,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "i-am-legend",
@@ -6197,7 +6353,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-verdict",
@@ -6237,7 +6394,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "man-on-fire",
@@ -6277,7 +6435,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "planes-trains-and-automobiles",
@@ -6316,7 +6475,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "body-heat",
@@ -6357,7 +6517,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "blow-out",
@@ -6397,7 +6558,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "cruising",
@@ -6438,7 +6600,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "american-gigolo",
@@ -6479,7 +6642,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-edge",
@@ -6519,7 +6683,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "pineapple-express",
@@ -6560,7 +6725,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "glengarry-glen-ross",
@@ -6598,7 +6764,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "pitch-perfect",
@@ -6638,7 +6805,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "boogie-nights",
@@ -6677,7 +6845,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "boogie-nights-2022-09-27",
@@ -6716,7 +6885,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "margin-call",
@@ -6756,7 +6926,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "singles",
@@ -6797,7 +6968,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "saving-private-ryan",
@@ -6837,7 +7009,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "dreamworks"
     },
     {
       "id": "tango-and-cash",
@@ -6877,7 +7050,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "scent-of-a-woman",
@@ -6915,7 +7089,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "grease",
@@ -6956,7 +7131,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "school-ties",
@@ -6996,7 +7172,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "unforgiven",
@@ -7036,7 +7213,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "there-will-be-blood",
@@ -7075,7 +7253,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "above-the-rim",
@@ -7114,7 +7293,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "top-gun-maverick",
@@ -7153,7 +7333,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "misery",
@@ -7192,7 +7373,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "project-x",
@@ -7227,7 +7409,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-untouchables",
@@ -7266,7 +7449,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "hard-to-kill",
@@ -7306,7 +7490,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "knocked-up",
@@ -7347,7 +7532,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "cop-land",
@@ -7387,7 +7573,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "rocky-iii",
@@ -7427,7 +7614,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "e-t-the-extra-terrestrial",
@@ -7469,7 +7657,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "beverly-hills-cop-ii",
@@ -7509,7 +7698,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "austin-powers-international-man-of-mystery",
@@ -7548,7 +7738,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "a-league-of-their-own",
@@ -7588,7 +7779,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "spider-man-2002",
@@ -7628,7 +7820,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-player",
@@ -7667,7 +7860,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "die-hard-2",
@@ -7707,7 +7901,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "panic-room",
@@ -7748,7 +7943,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "a24"
     },
     {
       "id": "shooter",
@@ -7789,7 +7985,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "titanic",
@@ -7828,7 +8025,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "batman-1989",
@@ -7868,7 +8066,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-ice-storm",
@@ -7905,7 +8104,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "kramer-vs-kramer",
@@ -7944,7 +8144,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "parenthood",
@@ -7984,7 +8185,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "rachel-getting-married",
@@ -8023,7 +8225,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "ordinary-people",
@@ -8062,7 +8265,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "casino",
@@ -8102,7 +8306,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "miracle",
@@ -8142,7 +8347,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "juice",
@@ -8177,7 +8383,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "rocky-iv",
@@ -8217,7 +8424,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "the-godfather-part-ii",
@@ -8258,7 +8466,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "goodfellas",
@@ -8298,7 +8507,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-devil-wears-prada",
@@ -8338,7 +8548,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "superbad",
@@ -8377,7 +8588,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "creed-2022-01-04",
@@ -8418,7 +8630,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "the-fugitive-2022-01-04",
@@ -8459,7 +8672,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "limitless",
@@ -8500,7 +8714,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "father-of-the-bride",
@@ -8538,7 +8753,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-last-boy-scout",
@@ -8578,7 +8794,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "saturday-night-fever",
@@ -8617,7 +8834,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "jfk",
@@ -8659,7 +8877,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "hoosiers",
@@ -8698,7 +8917,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "focus",
@@ -8738,7 +8958,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "ransom",
@@ -8773,7 +8994,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "heat",
@@ -8814,7 +9036,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "halloween-1978",
@@ -8846,7 +9069,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-color-of-money",
@@ -8886,7 +9110,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "cobra",
@@ -8926,7 +9151,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "trainspotting",
@@ -8964,7 +9190,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "dirty-work",
@@ -9000,7 +9227,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "warrior",
@@ -9038,7 +9266,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "hardball",
@@ -9073,7 +9302,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "rain-man",
@@ -9111,7 +9341,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "argo",
@@ -9150,7 +9381,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "victory",
@@ -9190,7 +9422,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-bodyguard",
@@ -9228,7 +9461,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "fight-club",
@@ -9266,7 +9500,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "legally-blonde",
@@ -9305,7 +9540,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "independence-day",
@@ -9346,7 +9582,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "boyz-n-the-hood",
@@ -9387,7 +9624,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "stripes",
@@ -9425,7 +9663,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "city-slickers",
@@ -9466,7 +9705,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "raiders-of-the-lost-ark",
@@ -9506,7 +9746,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lucasfilm"
     },
     {
       "id": "memento",
@@ -9544,7 +9785,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-rock",
@@ -9585,7 +9827,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "lethal-weapon-2",
@@ -9626,7 +9869,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "what-about-bob",
@@ -9665,7 +9909,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "predator",
@@ -9707,7 +9952,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "mrs-doubtfire",
@@ -9747,7 +9993,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "manhunter",
@@ -9783,7 +10030,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "lethal-weapon",
@@ -9821,7 +10069,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "thief",
@@ -9859,7 +10108,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "commando",
@@ -9899,7 +10149,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "insidious",
@@ -9939,7 +10190,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "inside-man",
@@ -9980,7 +10232,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "new-jack-city",
@@ -10020,7 +10273,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-doors",
@@ -10059,7 +10313,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "neighbors",
@@ -10098,7 +10353,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "coming-to-america",
@@ -10137,7 +10393,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "sleeping-with-the-enemy",
@@ -10177,7 +10434,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "taxi-driver",
@@ -10217,7 +10475,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "out-of-sight",
@@ -10257,7 +10516,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "terminator-2-judgment-day",
@@ -10297,7 +10557,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "the-terminator",
@@ -10337,7 +10598,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "orion"
     },
     {
       "id": "first-blood",
@@ -10376,7 +10638,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "orion"
     },
     {
       "id": "the-royal-tenenbaums",
@@ -10415,7 +10678,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "bridesmaids",
@@ -10454,7 +10718,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "mr-holland",
@@ -10490,7 +10755,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-bourne-identity",
@@ -10530,7 +10796,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "country-strong",
@@ -10570,7 +10837,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-program",
@@ -10605,7 +10873,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "wall-street",
@@ -10643,7 +10912,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "8mm",
@@ -10682,7 +10952,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "home-alone",
@@ -10722,7 +10993,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "toy-story",
@@ -10763,7 +11035,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "disney"
     },
     {
       "id": "the-american-president",
@@ -10804,7 +11077,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-exorcist",
@@ -10843,7 +11117,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "spotlight",
@@ -10883,7 +11158,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-martian",
@@ -10925,7 +11201,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "kicking-and-screaming-1995",
@@ -10965,7 +11242,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "the-game",
@@ -11006,7 +11284,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "se7en",
@@ -11047,7 +11326,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "easy-a",
@@ -11086,7 +11366,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "unfaithful",
@@ -11125,7 +11406,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-usual-suspects",
@@ -11165,7 +11447,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "dangerous-minds",
@@ -11205,7 +11488,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "cocktail",
@@ -11246,7 +11530,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-40-year-old-virgin",
@@ -11285,7 +11570,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "pump-up-the-volume",
@@ -11324,7 +11610,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "caddyshack",
@@ -11363,7 +11650,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "bad-boys",
@@ -11404,7 +11692,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-last-of-the-mohicans",
@@ -11442,7 +11731,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "teen-wolf",
@@ -11482,7 +11772,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-sandlot",
@@ -11523,7 +11814,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "ghost",
@@ -11565,7 +11857,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-conjuring",
@@ -11605,7 +11898,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "25th-hour",
@@ -11644,7 +11938,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "disney"
     },
     {
       "id": "stand-by-me",
@@ -11684,7 +11979,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "swingers",
@@ -11724,7 +12020,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "st-elmo",
@@ -11764,7 +12061,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-perfect-storm",
@@ -11804,7 +12102,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "fletch",
@@ -11844,7 +12143,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "say-anything",
@@ -11885,7 +12185,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "boomerang",
@@ -11924,7 +12225,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "armageddon",
@@ -11966,7 +12268,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "back-to-the-future",
@@ -12007,7 +12310,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "draft-day",
@@ -12045,7 +12349,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "crimson-tide",
@@ -12086,7 +12391,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "groundhog-day",
@@ -12127,7 +12433,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "gladiator",
@@ -12169,7 +12476,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "dreamworks"
     },
     {
       "id": "while-you-were-sleeping",
@@ -12207,7 +12515,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "escape-from-new-york",
@@ -12248,7 +12557,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "ronin",
@@ -12288,7 +12598,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "ferris-bueller",
@@ -12327,7 +12638,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "love-and-basketball",
@@ -12365,7 +12677,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "basic-instinct",
@@ -12406,7 +12719,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "enemy-of-the-state",
@@ -12447,7 +12761,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "disney"
     },
     {
       "id": "total-recall",
@@ -12488,7 +12803,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "tommy-boy",
@@ -12527,7 +12843,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "furious-7",
@@ -12566,7 +12883,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-karate-kid",
@@ -12605,7 +12923,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "edge-of-tomorrow",
@@ -12645,7 +12964,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "cast-away",
@@ -12683,7 +13003,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "dreamworks"
     },
     {
       "id": "the-godfather-part-iii",
@@ -12718,7 +13039,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "contagion",
@@ -12758,7 +13080,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "ocean",
@@ -12798,7 +13121,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "vision-quest",
@@ -12839,7 +13163,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "higher-learning",
@@ -12878,7 +13203,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-breakfast-club",
@@ -12918,7 +13244,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "once-upon-a-time-in-hollywood",
@@ -12958,7 +13285,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "king-of-new-york",
@@ -12993,7 +13321,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "unstoppable",
@@ -13034,7 +13363,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "dunkirk",
@@ -13075,7 +13405,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-talented-mr-ripley",
@@ -13116,7 +13447,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "happy-gilmore",
@@ -13156,7 +13488,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "the-wolf-of-wall-street",
@@ -13197,7 +13530,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "skyfall",
@@ -13238,7 +13572,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-holiday",
@@ -13279,7 +13614,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-shining",
@@ -13319,7 +13655,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "den-of-thieves-2019-10-15",
@@ -13360,7 +13697,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "mr-mom",
@@ -13398,7 +13736,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "remember-the-titans",
@@ -13439,7 +13778,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-shawshank-redemption",
@@ -13478,7 +13818,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "beverly-hills-cop",
@@ -13520,7 +13861,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "butch-cassidy-and-the-sundance-kid",
@@ -13561,7 +13903,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "do-the-right-thing",
@@ -13600,7 +13943,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "fatal-attraction",
@@ -13640,7 +13984,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "gone-girl",
@@ -13682,7 +14027,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "bloodsport",
@@ -13723,7 +14069,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "collateral",
@@ -13763,7 +14110,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-town",
@@ -13804,7 +14152,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "reservoir-dogs",
@@ -13844,7 +14193,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "top-gun",
@@ -13885,7 +14235,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "inglourious-basterds",
@@ -13926,7 +14277,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "when-harry-met-sally",
@@ -13966,7 +14318,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "no-country-for-old-men",
@@ -14007,7 +14360,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "the-notebook",
@@ -14047,7 +14401,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "dead-poets-society",
@@ -14087,7 +14442,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-hangover",
@@ -14126,7 +14482,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "john-wick-chapter-2",
@@ -14167,7 +14524,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "lionsgate"
     },
     {
       "id": "mean-girls",
@@ -14206,7 +14564,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "field-of-dreams",
@@ -14247,7 +14606,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "major-league",
@@ -14284,7 +14644,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "fast-five",
@@ -14324,7 +14685,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "pretty-woman",
@@ -14365,7 +14727,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-natural",
@@ -14404,7 +14767,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "broadcast-news",
@@ -14446,7 +14810,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "forgetting-sarah-marshall",
@@ -14487,7 +14852,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "reality-bites",
@@ -14528,7 +14894,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "dave",
@@ -14568,7 +14935,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "a-star-is-born",
@@ -14609,7 +14977,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-warriors",
@@ -14649,7 +15018,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "proof-of-life",
@@ -14689,7 +15059,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-fast-and-the-furious",
@@ -14729,7 +15100,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "old-school",
@@ -14768,7 +15140,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-godfather",
@@ -14808,7 +15181,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "tombstone",
@@ -14847,7 +15221,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "con-air",
@@ -14888,7 +15263,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-firm",
@@ -14929,7 +15305,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "all-the-president",
@@ -14969,7 +15346,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "dazed-and-confused",
@@ -15009,7 +15387,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "true-romance",
@@ -15043,7 +15422,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "rounders-2018-09-11",
@@ -15080,7 +15460,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "taken",
@@ -15119,7 +15500,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "mad-max-fury-road",
@@ -15160,7 +15542,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "wedding-crashers",
@@ -15198,7 +15581,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "new-line"
     },
     {
       "id": "my-best-friend",
@@ -15238,7 +15622,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "die-hard",
@@ -15279,7 +15664,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "mission-impossible",
@@ -15320,7 +15706,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "midnight-run",
@@ -15360,7 +15747,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "step-brothers",
@@ -15399,7 +15787,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "jaws",
@@ -15440,7 +15829,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "forrest-gump-2018-06-21",
@@ -15479,7 +15869,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "jurassic-park",
@@ -15520,7 +15911,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "ocean-2018-06-07",
@@ -15561,7 +15953,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "training-day",
@@ -15603,7 +15996,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-social-network",
@@ -15643,7 +16037,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "the-princess-bride",
@@ -15683,7 +16078,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "michael-clayton",
@@ -15723,7 +16119,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "inception",
@@ -15765,7 +16162,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "the-big-lebowski",
@@ -15806,7 +16204,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "mgm"
     },
     {
       "id": "get-out",
@@ -15848,7 +16247,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "miami-vice",
@@ -15888,7 +16288,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "varsity-blues",
@@ -15930,7 +16331,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "good-will-hunting-2018-01-25",
@@ -15970,7 +16372,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "10-things-i-hate-about-you",
@@ -16010,7 +16413,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "zodiac",
@@ -16051,7 +16455,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "48-hrs",
@@ -16091,7 +16496,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "friday",
@@ -16131,7 +16537,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-dark-knight",
@@ -16172,7 +16579,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "face-off",
@@ -16212,7 +16620,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "scream",
@@ -16254,7 +16663,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "miramax"
     },
     {
       "id": "clueless",
@@ -16294,7 +16704,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "titanic-2017-09-28",
@@ -16334,7 +16745,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "paramount"
     },
     {
       "id": "speed",
@@ -16375,7 +16787,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     },
     {
       "id": "the-silence-of-the-lambs-2017-09-14",
@@ -16415,7 +16828,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "orion"
     },
     {
       "id": "point-break",
@@ -16452,7 +16866,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "the-departed",
@@ -16492,7 +16907,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "a-few-good-men",
@@ -16531,7 +16947,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "heat-2017-08-07",
@@ -16571,7 +16988,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "jerry-maguire-2017-08-07",
@@ -16610,7 +17028,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "tristar"
     },
     {
       "id": "moneyball",
@@ -16650,7 +17069,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "sony"
     },
     {
       "id": "white-men-can",
@@ -16691,7 +17111,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "warner-bros"
     },
     {
       "id": "blue-chips-2017-08-07",
@@ -16731,7 +17152,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "universal"
     },
     {
       "id": "any-given-sunday",
@@ -16770,7 +17192,8 @@
       "communityRating": {
         "average": 0,
         "votes": 0
-      }
+      },
+      "studio": "20th-century"
     }
   ]
 }
