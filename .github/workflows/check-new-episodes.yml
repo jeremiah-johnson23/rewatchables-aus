@@ -1,0 +1,68 @@
+name: Check for New Episodes
+
+on:
+  schedule:
+    # Every Tuesday at 6:00 PM AEDT (07:00 UTC)
+    # During AEST (non-daylight saving), this will be 5:00 PM
+    - cron: '0 7 * * 2'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  check-episodes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check for new episodes
+        id: check
+        run: |
+          output=$(python scripts/check_new_episodes.py --count 5)
+          echo "$output"
+
+          # Check if there are missing episodes
+          if echo "$output" | grep -q "Found.*new episode"; then
+            echo "new_episodes=true" >> $GITHUB_OUTPUT
+            # Extract episode info for issue body
+            echo "episode_info<<EOF" >> $GITHUB_OUTPUT
+            echo "$output" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "new_episodes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create issue for new episode
+        if: steps.check.outputs.new_episodes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().split('T')[0];
+            const body = `## New Episode Detected
+
+            The weekly check found a new Rewatchables episode that's not in the database.
+
+            \`\`\`
+            ${{ steps.check.outputs.episode_info }}
+            \`\`\`
+
+            ### Next Steps
+            1. Start a session with Claude Code
+            2. Say "add new episodes"
+            3. Claude will fetch the details and add it to the database
+
+            ---
+            *Automated check run on ${today}*`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[NEW EPISODE] Weekly check - ${today}`,
+              body: body,
+              labels: ['new-episode', 'automated']
+            });
