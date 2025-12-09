@@ -41,6 +41,12 @@
       "color": "#000000",
       "url": "https://tv.apple.com/au",
       "icon": "apple"
+    },
+    "hboMax": {
+      "name": "Max",
+      "color": "#000000",
+      "url": "https://www.max.com/",
+      "icon": "max"
     }
   },
   "rentBuyServices": [

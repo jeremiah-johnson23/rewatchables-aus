@@ -112,6 +112,7 @@ rewatchables-aus/
     "binge": false,
     "paramount": false,
     "appleTv": false,
+    "hboMax": false,
     "rentBuy": ["Google Play", "Apple TV", "Amazon"]
   },
   "lastStreamingCheck": "2024-11-20",
@@ -130,6 +131,7 @@ rewatchables-aus/
 | Binge | `binge` | #FF6B00 |
 | Paramount+ | `paramount` | #0064FF |
 | Apple TV+ | `appleTv` | #000000 |
+| Max | `hboMax` | #000000 |
 
 ---
 

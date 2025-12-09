@@ -393,7 +393,8 @@ class RewatchablesApp {
             disneyPlus: { name: 'Disney+', class: 'badge-disney' },
             binge: { name: 'Binge', class: 'badge-binge' },
             paramount: { name: 'Paramount+', class: 'badge-paramount' },
-            appleTv: { name: 'Apple TV+', class: 'badge-apple' }
+            appleTv: { name: 'Apple TV+', class: 'badge-apple' },
+            hboMax: { name: 'Max', class: 'badge-max' }
         };
 
         // Check each streaming service
