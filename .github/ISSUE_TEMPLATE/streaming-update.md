@@ -20,6 +20,7 @@ assignees: ''
 - [ ] Binge
 - [ ] Paramount+
 - [ ] Apple TV+
+- [ ] HBO Max
 - [ ] Rent/Buy options
 
 ### Type of change:

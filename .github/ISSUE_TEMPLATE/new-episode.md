@@ -44,6 +44,7 @@ assignees: ''
 - [ ] Binge
 - [ ] Paramount+
 - [ ] Apple TV+
+- [ ] HBO Max
 - [ ] Rent/Buy only
 
 ### Verification
