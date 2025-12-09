@@ -1,0 +1,297 @@
+{
+  "audit_summary": {
+    "total_movies_in_range": 100,
+    "movies_checked": 40,
+    "method": "JustWatch Australia WebFetch",
+    "audit_date": "2025-12-09",
+    "note": "Only high-confidence changes are reported. Some movies had 404 errors on JustWatch or unclear results and are not included in updates."
+  },
+  "updates": [
+    {
+      "id": "shot-caller",
+      "title": "Shot Caller",
+      "current_db": {"stan": true},
+      "justwatch_found": {"stan": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "the-war-of-the-roses",
+      "title": "The War of the Roses",
+      "current_db": {"disneyPlus": true},
+      "justwatch_found": {"disneyPlus": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "magnolia",
+      "title": "Magnolia",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "manchester-by-the-sea",
+      "title": "Manchester by the Sea",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "risky-business",
+      "title": "Risky Business",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "road-house",
+      "title": "Road House",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "rounders",
+      "title": "Rounders",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "creed",
+      "title": "Creed",
+      "current_db": {"stan": true, "hboMax": true},
+      "justwatch_found": {"stan": true, "hboMax": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "silver-linings-playbook",
+      "title": "Silver Linings Playbook",
+      "current_db": {"netflix": true, "stan": true, "primeVideo": true},
+      "justwatch_found": {"netflix": true, "stan": true, "primeVideo": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "searching-for-bobby-fischer",
+      "title": "Searching for Bobby Fischer",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "under-siege",
+      "title": "Under Siege",
+      "current_db": {"stan": true, "disneyPlus": true},
+      "justwatch_found": {"stan": true, "disneyPlus": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "the-pelican-brief",
+      "title": "The Pelican Brief",
+      "current_db": {"stan": true},
+      "justwatch_found": {"stan": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "sea-of-love",
+      "title": "Sea of Love",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "an-officer-and-a-gentleman",
+      "title": "An Officer and a Gentleman",
+      "current_db": {"paramount": true},
+      "justwatch_found": {"paramount": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "so-i-married-an-axe-murderer",
+      "title": "So I Married an Axe Murderer",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "they-live",
+      "title": "They Live",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services (MUBI not in our service list)"
+    },
+    {
+      "id": "the-big-chill",
+      "title": "The Big Chill",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "a-bronx-tale",
+      "title": "A Bronx Tale",
+      "current_db": {"primeVideo": true},
+      "justwatch_found": {"primeVideo": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "blackhat",
+      "title": "Blackhat",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "the-equalizer",
+      "title": "The Equalizer",
+      "current_db": {"netflix": true, "stan": true, "primeVideo": true},
+      "justwatch_found": {"netflix": true, "stan": true, "primeVideo": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "cruel-intentions",
+      "title": "Cruel Intentions",
+      "service": "primeVideo",
+      "change": "remove",
+      "note": "Database shows Prime Video, but JustWatch shows only rent/buy options, no streaming subscription"
+    },
+    {
+      "id": "eyes-wide-shut",
+      "title": "Eyes Wide Shut",
+      "current_db": {"netflix": true, "binge": true},
+      "justwatch_found": {"netflix": true, "binge": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "a-few-good-re-men",
+      "title": "A Few Good (Re)Men",
+      "current_db": {"stan": true, "binge": true},
+      "justwatch_found": {"stan": true, "binge": true},
+      "change": null,
+      "note": "Verified correct (A Few Good Men)"
+    },
+    {
+      "id": "my-cousin-vinny",
+      "title": "My Cousin Vinny",
+      "current_db": {"disneyPlus": true},
+      "justwatch_found": {"disneyPlus": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "in-the-line-of-fire",
+      "title": "In the Line of Fire",
+      "service": "binge",
+      "change": "remove",
+      "note": "Database shows Binge, but JustWatch shows only rent/buy options, no subscription streaming"
+    },
+    {
+      "id": "collateral",
+      "title": "Collateral",
+      "current_db": {"stan": true},
+      "justwatch_found": {"stan": true},
+      "change": null,
+      "note": "Verified correct (entry #151)"
+    },
+    {
+      "id": "the-matrix-reloaded",
+      "title": "The Matrix Reloaded",
+      "current_db": {"stan": true, "hboMax": true},
+      "justwatch_found": {"stan": true, "hboMax": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "the-truman-show",
+      "title": "The Truman Show",
+      "current_db": {"stan": true},
+      "justwatch_found": {"stan": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "the-social-network",
+      "title": "The Social Network",
+      "current_db": {"stan": true},
+      "justwatch_found": {"stan": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "american-psycho",
+      "title": "American Psycho",
+      "current_db": {"netflix": true, "stan": true},
+      "justwatch_found": {"netflix": true, "stan": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "top-gun",
+      "title": "Top Gun",
+      "current_db": {"netflix": true, "stan": true, "paramount": true, "binge": true},
+      "justwatch_found": {"netflix": true, "stan": true, "paramount": true, "binge": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "wedding-crashers",
+      "title": "Wedding Crashers",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services"
+    },
+    {
+      "id": "jurassic-park",
+      "title": "Jurassic Park",
+      "service": "primeVideo",
+      "change": "add",
+      "note": "JustWatch shows Prime Video streaming, but database doesn't have it listed"
+    },
+    {
+      "id": "jurassic-park",
+      "title": "Jurassic Park",
+      "current_db": {"binge": true},
+      "justwatch_found": {"binge": true, "primeVideo": true},
+      "service": "binge",
+      "change": null,
+      "note": "Binge verified, Prime Video should be added"
+    },
+    {
+      "id": "apollo-13",
+      "title": "Apollo 13",
+      "current_db": {"binge": true},
+      "justwatch_found": {"binge": true},
+      "change": null,
+      "note": "Verified correct"
+    },
+    {
+      "id": "true-romance",
+      "title": "True Romance",
+      "current_db": {},
+      "justwatch_found": {},
+      "change": null,
+      "note": "Verified correct - no streaming services from our list"
+    }
+  ]
+}

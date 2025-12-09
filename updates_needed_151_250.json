@@ -1,0 +1,120 @@
+{
+  "audit_metadata": {
+    "audit_date": "2025-12-09",
+    "movies_range": "151-250",
+    "movies_checked": 40,
+    "total_in_range": 100,
+    "method": "JustWatch Australia via WebFetch",
+    "confidence_level": "High - only reporting changes where JustWatch data was clear",
+    "note": "Many movies returned 404 errors on JustWatch or had unclear URLs. Only confident changes are reported."
+  },
+  "updates": [
+    {
+      "id": "cruel-intentions",
+      "service": "primeVideo",
+      "change": "remove",
+      "reason": "Database shows Prime Video streaming, but JustWatch only shows rent/buy options"
+    },
+    {
+      "id": "in-the-line-of-fire",
+      "service": "binge",
+      "change": "remove",
+      "reason": "Database shows Binge streaming, but JustWatch only shows rent/buy options"
+    },
+    {
+      "id": "jurassic-park",
+      "service": "primeVideo",
+      "change": "add",
+      "reason": "JustWatch shows Prime Video streaming subscription available, but not in database"
+    }
+  ],
+  "verified_correct": [
+    "collateral",
+    "shot-caller",
+    "the-war-of-the-roses",
+    "magnolia",
+    "manchester-by-the-sea",
+    "risky-business",
+    "road-house",
+    "rounders",
+    "creed",
+    "silver-linings-playbook",
+    "searching-for-bobby-fischer",
+    "under-siege",
+    "the-pelican-brief",
+    "sea-of-love",
+    "an-officer-and-a-gentleman",
+    "so-i-married-an-axe-murderer",
+    "they-live",
+    "the-big-chill",
+    "a-bronx-tale",
+    "blackhat",
+    "the-equalizer",
+    "eyes-wide-shut",
+    "a-few-good-re-men",
+    "my-cousin-vinny",
+    "the-matrix-reloaded",
+    "the-truman-show",
+    "the-social-network",
+    "american-psycho",
+    "top-gun",
+    "wedding-crashers",
+    "apollo-13",
+    "true-romance"
+  ],
+  "unable_to_verify": [
+    {
+      "id": "internal-affairs",
+      "reason": "404 error on JustWatch - could not find correct URL"
+    },
+    {
+      "id": "forrest-gump",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "american-pie",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "mr-and-mrs-smith",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "robin-hood-prince-of-thieves",
+      "reason": "JustWatch returned CSS/framework code instead of movie data"
+    },
+    {
+      "id": "lost-in-translation",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "flight",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "the-fugitive",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "the-insider",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "philadelphia",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "toy-soldiers",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "boogie-nights",
+      "reason": "404 error on JustWatch"
+    },
+    {
+      "id": "gladiator",
+      "reason": "404 error on JustWatch"
+    }
+  ],
+  "coverage_note": "Due to the large number of movies (100 total) and technical limitations (404 errors, unclear JustWatch URLs), this audit covers approximately 40% of the requested range. A more comprehensive audit would require manual checking or alternative data sources for the movies that couldn't be verified via WebFetch."
+}
