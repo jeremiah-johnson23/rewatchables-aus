@@ -1,6 +1,46 @@
 {
   "episodes": [
     {
+      "id": "shampoo-1975",
+      "title": "Shampoo",
+      "year": 1975,
+      "director": "Hal Ashby",
+      "episodeDate": "2025-12-09",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "",
+      "hosts": [
+        "Bill Simmons",
+        "Cameron Crowe",
+        "Sean Fennessey"
+      ],
+      "guests": [],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Apple TV",
+          "Amazon",
+          "Google Play"
+        ]
+      },
+      "lastStreamingCheck": "2025-12-10",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "sony"
+    },
+    {
       "id": "rocky-ii",
       "title": "Rocky II",
       "year": 1979,
