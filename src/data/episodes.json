@@ -61,7 +61,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -74,7 +74,7 @@
         ],
         "hboMax": true
       },
-      "lastStreamingCheck": "2025-12-09",
+      "lastStreamingCheck": "2025-12-15",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -813,7 +813,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -826,7 +826,7 @@
         ],
         "hboMax": false
       },
-      "lastStreamingCheck": "2025-12-06",
+      "lastStreamingCheck": "2025-12-15",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1627,7 +1627,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -1640,7 +1640,7 @@
         ],
         "hboMax": true
       },
-      "lastStreamingCheck": "2025-12-09",
+      "lastStreamingCheck": "2025-12-15",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9563,7 +9563,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -9576,7 +9576,7 @@
         ],
         "hboMax": false
       },
-      "lastStreamingCheck": "2025-12-06",
+      "lastStreamingCheck": "2025-12-15",
       "communityRating": {
         "average": 0,
         "votes": 0
