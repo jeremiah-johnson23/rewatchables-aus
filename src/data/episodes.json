@@ -1,6 +1,40 @@
 {
   "episodes": [
     {
+      "id": "high-fidelity-2000",
+      "title": "High Fidelity",
+      "year": 2000,
+      "director": "Stephen Frears",
+      "episodeDate": "2025-12-16",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Joanna Robinson",
+        "Rob Mahoney"
+      ],
+      "guests": [],
+      "genres": ["Comedy", "Drama", "Romance"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": ["Apple TV", "Google Play", "Amazon"]
+      },
+      "lastStreamingCheck": "2025-12-17",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "disney"
+    },
+    {
       "id": "shampoo-1975",
       "title": "Shampoo",
       "year": 1975,
