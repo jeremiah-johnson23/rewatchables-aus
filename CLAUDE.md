@@ -241,24 +241,33 @@ Changes to `main` branch auto-deploy via GitHub Actions.
 
 ## Session Memory
 
-**Last Updated:** 2024-12-05 (Session 1)
+**Last Updated:** 2024-12-17 (Session 2)
 
-### Session 1 - Initial Setup
+### Session 1 - Initial Setup (2024-12-05)
 - Created complete site structure
 - Implemented search and filtering
 - Seeded database with 10 sample episodes
 - Set up GitHub Pages deployment
 - Created contribution templates
 
+### Session 2 - Fix Auto-Updates (2024-12-17)
+- **Diagnosed failing GitHub Action**: OMDB API key returning 401 Unauthorized
+- **Fixed `add_new_episode.py`**: Removed OMDB dependency entirely (-156 lines)
+  - Script now adds episodes with RSS data only (title, date, hosts)
+  - No external API = reliable automation
+- **Added High Fidelity (2000)** episode with full metadata
+- **Fixed Apple Podcasts URL** for High Fidelity episode
+- **Discussed custom domain**: `rewatchables.au` identified as preferred option
+
 ### Current State
 - Site is live and functional
-- 10 episodes in database
-- Search, filter, sort all working
+- Weekly auto-update workflow fixed and reliable
+- Episodes in database growing (Shampoo, High Fidelity recently added)
 
 ### Next Steps
-- Add more episodes from podcast backlog
-- Verify streaming data accuracy
-- Gather community feedback
+- Register `rewatchables.au` domain and configure GitHub Pages
+- Continue adding episodes from podcast backlog
+- Verify streaming data accuracy on JustWatch AU
 
 ---
 
