@@ -1,6 +1,71 @@
 {
   "episodes": [
     {
+      "id": "f1-2025",
+      "title": "F1",
+      "year": 2025,
+      "director": "Joseph Kosinski",
+      "episodeDate": "2025-12-23",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Van Lathan"
+      ],
+      "guests": [],
+      "genres": ["Action", "Drama", "Sport"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": ["Apple TV", "Google Play", "Amazon"]
+      },
+      "lastStreamingCheck": "2025-01-02",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "apple"
+    },
+    {
+      "id": "the-sure-thing-1985",
+      "title": "The Sure Thing",
+      "year": 1985,
+      "director": "Rob Reiner",
+      "episodeDate": "2025-12-18",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan"
+      ],
+      "guests": [],
+      "genres": ["Comedy", "Romance"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": ["Apple TV", "Google Play", "Amazon"]
+      },
+      "lastStreamingCheck": "2025-01-02",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "independent"
+    },
+    {
       "id": "high-fidelity-2000",
       "title": "High Fidelity",
       "year": 2000,
