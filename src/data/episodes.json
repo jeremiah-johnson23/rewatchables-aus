@@ -22,9 +22,9 @@
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
-        "appleTv": false,
+        "appleTv": true,
         "hboMax": false,
-        "rentBuy": ["Apple TV", "Google Play", "Amazon"]
+        "rentBuy": []
       },
       "lastStreamingCheck": "2025-01-02",
       "communityRating": {
