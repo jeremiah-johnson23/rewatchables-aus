@@ -241,7 +241,7 @@ Changes to `main` branch auto-deploy via GitHub Actions.
 
 ## Session Memory
 
-**Last Updated:** 2024-12-17 (Session 2)
+**Last Updated:** 2025-01-02 (Session 3)
 
 ### Session 1 - Initial Setup (2024-12-05)
 - Created complete site structure
@@ -259,14 +259,24 @@ Changes to `main` branch auto-deploy via GitHub Actions.
 - **Fixed Apple Podcasts URL** for High Fidelity episode
 - **Discussed custom domain**: `rewatchables.au` identified as preferred option
 
+### Session 3 - Custom Domain & Branding (2025-01-02)
+- **Added new episodes**: F1 (2025) and The Sure Thing (1985)
+- **Fixed F1 streaming**: Corrected to Apple TV+ subscription (not rent/buy)
+- **Custom domain live**: `rewatchables.au` registered via VentraIP and configured
+- **Brand assets added**:
+  - Favicon (32x32)
+  - Apple Touch Icon (180x180)
+  - Social preview / OG image (1200x630)
+- **Updated meta tags**: Open Graph and Twitter Card with new domain URLs
+
 ### Current State
-- Site is live and functional
-- Weekly auto-update workflow fixed and reliable
-- Episodes in database growing (Shampoo, High Fidelity recently added)
+- Site live at https://rewatchables.au
+- Brand assets deployed (favicon, social preview, apple touch icon)
+- Database up to date with latest episodes
 
 ### Next Steps
-- Register `rewatchables.au` domain and configure GitHub Pages
-- Continue adding episodes from podcast backlog
+- Fix auto-update workflow (still not working)
+- Continue adding episodes as they release
 - Verify streaming data accuracy on JustWatch AU
 
 ---
