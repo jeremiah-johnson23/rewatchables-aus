@@ -18,6 +18,29 @@ from pathlib import Path
 
 FEED_URL = "https://feeds.megaphone.fm/the-rewatchables"
 
+# Patterns that indicate non-movie episodes (mailbags, lists, specials)
+SKIP_PATTERNS = [
+    r'\bmailbag\b',
+    r'\bmost rewatchable\b',
+    r'\btop \d+\b',
+    r'\bbest of\b',
+    r'\byear.?end\b',
+    r'\bpreview\b',
+    r'\bdraft\b',
+    r'\brewatchables.+awards\b',
+    r'\bholiday\b',
+    r'\bspecial\b',
+]
+
+
+def is_non_movie_episode(title):
+    """Check if episode title indicates a non-movie episode (mailbag, list, etc.)."""
+    title_lower = title.lower()
+    for pattern in SKIP_PATTERNS:
+        if re.search(pattern, title_lower):
+            return True
+    return False
+
 
 def fetch_feed():
     """Fetch and parse the podcast RSS feed."""
@@ -53,14 +76,21 @@ def parse_episode_from_feed(item):
     except:
         date_str = datetime.now().strftime("%Y-%m-%d")
 
-    # Extract movie title
-    movie_match = re.match(r'^["\']?([^"\']+)["\']?\s+[Ww]ith', title)
-    if movie_match:
-        movie_title = movie_match.group(1).strip()
-    else:
-        movie_title = title.split(" With")[0].strip().strip('"\'')
+    # Extract movie title - handle both straight and curly quotes
+    # Curly quotes: ' ' " " (U+2018, U+2019, U+201C, U+201D)
+    all_quotes = '"\'\u2018\u2019\u201c\u201d'
+    clean_title = title.strip().strip(all_quotes)
 
-    movie_title = movie_title.strip("'\"")
+    # Try quoted pattern first (matches both straight and curly quotes)
+    quoted_match = re.match(r'^["\'\u2018\u201c](.+?)["\'\u2019\u201d][\s|]+[Ww]ith', clean_title)
+    if quoted_match:
+        movie_title = quoted_match.group(1).strip()
+    else:
+        # Fallback: everything before " With" or " with"
+        movie_title = re.split(r'\s+[Ww]ith\s', clean_title)[0]
+
+    # Clean up any remaining quotes, pipes, whitespace
+    movie_title = re.sub(r'^["\'\u2018\u2019\u201c\u201d\s]+|["\'\u2018\u2019\u201c\u201d\s|]+$', '', movie_title)
 
     # Extract hosts
     hosts = []
@@ -134,6 +164,11 @@ def find_missing_episodes(feed_items, db_episodes, limit=5):
     missing = []
     for item in feed_items[:limit]:
         parsed = parse_episode_from_feed(item)
+
+        # Skip non-movie episodes (mailbags, lists, specials)
+        if is_non_movie_episode(parsed['full_title']):
+            print(f"  Skipping non-movie episode: {parsed['title']}")
+            continue
 
         if (parsed['date'] not in db_dates and
             parsed['title'].lower() not in db_titles):
