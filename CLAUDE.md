@@ -241,7 +241,7 @@ Changes to `main` branch auto-deploy via GitHub Actions.
 
 ## Session Memory
 
-**Last Updated:** 2025-01-02 (Session 3)
+**Last Updated:** 2026-01-14 (Session 4)
 
 ### Session 1 - Initial Setup (2024-12-05)
 - Created complete site structure
@@ -269,15 +269,32 @@ Changes to `main` branch auto-deploy via GitHub Actions.
   - Social preview / OG image (1200x630)
 - **Updated meta tags**: Open Graph and Twitter Card with new domain URLs
 
+### Session 4 - Fix Weekly Auto-Update Workflow (2026-01-14)
+- **Root cause identified**: Workflow lacked `contents: write` permission (403 on push)
+- **Fixed workflow** (`.github/workflows/check-new-episodes.yml`):
+  - Added `permissions: contents: write`
+  - Updated commit message (removed stale OMDB reference)
+- **Fixed `add_new_episode.py`**:
+  - Added filtering for non-movie episodes (mailbags, lists, specials, drafts)
+  - Fixed curly quote handling in RSS title parsing (U+2018/2019)
+- **Switched git remote** from HTTPS to SSH (required for pushing workflow files)
+- **Tested workflow**: Successfully auto-added "What Lies Beneath"
+- **Added metadata for What Lies Beneath (2000)**:
+  - Director: Robert Zemeckis
+  - Streaming: Disney+ (Fox international rights went to Disney)
+  - Genres: Thriller, Horror, Mystery
+  - Studio: DreamWorks
+
 ### Current State
 - Site live at https://rewatchables.au
-- Brand assets deployed (favicon, social preview, apple touch icon)
+- Weekly auto-update workflow is now functional
+- Git remote switched to SSH for future workflow edits
 - Database up to date with latest episodes
 
 ### Next Steps
-- Fix auto-update workflow (still not working)
-- Continue adding episodes as they release
-- Verify streaming data accuracy on JustWatch AU
+- Monitor next Tuesday's auto-run to confirm ongoing success
+- Continue adding episode metadata as needed
+- Google favicon indexing in progress (2-4 weeks)
 
 ---
 
