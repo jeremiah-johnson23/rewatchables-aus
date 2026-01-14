@@ -1,6 +1,39 @@
 {
   "episodes": [
     {
+      "id": "what-lies-beneath",
+      "title": "What Lies Beneath",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-01-14",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Mallory Rubin"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": []
+      },
+      "lastStreamingCheck": "2026-01-14",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "f1-2025",
       "title": "F1",
       "year": 2025,
@@ -14,7 +47,11 @@
         "Van Lathan"
       ],
       "guests": [],
-      "genres": ["Action", "Drama", "Sport"],
+      "genres": [
+        "Action",
+        "Drama",
+        "Sport"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -46,7 +83,10 @@
         "Chris Ryan"
       ],
       "guests": [],
-      "genres": ["Comedy", "Romance"],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -56,7 +96,11 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": ["Apple TV", "Google Play", "Amazon"]
+        "rentBuy": [
+          "Apple TV",
+          "Google Play",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2025-01-02",
       "communityRating": {
@@ -80,7 +124,11 @@
         "Rob Mahoney"
       ],
       "guests": [],
-      "genres": ["Comedy", "Drama", "Romance"],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -90,7 +138,11 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": ["Apple TV", "Google Play", "Amazon"]
+        "rentBuy": [
+          "Apple TV",
+          "Google Play",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2025-12-17",
       "communityRating": {
