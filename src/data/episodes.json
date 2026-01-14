@@ -1,10 +1,10 @@
 {
   "episodes": [
     {
-      "id": "what-lies-beneath",
+      "id": "what-lies-beneath-2000",
       "title": "What Lies Beneath",
-      "year": null,
-      "director": "",
+      "year": 2000,
+      "director": "Robert Zemeckis",
       "episodeDate": "2026-01-14",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
@@ -14,24 +14,24 @@
         "Mallory Rubin"
       ],
       "guests": [],
-      "genres": [],
+      "genres": ["Thriller", "Horror", "Mystery"],
       "streaming": {
         "netflix": false,
         "stan": false,
         "primeVideo": false,
-        "disneyPlus": false,
+        "disneyPlus": true,
         "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": ["Apple TV", "Amazon", "Google Play"]
       },
       "lastStreamingCheck": "2026-01-14",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "dreamworks"
     },
     {
       "id": "f1-2025",
