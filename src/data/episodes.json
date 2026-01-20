@@ -1,10 +1,10 @@
 {
   "episodes": [
     {
-      "id": "just-one-of-the-guys",
+      "id": "just-one-of-the-guys-1985",
       "title": "Just One of the Guys",
-      "year": null,
-      "director": "",
+      "year": 1985,
+      "director": "Lisa Gottlieb",
       "episodeDate": "2026-01-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
@@ -14,7 +14,7 @@
         "Joanna Robinson"
       ],
       "guests": [],
-      "genres": [],
+      "genres": ["Comedy", "Romance"],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -24,14 +24,14 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": ["Apple TV", "Amazon"]
       },
-      "lastStreamingCheck": "2026-01-20",
+      "lastStreamingCheck": "2026-01-21",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "sony"
     },
     {
       "id": "what-lies-beneath-2000",
