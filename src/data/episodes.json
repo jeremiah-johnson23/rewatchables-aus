@@ -1,6 +1,39 @@
 {
   "episodes": [
     {
+      "id": "just-one-of-the-guys",
+      "title": "Just One of the Guys",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-01-20",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Kyle Brandt",
+        "Joanna Robinson"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": []
+      },
+      "lastStreamingCheck": "2026-01-20",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "what-lies-beneath-2000",
       "title": "What Lies Beneath",
       "year": 2000,
@@ -14,7 +47,11 @@
         "Mallory Rubin"
       ],
       "guests": [],
-      "genres": ["Thriller", "Horror", "Mystery"],
+      "genres": [
+        "Thriller",
+        "Horror",
+        "Mystery"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -24,7 +61,11 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": ["Apple TV", "Amazon", "Google Play"]
+        "rentBuy": [
+          "Apple TV",
+          "Amazon",
+          "Google Play"
+        ]
       },
       "lastStreamingCheck": "2026-01-14",
       "communityRating": {
