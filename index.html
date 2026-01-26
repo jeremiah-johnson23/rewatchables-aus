@@ -84,20 +84,46 @@
 
                 <!-- Filter Row -->
                 <div class="flex flex-wrap gap-3">
-                    <!-- Streaming Filter -->
-                    <select id="streaming-filter"
-                            class="bg-cinema-white border border-gray-300 rounded-lg px-4 py-2 text-cinema-navy focus:outline-none focus:border-cinema-orange">
-                        <option value="">All Streaming</option>
-                        <option value="netflix">Netflix</option>
-                        <option value="stan">Stan</option>
-                        <option value="primeVideo">Prime Video</option>
-                        <option value="disneyPlus">Disney+</option>
-                        <option value="binge">Binge</option>
-                        <option value="paramount">Paramount+</option>
-                        <option value="appleTv">Apple TV+</option>
-                        <option value="hboMax">HBO Max</option>
-                        <option value="rentBuy">Rent/Buy Only</option>
-                    </select>
+                    <!-- Streaming Filter (Multi-Select) -->
+                    <div id="streaming-dropdown" class="relative">
+                        <button id="streaming-trigger"
+                                type="button"
+                                class="bg-cinema-white border border-gray-300 rounded-lg px-4 py-2 text-cinema-navy focus:outline-none focus:border-cinema-orange flex items-center gap-2 min-w-[160px]">
+                            <span id="streaming-trigger-text">All Streaming</span>
+                            <svg class="w-4 h-4 ml-auto shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="streaming-panel" class="streaming-dropdown-panel hidden">
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="netflix" class="streaming-checkbox"> Netflix
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="stan" class="streaming-checkbox"> Stan
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="primeVideo" class="streaming-checkbox"> Prime Video
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="disneyPlus" class="streaming-checkbox"> Disney+
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="binge" class="streaming-checkbox"> Binge
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="paramount" class="streaming-checkbox"> Paramount+
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="appleTv" class="streaming-checkbox"> Apple TV+
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="hboMax" class="streaming-checkbox"> HBO Max
+                            </label>
+                            <label class="streaming-dropdown-item">
+                                <input type="checkbox" value="rentBuy" class="streaming-checkbox"> Rent/Buy Only
+                            </label>
+                        </div>
+                    </div>
 
                     <!-- Genre Filter -->
                     <select id="genre-filter"

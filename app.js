@@ -8,7 +8,7 @@ class RewatchablesApp {
         this.viewMode = 'list'; // 'grid' or 'list'
         this.filters = {
             search: '',
-            streaming: '',
+            streaming: [],
             genre: '',
             sort: 'episodeDate-desc'
         };
@@ -19,6 +19,7 @@ class RewatchablesApp {
     async init() {
         await this.loadData();
         this.setupEventListeners();
+        this.setupStreamingDropdown();
         this.updateViewToggle();
         this.render();
     }
@@ -51,13 +52,6 @@ class RewatchablesApp {
         const searchInput = document.getElementById('search-input');
         searchInput.addEventListener('input', (e) => {
             this.filters.search = e.target.value.toLowerCase();
-            this.applyFilters();
-        });
-
-        // Streaming filter
-        const streamingFilter = document.getElementById('streaming-filter');
-        streamingFilter.addEventListener('change', (e) => {
-            this.filters.streaming = e.target.value;
             this.applyFilters();
         });
 
@@ -94,6 +88,62 @@ class RewatchablesApp {
         // Clear/Reset filters
         document.getElementById('clear-filters')?.addEventListener('click', () => this.resetFilters());
         document.getElementById('reset-filters')?.addEventListener('click', () => this.resetFilters());
+    }
+
+    setupStreamingDropdown() {
+        const trigger = document.getElementById('streaming-trigger');
+        const panel = document.getElementById('streaming-panel');
+        const checkboxes = document.querySelectorAll('.streaming-checkbox');
+
+        // Toggle panel on button click
+        trigger.addEventListener('click', () => {
+            panel.classList.toggle('hidden');
+        });
+
+        // Close on outside click
+        document.addEventListener('click', (e) => {
+            const dropdown = document.getElementById('streaming-dropdown');
+            if (!dropdown.contains(e.target)) {
+                panel.classList.add('hidden');
+            }
+        });
+
+        // Handle checkbox changes
+        checkboxes.forEach(cb => {
+            cb.addEventListener('change', () => {
+                this.filters.streaming = Array.from(checkboxes)
+                    .filter(c => c.checked)
+                    .map(c => c.value);
+                this.updateStreamingTriggerText();
+                this.applyFilters();
+            });
+        });
+    }
+
+    updateStreamingTriggerText() {
+        const textEl = document.getElementById('streaming-trigger-text');
+        const selected = this.filters.streaming;
+
+        if (selected.length === 0) {
+            textEl.textContent = 'All Streaming';
+        } else {
+            const nameMap = {
+                netflix: 'Netflix',
+                stan: 'Stan',
+                primeVideo: 'Prime Video',
+                disneyPlus: 'Disney+',
+                binge: 'Binge',
+                paramount: 'Paramount+',
+                appleTv: 'Apple TV+',
+                hboMax: 'HBO Max',
+                rentBuy: 'Rent/Buy Only'
+            };
+            if (selected.length <= 2) {
+                textEl.textContent = selected.map(s => nameMap[s]).join(', ');
+            } else {
+                textEl.textContent = `${selected.length} services`;
+            }
+        }
     }
 
     updateViewToggle() {
@@ -134,19 +184,19 @@ class RewatchablesApp {
             );
         }
 
-        // Streaming filter
-        if (this.filters.streaming) {
-            if (this.filters.streaming === 'rentBuy') {
-                // Show only episodes with no streaming, only rent/buy
-                results = results.filter(ep => {
-                    const hasStreaming = Object.entries(ep.streaming)
-                        .filter(([key]) => key !== 'rentBuy')
-                        .some(([, value]) => value === true);
-                    return !hasStreaming && ep.streaming.rentBuy.length > 0;
+        // Streaming filter (multi-select, OR logic)
+        if (this.filters.streaming.length > 0) {
+            results = results.filter(ep => {
+                return this.filters.streaming.some(service => {
+                    if (service === 'rentBuy') {
+                        const hasStreaming = Object.entries(ep.streaming)
+                            .filter(([key]) => key !== 'rentBuy')
+                            .some(([, value]) => value === true);
+                        return !hasStreaming && ep.streaming.rentBuy.length > 0;
+                    }
+                    return ep.streaming[service] === true;
                 });
-            } else {
-                results = results.filter(ep => ep.streaming[this.filters.streaming] === true);
-            }
+            });
         }
 
         // Genre filter
@@ -196,13 +246,14 @@ class RewatchablesApp {
     resetFilters() {
         this.filters = {
             search: '',
-            streaming: '',
+            streaming: [],
             genre: '',
             sort: 'episodeDate-desc'
         };
 
         document.getElementById('search-input').value = '';
-        document.getElementById('streaming-filter').value = '';
+        document.querySelectorAll('.streaming-checkbox').forEach(cb => cb.checked = false);
+        this.updateStreamingTriggerText();
         document.getElementById('genre-filter').value = '';
         document.getElementById('sort-select').value = 'episodeDate-desc';
 
