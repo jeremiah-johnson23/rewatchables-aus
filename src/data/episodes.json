@@ -1,6 +1,39 @@
 {
   "episodes": [
     {
+      "id": "another-48-hrs-1990",
+      "title": "Another 48 Hrs.",
+      "year": 1990,
+      "director": "Walter Hill",
+      "episodeDate": "2026-01-22",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/another-48-hrs-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000746160681",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Van Lathan"
+      ],
+      "guests": [],
+      "genres": ["Action", "Comedy", "Crime"],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": ["Apple TV", "Amazon"]
+      },
+      "lastStreamingCheck": "2026-01-26",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "paramount"
+    },
+    {
       "id": "just-one-of-the-guys-1985",
       "title": "Just One of the Guys",
       "year": 1985,
@@ -14,7 +47,10 @@
         "Joanna Robinson"
       ],
       "guests": [],
-      "genres": ["Comedy", "Romance"],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -24,7 +60,10 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": ["Apple TV", "Amazon"]
+        "rentBuy": [
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2026-01-21",
       "communityRating": {
