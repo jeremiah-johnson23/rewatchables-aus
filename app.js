@@ -115,6 +115,7 @@ class RewatchablesApp {
                     .filter(c => c.checked)
                     .map(c => c.value);
                 this.updateStreamingTriggerText();
+                this.renderStreamingChips();
                 this.applyFilters();
             });
         });
@@ -144,6 +145,51 @@ class RewatchablesApp {
                 textEl.textContent = `${selected.length} services`;
             }
         }
+    }
+
+    renderStreamingChips() {
+        const container = document.getElementById('streaming-chips');
+        const nameMap = {
+            netflix: 'Netflix',
+            stan: 'Stan',
+            primeVideo: 'Prime Video',
+            disneyPlus: 'Disney+',
+            binge: 'Binge',
+            paramount: 'Paramount+',
+            appleTv: 'Apple TV+',
+            hboMax: 'HBO Max',
+            rentBuy: 'Rent/Buy Only'
+        };
+
+        if (this.filters.streaming.length === 0) {
+            container.innerHTML = '';
+            return;
+        }
+
+        container.innerHTML = this.filters.streaming.map(service => `
+            <span class="streaming-chip" data-service="${service}">
+                ${nameMap[service]}
+                <button type="button" class="streaming-chip-remove" aria-label="Remove ${nameMap[service]}">&times;</button>
+            </span>
+        `).join('');
+
+        container.querySelectorAll('.streaming-chip-remove').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const chip = btn.closest('.streaming-chip');
+                const service = chip.dataset.service;
+
+                // Uncheck the corresponding checkbox
+                const checkbox = document.querySelector(`.streaming-checkbox[value="${service}"]`);
+                if (checkbox) checkbox.checked = false;
+
+                // Remove from filters
+                this.filters.streaming = this.filters.streaming.filter(s => s !== service);
+
+                this.updateStreamingTriggerText();
+                this.renderStreamingChips();
+                this.applyFilters();
+            });
+        });
     }
 
     updateViewToggle() {
@@ -254,6 +300,7 @@ class RewatchablesApp {
         document.getElementById('search-input').value = '';
         document.querySelectorAll('.streaming-checkbox').forEach(cb => cb.checked = false);
         this.updateStreamingTriggerText();
+        this.renderStreamingChips();
         document.getElementById('genre-filter').value = '';
         document.getElementById('sort-select').value = 'episodeDate-desc';
 
