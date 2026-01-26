@@ -241,7 +241,7 @@ Changes to `main` branch auto-deploy via GitHub Actions.
 
 ## Session Memory
 
-**Last Updated:** 2026-01-14 (Session 4)
+**Last Updated:** 2026-01-27 (Session 5)
 
 ### Session 1 - Initial Setup (2024-12-05)
 - Created complete site structure
@@ -285,16 +285,22 @@ Changes to `main` branch auto-deploy via GitHub Actions.
   - Genres: Thriller, Horror, Mystery
   - Studio: DreamWorks
 
+### Session 5 - Streaming Filter Chips UI (2026-01-27)
+- **Added removable streaming chips**: Selected streaming services now show as pill-shaped tags below the filter bar
+  - Each chip has an "x" button for one-click removal
+  - Chips sync with dropdown checkboxes bidirectionally
+  - Chips clear on filter reset
+  - Flex-wrap layout for narrow viewports
+- Files changed: `index.html`, `app.js`, `styles.css`
+
 ### Current State
 - Site live at https://rewatchables.au
-- Weekly auto-update workflow is now functional
-- Git remote switched to SSH for future workflow edits
-- Database up to date with latest episodes
+- Weekly auto-update workflow is functional
+- Streaming filter now has both dropdown multi-select and removable chips UI
 
 ### Next Steps
-- Monitor next Tuesday's auto-run to confirm ongoing success
 - Continue adding episode metadata as needed
-- Google favicon indexing in progress (2-4 weeks)
+- Monitor weekly auto-update workflow
 
 ---
 
