@@ -1,6 +1,48 @@
 {
   "episodes": [
     {
+      "id": "zodiac",
+      "title": "Zodiac",
+      "year": 2007,
+      "director": "David Fincher",
+      "episodeDate": "2026-01-26",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/zodiac-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000746698940&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
+      "guests": [],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ],
+        "hboMax": false
+      },
+      "lastStreamingCheck": "2026-01-27",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "paramount"
+    },
+    {
       "id": "another-48-hrs-1990",
       "title": "Another 48 Hrs.",
       "year": 1990,
@@ -14,7 +56,11 @@
         "Van Lathan"
       ],
       "guests": [],
-      "genres": ["Action", "Comedy", "Crime"],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -24,7 +70,10 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": ["Apple TV", "Amazon"]
+        "rentBuy": [
+          "Apple TV",
+          "Amazon"
+        ]
       },
       "lastStreamingCheck": "2026-01-26",
       "communityRating": {
@@ -595,7 +644,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill\u2019s Dad"
+        "Bill’s Dad"
       ],
       "guests": [],
       "genres": [
@@ -1193,7 +1242,7 @@
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/die-hard-with-a-vengeance-with-bill-simmons-chris/id1268527882?i=1000714294505&uo=4",
       "hosts": [
-        "a Vengeance\u2019 With Bill Simmons",
+        "a Vengeance’ With Bill Simmons",
         "Chris Ryan",
         "Van Lathan"
       ],
@@ -2563,7 +2612,7 @@
       "id": "the-blair-witch-project",
       "title": "The Blair Witch Project",
       "year": 1999,
-      "director": "Daniel Myrick, Eduardo S\u00e1nchez",
+      "director": "Daniel Myrick, Eduardo Sánchez",
       "episodeDate": "2024-10-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-blair-witch-project-with-bill-simmons-and-chris-ryan/id1268527882?i=1000671375494&uo=4",
@@ -10676,7 +10725,7 @@
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/sleeping-with-the-enemy-with-bill-simmons-and-van-lathan/id1268527882?i=1000509202110&uo=4",
       "hosts": [
-        "the Enemy\u2019 With Bill Simmons",
+        "the Enemy’ With Bill Simmons",
         "Van Lathan"
       ],
       "guests": [],
@@ -13520,7 +13569,7 @@
     },
     {
       "id": "once-upon-a-time-in-hollywood",
-      "title": "Once Upon a Time \u2026 in Hollywood",
+      "title": "Once Upon a Time … in Hollywood",
       "year": 2019,
       "director": "Quentin Tarantino",
       "episodeDate": "2020-02-06",
@@ -14063,7 +14112,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill\u2019s Dad"
+        "Bill’s Dad"
       ],
       "guests": [],
       "genres": [
@@ -16688,7 +16737,7 @@
       "studio": "universal"
     },
     {
-      "id": "zodiac",
+      "id": "zodiac-2017-12-14",
       "title": "Zodiac",
       "year": 2007,
       "director": "David Fincher",
