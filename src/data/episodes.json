@@ -1,6 +1,39 @@
 {
   "episodes": [
     {
+      "id": "wild-things",
+      "title": "Wild Things",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-02-03",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Van Lathan",
+        "Mallory Rubin"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": []
+      },
+      "lastStreamingCheck": "2026-02-03",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "zodiac",
       "title": "Zodiac",
       "year": 2007,
@@ -644,7 +677,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill’s Dad"
+        "Bill\u2019s Dad"
       ],
       "guests": [],
       "genres": [
@@ -1242,7 +1275,7 @@
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/die-hard-with-a-vengeance-with-bill-simmons-chris/id1268527882?i=1000714294505&uo=4",
       "hosts": [
-        "a Vengeance’ With Bill Simmons",
+        "a Vengeance\u2019 With Bill Simmons",
         "Chris Ryan",
         "Van Lathan"
       ],
@@ -2612,7 +2645,7 @@
       "id": "the-blair-witch-project",
       "title": "The Blair Witch Project",
       "year": 1999,
-      "director": "Daniel Myrick, Eduardo Sánchez",
+      "director": "Daniel Myrick, Eduardo S\u00e1nchez",
       "episodeDate": "2024-10-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-blair-witch-project-with-bill-simmons-and-chris-ryan/id1268527882?i=1000671375494&uo=4",
@@ -10725,7 +10758,7 @@
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/sleeping-with-the-enemy-with-bill-simmons-and-van-lathan/id1268527882?i=1000509202110&uo=4",
       "hosts": [
-        "the Enemy’ With Bill Simmons",
+        "the Enemy\u2019 With Bill Simmons",
         "Van Lathan"
       ],
       "guests": [],
@@ -13569,7 +13602,7 @@
     },
     {
       "id": "once-upon-a-time-in-hollywood",
-      "title": "Once Upon a Time … in Hollywood",
+      "title": "Once Upon a Time \u2026 in Hollywood",
       "year": 2019,
       "director": "Quentin Tarantino",
       "episodeDate": "2020-02-06",
@@ -14112,7 +14145,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill’s Dad"
+        "Bill\u2019s Dad"
       ],
       "guests": [],
       "genres": [
