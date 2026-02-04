@@ -1,10 +1,10 @@
 {
   "episodes": [
     {
-      "id": "wild-things",
+      "id": "wild-things-1998",
       "title": "Wild Things",
-      "year": null,
-      "director": "",
+      "year": 1998,
+      "director": "John McNaughton",
       "episodeDate": "2026-02-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
@@ -14,9 +14,9 @@
         "Mallory Rubin"
       ],
       "guests": [],
-      "genres": [],
+      "genres": ["Crime", "Drama", "Thriller"],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -24,14 +24,14 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": ["Google Play", "Apple TV", "Amazon"]
       },
-      "lastStreamingCheck": "2026-02-03",
+      "lastStreamingCheck": "2026-02-04",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "sony"
     },
     {
       "id": "zodiac",
