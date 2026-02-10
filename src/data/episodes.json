@@ -3,35 +3,41 @@
     {
       "id": "ace-ventura-pet-detective",
       "title": "Ace Ventura: Pet Detective",
-      "year": null,
-      "director": "",
+      "year": 1994,
+      "director": "Tom Shadyac",
       "episodeDate": "2026-02-10",
-      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "spotifyUrl": "https://open.spotify.com/episode/4KgisZ9zFb8q7h7LbQbisq",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/ace-ventura-pet-detective-with-bill-simmons-zach-lowe/id1268527882?i=1000749022046",
       "hosts": [
         "Bill Simmons",
         "Zach Lowe",
         "Craig Horlbeck"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": false,
-        "stan": false,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
-        "binge": false,
+        "binge": true,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Apple TV",
+          "Amazon",
+          "YouTube"
+        ]
       },
-      "lastStreamingCheck": "2026-02-10",
+      "lastStreamingCheck": "2026-02-11",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "warner-bros"
     },
     {
       "id": "wild-things-1998",
