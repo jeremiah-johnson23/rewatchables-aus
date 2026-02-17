@@ -1,37 +1,41 @@
 {
   "episodes": [
     {
-      "id": "goldeneye",
+      "id": "goldeneye-1995",
       "title": "GoldenEye",
-      "year": null,
-      "director": "",
+      "year": 1995,
+      "director": "Martin Campbell",
       "episodeDate": "2026-02-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
         "Sean Fennessey"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
-        "stan": false,
-        "primeVideo": false,
+        "stan": true,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Apple TV",
+          "Amazon"
+        ]
       },
-      "lastStreamingCheck": "2026-02-17",
-      "communityRating": {
-        "average": 0,
-        "votes": 0
-      },
-      "studio": ""
+      "lastStreamingCheck": "2026-02-18",
+      "editorPick": false,
+      "studio": "mgm"
     },
     {
       "id": "ace-ventura-pet-detective",
