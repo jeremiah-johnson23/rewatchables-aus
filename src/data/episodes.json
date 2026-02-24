@@ -1,6 +1,39 @@
 {
   "episodes": [
     {
+      "id": "crazy-stupid-love",
+      "title": "Crazy, Stupid, Love",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-02-24",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Van Lathan",
+        "Mina Kimes"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": []
+      },
+      "lastStreamingCheck": "2026-02-24",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "goldeneye-1995",
       "title": "GoldenEye",
       "year": 1995,
