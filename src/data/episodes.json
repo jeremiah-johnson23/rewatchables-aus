@@ -1,37 +1,37 @@
 {
   "episodes": [
     {
-      "id": "crazy-stupid-love",
-      "title": "Crazy, Stupid, Love",
-      "year": null,
-      "director": "",
+      "id": "crazy-stupid-love-2011",
+      "title": "Crazy, Stupid, Love.",
+      "year": 2011,
+      "director": "Glenn Ficarra, John Requa",
       "episodeDate": "2026-02-24",
-      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "spotifyUrl": "https://open.spotify.com/episode/3qur8cnS3gx5Raj5Y5Og2Q",
+      "applePodcastsUrl": "https://podcasts.apple.com/us/podcast/crazy-stupid-love-with-bill-simmons-van-lathan-and/id1268527882?i=1000751139974",
       "hosts": [
         "Bill Simmons",
         "Van Lathan",
         "Mina Kimes"
       ],
       "guests": [],
-      "genres": [],
+      "genres": ["Comedy", "Romance", "Drama"],
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "hboMax": false,
-        "rentBuy": []
+        "hboMax": true,
+        "rentBuy": ["Apple TV", "Amazon"]
       },
-      "lastStreamingCheck": "2026-02-24",
+      "lastStreamingCheck": "2026-02-25",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "warner-bros"
     },
     {
       "id": "goldeneye-1995",
