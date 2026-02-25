@@ -24,6 +24,14 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
   - Added hboMax to parse_offers output dict (was missing)
   - Added Prime Video with Ads (ID 2100) to provider map
 - **Lesson:** Always verify streaming via JustWatch FLATRATE vs RENT/BUY distinction. Don't trust web search summaries for AU availability. The script handles this correctly; manual entries are where errors crept in.
+- **Full streaming audit:** Ran fetch script with new `--force` flag across all 435 movies. 431 updated via JustWatch, 4 failed lookup.
+- **Notable shifts:** HBO Max 17→40 (provider ID fix), Stan 150→121, Prime Video 61→47, Disney+ 80→84, Paramount+ 43→46
+- **Chased down 4 failed lookups:** All had bad metadata from RSS auto-update
+  - Sinners: year was 1986, actually 2025 (Ryan Coogler). HBO Max.
+  - It: year was 1990 (TV movie), actually 2017 (Muschietti). Netflix/Stan/HBO Max.
+  - Mr. Holland: title truncated, year 1993. Fixed to Mr. Holland's Opus (1995). Not streaming in AU.
+  - The Sure Thing (1985): not on JustWatch AU. Added director (Reiner) and studio (Universal).
+- **Data quality note:** RSS parser produces bad years and truncated titles on some older entries. Worth watching on future skeleton entries.
 - 1 new episode since Session 6: Crazy, Stupid, Love (Feb 24)
 
 ### Session 6 — 2026-02-18
