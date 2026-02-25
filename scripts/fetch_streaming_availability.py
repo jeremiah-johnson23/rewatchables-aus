@@ -175,6 +175,11 @@ def parse_offers(node):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Fetch streaming availability from JustWatch AU")
+    parser.add_argument("--force", action="store_true", help="Re-check all entries, even those with existing data")
+    args = parser.parse_args()
+
     print("Loading episodes...")
     with open(EPISODES_PATH) as f:
         data = json.load(f)
@@ -191,13 +196,13 @@ def main():
         year = episode.get("year")
         current_streaming = episode.get("streaming", {})
 
-        # Skip if already has streaming data
+        # Skip if already has streaming data (unless --force)
         has_streaming = any(
             current_streaming.get(k) for k in
-            ["netflix", "stan", "primeVideo", "disneyPlus", "binge", "paramount", "appleTv"]
+            ["netflix", "stan", "primeVideo", "disneyPlus", "binge", "paramount", "appleTv", "hboMax"]
         ) or current_streaming.get("rentBuy")
 
-        if has_streaming:
+        if has_streaming and not args.force:
             already_has += 1
             continue
 
