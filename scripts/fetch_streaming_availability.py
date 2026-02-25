@@ -20,15 +20,16 @@ JUSTWATCH_GRAPHQL = "https://apis.justwatch.com/graphql"
 # Map JustWatch package IDs to our keys
 PROVIDER_MAP = {
     8: "netflix",
+    1796: "netflix",    # Netflix with Ads
     21: "stan",
     119: "primeVideo",
-    9: "primeVideo",  # Amazon Prime Video
+    9: "primeVideo",    # Amazon Prime Video
+    2100: "primeVideo", # Amazon Prime Video with Ads
     337: "disneyPlus",
     385: "binge",
     531: "paramount",
     350: "appleTv",
-    1796: "netflix",  # Netflix with Ads
-    1899: "stan",     # Stan alternate
+    1899: "hboMax",     # HBO Max
 }
 
 RENT_BUY_PROVIDERS = {
@@ -145,6 +146,7 @@ def parse_offers(node):
         "binge": False,
         "paramount": False,
         "appleTv": False,
+        "hboMax": False,
         "rentBuy": []
     }
 

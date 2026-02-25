@@ -55,18 +55,19 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
+          "Amazon",
           "Apple TV",
-          "Amazon"
+          "Google Play"
         ]
       },
-      "lastStreamingCheck": "2026-02-18",
+      "lastStreamingCheck": "2026-02-25",
       "editorPick": false,
       "studio": "mgm"
     },
