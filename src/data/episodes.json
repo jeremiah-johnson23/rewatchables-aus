@@ -400,12 +400,12 @@
           "Amazon"
         ]
       },
-      "lastStreamingCheck": "2025-01-02",
+      "lastStreamingCheck": "2026-02-25",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": "independent"
+      "studio": "universal"
     },
     {
       "id": "high-fidelity-2000",
@@ -1090,10 +1090,10 @@
       "studio": "warner-bros"
     },
     {
-      "id": "sinners",
+      "id": "sinners-2025",
       "title": "Sinners",
-      "year": 1986,
-      "director": "Michael Dinner",
+      "year": 2025,
+      "director": "Ryan Coogler",
       "episodeDate": "2025-08-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/sinners-with-bill-simmons-van-lathan-and-wesley-morris/id1268527882?i=1000722357523&uo=4",
@@ -1114,15 +1114,18 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": [],
-        "hboMax": false
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ],
+        "hboMax": true
       },
-      "lastStreamingCheck": "",
+      "lastStreamingCheck": "2026-02-25",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": "20th-century"
+      "studio": "warner-bros"
     },
     {
       "id": "rollerball-1975",
@@ -1282,10 +1285,10 @@
       "studio": "mgm"
     },
     {
-      "id": "it",
+      "id": "it-2017",
       "title": "It",
-      "year": 1990,
-      "director": "Tommy Lee Wallace",
+      "year": 2017,
+      "director": "Andy Muschietti",
       "episodeDate": "2025-07-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
@@ -1300,8 +1303,8 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
-        "stan": false,
+        "netflix": true,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -1309,11 +1312,12 @@
         "appleTv": false,
         "rentBuy": [
           "Amazon",
-          "Apple TV"
+          "Apple TV",
+          "Google Play"
         ],
-        "hboMax": false
+        "hboMax": true
       },
-      "lastStreamingCheck": "2025-12-06",
+      "lastStreamingCheck": "2026-02-25",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11208,9 +11212,9 @@
       "studio": "universal"
     },
     {
-      "id": "mr-holland",
-      "title": "Mr. Holland",
-      "year": 1993,
+      "id": "mr-hollands-opus-1995",
+      "title": "Mr. Holland's Opus",
+      "year": 1995,
       "director": "Stephen Herek",
       "episodeDate": "2020-12-29",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
@@ -11237,12 +11241,12 @@
         "rentBuy": [],
         "hboMax": false
       },
-      "lastStreamingCheck": "",
+      "lastStreamingCheck": "2026-02-25",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": "warner-bros"
+      "studio": "disney"
     },
     {
       "id": "the-bourne-identity",
