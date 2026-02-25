@@ -16,6 +16,16 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 7 — 2026-02-25
+- **Filled out Crazy, Stupid, Love. (2011)** skeleton: Ficarra/Requa, Warner Bros, Comedy/Romance/Drama, Prime Video + HBO Max, episode-specific podcast URLs
+- **Fixed GoldenEye streaming error** from Session 6: Prime Video was rent-only in AU, not subscription. Set primeVideo: false, added Google Play to rentBuy
+- **Fixed fetch_streaming_availability.py bugs:**
+  - Provider ID 1899 was mapped to Stan but is actually HBO Max
+  - Added hboMax to parse_offers output dict (was missing)
+  - Added Prime Video with Ads (ID 2100) to provider map
+- **Lesson:** Always verify streaming via JustWatch FLATRATE vs RENT/BUY distinction. Don't trust web search summaries for AU availability. The script handles this correctly; manual entries are where errors crept in.
+- 1 new episode since Session 6: Crazy, Stupid, Love (Feb 24)
+
 ### Session 6 — 2026-02-18
 - **Added GoldenEye (1995)** with full metadata: Martin Campbell, MGM, Stan + Prime Video, Action/Adventure/Thriller
 - **Resolved merge conflict** with auto-update: remote had added skeleton entries for GoldenEye, Ace Ventura: Pet Detective, and Wild Things since last session
