@@ -1,6 +1,39 @@
 {
   "episodes": [
     {
+      "id": "fargo",
+      "title": "Fargo",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-03-10",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Kyle Brandt"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": []
+      },
+      "lastStreamingCheck": "2026-03-10",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "sicario",
       "title": "Sicario",
       "year": null,
