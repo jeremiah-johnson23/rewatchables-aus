@@ -3,68 +3,87 @@
     {
       "id": "fargo",
       "title": "Fargo",
-      "year": null,
-      "director": "",
+      "year": 1996,
+      "director": "Joel Coen, Ethan Coen",
       "episodeDate": "2026-03-10",
-      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "spotifyUrl": "https://open.spotify.com/episode/2aZkmVUOrG9APSNVaNLbzJ",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882?i=1000754397059",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
         "Kyle Brandt"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
-        "stan": false,
-        "primeVideo": false,
+        "stan": true,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ]
       },
-      "lastStreamingCheck": "2026-03-10",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "Gramercy Pictures"
     },
     {
       "id": "sicario",
       "title": "Sicario",
-      "year": null,
-      "director": "",
+      "year": 2015,
+      "director": "Denis Villeneuve",
       "episodeDate": "2026-03-03",
-      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "spotifyUrl": "https://open.spotify.com/episode/7j9ANZWZY13KdzphqAqCoI",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882?i=1000752831612",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
         "Sean Fennessey"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
-        "stan": false,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ]
       },
-      "lastStreamingCheck": "2026-03-03",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "Lionsgate"
     },
     {
       "id": "crazy-stupid-love-2011",
@@ -627,7 +646,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1301,7 +1320,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2193,7 +2212,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2715,7 +2734,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5164,7 +5183,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5445,7 +5464,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6616,7 +6635,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7961,7 +7980,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8934,7 +8953,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9620,7 +9639,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9853,7 +9872,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10582,7 +10601,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11304,10 +11323,10 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "rentBuy": [],
-        "hboMax": false
+        "hboMax": false,
+        "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11425,7 +11444,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13872,7 +13891,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15973,7 +15992,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-02-25",
+      "lastStreamingCheck": "2026-03-16",
       "communityRating": {
         "average": 0,
         "votes": 0
