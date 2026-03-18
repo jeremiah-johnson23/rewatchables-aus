@@ -3,18 +3,22 @@
     {
       "id": "to-live-and-die-in-l-a",
       "title": "To Live and Die in L.A.",
-      "year": null,
-      "director": "",
+      "year": 1985,
+      "director": "William Friedkin",
       "episodeDate": "2026-03-17",
-      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "spotifyUrl": "https://open.spotify.com/episode/2SVMPcYfjA4rNfhXpEecal",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882?i=1000755695604",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
         "Sean Fennessey"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -24,14 +28,18 @@
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Fetch TV"
+        ]
       },
-      "lastStreamingCheck": "2026-03-17",
+      "lastStreamingCheck": "2026-03-18",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "MGM/UA"
     },
     {
       "id": "fargo",
