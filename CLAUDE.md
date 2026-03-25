@@ -16,6 +16,15 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 8 — 2026-03-25
+- **Filled out The Nice Guys (2016)** skeleton: Shane Black, Warner Bros, Action/Comedy/Crime, Stan (AU), episode-specific Spotify + Apple Podcast URLs
+- **Built auto-enrichment pipeline:** New `scripts/enrich_metadata.py` uses TMDB API to fill year, director, genres, studio on skeleton entries
+- **Upgraded weekly workflow:** `check-new-episodes.yml` now chains: add skeleton → TMDB enrich → JustWatch streaming → Apple Podcast URLs → commit & push
+- **TMDB_API_KEY** added as GitHub repo secret
+- **4 other episodes already live** from auto-update since Session 7: Sicario (Mar 3), Fargo (Mar 10), To Live and Die in L.A. (Mar 17), plus a mailbag — all fully populated except The Nice Guys
+- **Limitation:** Spotify episode URLs still manual (no free API without OAuth)
+- Gordo Framework v0.8.0, Session 1
+
 ### Session 7 — 2026-02-25
 - **Filled out Crazy, Stupid, Love. (2011)** skeleton: Ficarra/Requa, Warner Bros, Comedy/Romance/Drama, Prime Video + HBO Max, episode-specific podcast URLs
 - **Fixed GoldenEye streaming error** from Session 6: Prime Video was rent-only in AU, not subscription. Set primeVideo: false, added Google Play to rentBuy
