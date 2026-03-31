@@ -1,6 +1,45 @@
 {
   "episodes": [
     {
+      "id": "l-a-confidential",
+      "title": "L.A. Confidential",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-03-31",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/l-a-confidential-with-bill-simmons-chris/id1268527882?i=1000758323065&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey",
+        "Andy Greenwald"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": false,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ]
+      },
+      "lastStreamingCheck": "2026-03-31",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "the-nice-guys-2016",
       "title": "The Nice Guys",
       "year": 2016,
@@ -217,7 +256,7 @@
       "director": "Martin Campbell",
       "episodeDate": "2026-02-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/goldeneye-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000750079731&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -729,7 +768,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1403,7 +1442,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2069,7 +2108,7 @@
       "director": "Gus Van Sant",
       "episodeDate": "2025-04-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/good-will-hunting-live-from-boston-with-bill-simmons/id1268527882?i=1000701676950&uo=4",
       "hosts": [
         "Bill Simmons",
         "Ryen Russillo",
@@ -2151,7 +2190,7 @@
       "director": "Tony Scott",
       "episodeDate": "2025-03-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/days-of-thunder-with-bill-simmons-chris-ryan-and-kyle-brandt/id1268527882?i=1000699596568&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -2233,7 +2272,7 @@
       "director": "John G. Avildsen",
       "episodeDate": "2025-03-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/rocky-ii-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000739231168&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -2287,15 +2326,18 @@
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2351,7 +2393,7 @@
       "director": "Richard Linklater",
       "episodeDate": "2025-02-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/before-sunset-with-bill-simmons-chris-ryan-sean/id1268527882?i=1000688761527&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -2476,7 +2518,7 @@
       "director": "Peter Berg",
       "episodeDate": "2024-12-31",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/friday-night-lights-with-bill-simmons-and-mallory-rubin/id1268527882?i=1000682200943&uo=4",
       "hosts": [
         "Bill Simmons",
         "Mallory Rubin"
@@ -2817,7 +2859,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2915,7 +2957,7 @@
       "director": "Tobe Hooper",
       "episodeDate": "2024-10-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/poltergeist-with-bill-simmons-and-van-lathan/id1268527882?i=1000672159812&uo=4",
       "hosts": [
         "Bill Simmons",
         "Van Lathan"
@@ -3117,7 +3159,7 @@
       "director": "Ron Howard",
       "episodeDate": "2024-09-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/night-shift-with-bill-simmons-and-chris-ryan/id1268527882?i=1000668113872&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -3156,7 +3198,7 @@
       "director": "Albert Magnoli",
       "episodeDate": "2024-08-27",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/purple-rain-with-bill-simmons-and-wesley-morris/id1268527882?i=1000666736840&uo=4",
       "hosts": [
         "Bill Simmons",
         "Wesley Morris"
@@ -3237,7 +3279,7 @@
       "director": "Wes Anderson",
       "episodeDate": "2024-08-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-grand-budapest-hotel-with-chris-ryan-sean/id1268527882?i=1000665105330&uo=4",
       "hosts": [
         "Chris Ryan",
         "Sean Fennessey",
@@ -3402,7 +3444,7 @@
       "director": "Roger Donaldson",
       "episodeDate": "2024-07-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/no-way-out-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000663049455&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -3525,7 +3567,7 @@
       "director": "Sam Raimi",
       "episodeDate": "2024-07-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/for-love-of-the-game-with-bill-simmons-and-mallory-rubin/id1268527882?i=1000661987343&uo=4",
       "hosts": [
         "Bill Simmons",
         "Mallory Rubin"
@@ -3566,7 +3608,7 @@
       "director": "Jan de Bont",
       "episodeDate": "2024-07-09",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/twister-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000661609854&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -3645,7 +3687,7 @@
       "director": "David Zucker",
       "episodeDate": "2024-07-02",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-naked-gun-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000660868666&uo=4",
       "hosts": [
         "Bill Simmons",
         "Kyle Brandt"
@@ -4302,7 +4344,7 @@
       "director": "Mike Figgis",
       "episodeDate": "2024-03-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/internal-affairs-with-bill-simmons-chris-ryan-and/id1268527882?i=1000649657250&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -4344,7 +4386,7 @@
       "director": "Paul Brickman",
       "episodeDate": "2024-03-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/risky-business-with-bill-simmons-and-chris-ryan/id1268527882?i=1000648855261&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -4384,7 +4426,7 @@
       "director": "Rowdy Herrington",
       "episodeDate": "2024-03-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/road-house-with-bill-simmons-chris-ryan-and-kyle-brandt/id1268527882?i=1000648029351&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -4426,7 +4468,7 @@
       "director": "John Dahl",
       "episodeDate": "2024-02-27",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/rounders-live-from-new-york-with-bill-simmons-chris/id1268527882?i=1000647182063&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -4877,7 +4919,7 @@
       "director": "Alan J. Pakula",
       "episodeDate": "2023-12-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-pelican-brief-with-bill-simmons-chris-ryan/id1268527882?i=1000638267236&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -5243,7 +5285,7 @@
       "director": "John Carpenter",
       "episodeDate": "2023-10-10",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/they-live-live-from-l-a-with-bill-simmons-chris/id1268527882?i=1000630777501&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -5266,7 +5308,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5483,7 +5525,7 @@
       "director": "Antoine Fuqua",
       "episodeDate": "2023-08-29",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-equalizer-with-bill-simmons-chris-ryan-and-bills-dad/id1268527882?i=1000626035154&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -5547,7 +5589,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5561,7 +5603,7 @@
       "director": "Stanley Kubrick",
       "episodeDate": "2023-08-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/eyes-wide-shut-with-bill-simmons-chris-ryan-sean/id1268527882?i=1000624471248&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -6045,7 +6087,7 @@
       "director": "Martin Campbell",
       "episodeDate": "2023-06-02",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/casino-royale-with-bill-simmons-sean-fennessey-and/id1268527882?i=1000615471506&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -6289,7 +6331,7 @@
       "director": "Ridley Scott",
       "episodeDate": "2023-04-18",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/alien-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000609421435&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -6718,7 +6760,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6858,7 +6900,7 @@
       "director": "Alexander Payne",
       "episodeDate": "2023-01-10",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/sideways-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000593368588&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -7064,7 +7106,7 @@
       "director": "Tony Scott",
       "episodeDate": "2022-12-06",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/man-on-fire-with-bill-simmons-and-chris-ryan/id1268527882?i=1000588975768&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -7757,7 +7799,7 @@
       "director": "Randal Kleiser",
       "episodeDate": "2022-08-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/grease-with-bill-simmons-juliet-litman-and-amanda-dobbins/id1268527882?i=1000576078648&uo=4",
       "hosts": [
         "Bill Simmons",
         "Juliet Litman",
@@ -7799,7 +7841,7 @@
       "director": "Robert Mandel",
       "episodeDate": "2022-08-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/school-ties-with-bill-simmons-juliet-litman-and/id1268527882?i=1000575324883&uo=4",
       "hosts": [
         "Bill Simmons",
         "Juliet Litman",
@@ -8041,7 +8083,7 @@
       "director": "Jonathan Kaplan",
       "episodeDate": "2022-06-28",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/project-x-with-bill-simmons-david-jacoby-and-craig-horlbeck/id1268527882?i=1000567937025&uo=4",
       "hosts": [
         "Bill Simmons",
         "David Jacoby",
@@ -8063,7 +8105,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8077,7 +8119,7 @@
       "director": "Brian De Palma",
       "episodeDate": "2022-06-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-untouchables-with-bill-simmons-and-chris-ryan/id1268527882?i=1000567454085&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -8158,7 +8200,7 @@
       "director": "Judd Apatow",
       "episodeDate": "2022-06-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/knocked-up-with-bill-simmons-juliet-litman-and/id1268527882?i=1000565464151&uo=4",
       "hosts": [
         "Bill Simmons",
         "Juliet Litman",
@@ -8569,7 +8611,7 @@
       "director": "David Fincher",
       "episodeDate": "2022-03-29",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/panic-room-plus-a-mini-will-smith-oscars-recap-with/id1268527882?i=1000555544982&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -8932,7 +8974,7 @@
       "director": "Martin Scorsese",
       "episodeDate": "2022-01-25",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/casino-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000548903410&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -9036,7 +9078,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9091,7 +9133,7 @@
       "director": "Francis Ford Coppola",
       "episodeDate": "2022-01-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-godfather-part-ii-with-bill-simmons-sean/id1268527882?i=1000459827397&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -9215,7 +9257,7 @@
       "director": "Greg Mottola",
       "episodeDate": "2022-01-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/superbad-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000531427917&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -9381,7 +9423,7 @@
       "director": "Charles Shyer",
       "episodeDate": "2021-12-22",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/father-of-the-bride-with-bill-simmons-and-amanda-dobbins/id1268527882?i=1000545857394&uo=4",
       "hosts": [
         "Bill Simmons",
         "Amanda Dobbins"
@@ -9584,7 +9626,7 @@
       "director": "Glenn Ficarra, John Requa",
       "episodeDate": "2021-11-16",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/focus-with-bill-simmons-and-wesley-morris/id1268527882?i=1000542055670&uo=4",
       "hosts": [
         "Bill Simmons",
         "Wesley Morris"
@@ -9722,7 +9764,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9777,7 +9819,7 @@
       "director": "George P. Cosmatos",
       "episodeDate": "2021-10-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/cobra-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000538293734&uo=4",
       "hosts": [
         "Bill Simmons",
         "Kyle Brandt"
@@ -9857,7 +9899,7 @@
       "director": "Bob Goldthwait",
       "episodeDate": "2021-09-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/dirty-work-with-bill-simmons-and-sean-fennessey/id1268527882?i=1000536099681&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey"
@@ -9955,7 +9997,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10049,7 +10091,7 @@
       "director": "John Huston",
       "episodeDate": "2021-08-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/victory-with-bill-simmons-and-chris-ryan/id1268527882?i=1000530829945&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -10129,7 +10171,7 @@
       "director": "David Fincher",
       "episodeDate": "2021-07-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/fight-club-with-bill-simmons-and-chris-ryan/id1268527882?i=1000529425445&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -10168,7 +10210,7 @@
       "director": "Robert Luketic",
       "episodeDate": "2021-07-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/legally-blonde-with-bill-simmons-juliet-litman-and/id1268527882?i=1000528692048&uo=4",
       "hosts": [
         "Bill Simmons",
         "Juliet Litman",
@@ -10208,7 +10250,7 @@
       "director": "Roland Emmerich",
       "episodeDate": "2021-07-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/independence-day-with-bill-simmons-chris-ryan-and/id1268527882?i=1000527832773&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -10331,7 +10373,7 @@
       "director": "Ron Underwood",
       "episodeDate": "2021-06-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/city-slickers-with-bill-simmons-chris-ryan-and/id1268527882?i=1000525532755&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -10373,7 +10415,7 @@
       "director": "Steven Spielberg",
       "episodeDate": "2021-06-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/raiders-of-the-lost-ark-with-bill-simmons-chris/id1268527882?i=1000524597738&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -10414,7 +10456,7 @@
       "director": "Christopher Nolan",
       "episodeDate": "2021-06-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/memento-with-bill-simmons-and-chris-ryan/id1268527882?i=1000523736561&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -10577,7 +10619,7 @@
       "director": "John McTiernan",
       "episodeDate": "2021-04-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/predator-with-bill-simmons-chris-ryan-shea-serrano/id1268527882?i=1000518605830&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -10620,7 +10662,7 @@
       "director": "Chris Columbus",
       "episodeDate": "2021-04-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/mrs-doubtfire-with-bill-simmons-shea-serrano-and/id1268527882?i=1000517849034&uo=4",
       "hosts": [
         "Bill Simmons",
         "Shea Serrano",
@@ -10661,7 +10703,7 @@
       "director": "Michael Mann",
       "episodeDate": "2021-04-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/manhunter-with-bill-simmons-sean-fennessey-and-chris-ryan/id1268527882?i=1000516896598&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -10684,7 +10726,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10776,7 +10818,7 @@
       "director": "Mark L. Lester",
       "episodeDate": "2021-03-29",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/commando-with-bill-simmons-shea-serrano-and-kyle-brandt/id1268527882?i=1000514804656&uo=4",
       "hosts": [
         "Bill Simmons",
         "Shea Serrano",
@@ -10817,7 +10859,7 @@
       "director": "James Wan",
       "episodeDate": "2021-03-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/insidious-with-bill-simmons-sean-fennessey-and-chris-ryan/id1268527882?i=1000514035063&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -10858,7 +10900,7 @@
       "director": "Spike Lee",
       "episodeDate": "2021-03-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/inside-man-with-bill-simmons-sean-fennessey-and-chris-ryan/id1268527882?i=1000513001554&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -11306,7 +11348,7 @@
       "director": "Wes Anderson",
       "episodeDate": "2021-01-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-royal-tenenbaums-with-chris-ryan-and-andy-greenwald/id1268527882?i=1000505047943&uo=4",
       "hosts": [
         "Chris Ryan",
         "Andy Greenwald"
@@ -11346,7 +11388,7 @@
       "director": "Paul Feig",
       "episodeDate": "2021-01-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/bridesmaids-with-bill-simmons-mallory-rubin-and-mina-kimes/id1268527882?i=1000504369533&uo=4",
       "hosts": [
         "Bill Simmons",
         "Mallory Rubin",
@@ -11409,7 +11451,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11423,7 +11465,7 @@
       "director": "Doug Liman",
       "episodeDate": "2020-12-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-bourne-identity-with-bill-simmons-and-chris-ryan/id1268527882?i=1000503279304&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -11527,7 +11569,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11620,7 +11662,7 @@
       "director": "Chris Columbus",
       "episodeDate": "2020-11-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/home-alone-2-lost-in-new-york-with-bill-simmons-and/id1268527882?i=1000681516741&uo=4",
       "hosts": [
         "Chris Ryan",
         "Sean Fennessey",
@@ -11785,7 +11827,7 @@
       "director": "Tom McCarthy",
       "episodeDate": "2020-10-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/spotlight-with-bill-simmons-chris-ryan-and-ryen-russillo/id1268527882?i=1000495367088&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -11826,7 +11868,7 @@
       "director": "Ridley Scott",
       "episodeDate": "2020-10-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-martian-with-bill-simmons-sean-fennessey-chris/id1268527882?i=1000494539223&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -11869,7 +11911,7 @@
       "director": "Noah Baumbach",
       "episodeDate": "2020-10-06",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/kicking-and-screaming-1995-with-bill-simmons-chris/id1268527882?i=1000493725136&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -12033,7 +12075,7 @@
       "director": "Adrian Lyne",
       "episodeDate": "2020-09-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/unfaithful-with-bill-simmons-and-wesley-morris/id1268527882?i=1000491279123&uo=4",
       "hosts": [
         "Bill Simmons"
       ],
@@ -12728,7 +12770,7 @@
       "director": "Wolfgang Petersen",
       "episodeDate": "2020-07-02",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-perfect-storm-with-bill-simmons-and-chris-ryan/id1268527882?i=1000481736009&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -12810,7 +12852,7 @@
       "director": "Cameron Crowe",
       "episodeDate": "2020-06-10",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/say-anything-with-bill-simmons-chris-ryan-and-judd-apatow/id1268527882?i=1000477377435&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -13183,7 +13225,7 @@
       "director": "John Carpenter",
       "episodeDate": "2020-04-29",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/escape-from-new-york-with-bill-simmons-shea-serrano/id1268527882?i=1000472967487&uo=4",
       "hosts": [
         "Bill Simmons",
         "Shea Serrano",
@@ -13550,7 +13592,7 @@
       "director": "John G. Avildsen",
       "episodeDate": "2020-03-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-karate-kid-with-bill-simmons-and-ryen-russillo/id1268527882?i=1000469554929&uo=4",
       "hosts": [
         "Bill Simmons",
         "Ryen Russillo"
@@ -13788,7 +13830,7 @@
       "director": "Harold Becker",
       "episodeDate": "2020-02-27",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/vision-quest-with-bill-simmons-chris-ryan-and-ryen-russillo/id1268527882?i=1000466824342&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -13870,7 +13912,7 @@
       "director": "John Hughes",
       "episodeDate": "2020-02-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-breakfast-club-with-bill-simmons-chris-ryan/id1268527882?i=1000465460360&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -13952,7 +13994,7 @@
       "director": "Abel Ferrara",
       "episodeDate": "2020-01-16",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/king-of-new-york-with-quentin-tarantino-bill-simmons/id1268527882?i=1000462691011&uo=4",
       "hosts": [
         "Quentin Tarantino",
         "Bill Simmons",
@@ -13974,7 +14016,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14030,7 +14072,7 @@
       "director": "Christopher Nolan",
       "episodeDate": "2019-12-30",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/dunkirk-with-sean-fennessey-chris-ryan-and/id1268527882?i=1000461152110&uo=4",
       "hosts": [
         "Sean Fennessey",
         "Chris Ryan",
@@ -14197,7 +14239,7 @@
       "director": "Sam Mendes",
       "episodeDate": "2019-11-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/skyfall-with-chris-ryan-sean-fennessey-and-amanda-dobbins/id1268527882?i=1000457415456&uo=4",
       "hosts": [
         "Chris Ryan",
         "Sean Fennessey",
@@ -14403,7 +14445,7 @@
       "director": "Boaz Yakin",
       "episodeDate": "2019-10-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/remember-the-titans-with-bill-simmons-shea-serrano/id1268527882?i=1000452734577&uo=4",
       "hosts": [
         "Bill Simmons",
         "Shea Serrano",
@@ -14445,7 +14487,7 @@
       "director": "Frank Darabont",
       "episodeDate": "2019-09-25",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-shawshank-redemption-with-bill-simmons-chris/id1268527882?i=1000451218775&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -14651,7 +14693,7 @@
       "director": "David Fincher",
       "episodeDate": "2019-08-13",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/gone-girl-with-bill-simmons-shea-serrano-mallory-rubin/id1268527882?i=1000446809771&uo=4",
       "hosts": [
         "Bill Simmons",
         "Shea Serrano",
@@ -14736,7 +14778,7 @@
       "director": "Michael Mann",
       "episodeDate": "2019-08-06",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/collateral-with-bill-simmons-and-chris-ryan/id1268527882?i=1000446296965&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -15027,7 +15069,7 @@
       "director": "Nick Cassavetes",
       "episodeDate": "2019-06-25",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-notebook-with-juliet-litman-amanda-dobbins/id1268527882?i=1000442642088&uo=4",
       "hosts": [
         "Juliet Litman",
         "Amanda Dobbins",
@@ -15109,7 +15151,7 @@
       "director": "Todd Phillips",
       "episodeDate": "2019-05-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-hangover-with-bill-simmons-chris-ryan/id1268527882?i=1000439405701&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -15191,7 +15233,7 @@
       "director": "Mark Waters",
       "episodeDate": "2019-04-30",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/mean-girls-with-bill-simmons-juliet-litman-and/id1268527882?i=1000436861825&uo=4",
       "hosts": [
         "Bill Simmons",
         "Juliet Litman",
@@ -15311,7 +15353,7 @@
       "director": "Justin Lin",
       "episodeDate": "2019-04-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/fast-five-with-bill-simmons-and-shea-serrano/id1268527882?i=1000433830431&uo=4",
       "hosts": [
         "Bill Simmons",
         "Shea Serrano"
@@ -15602,7 +15644,7 @@
       "director": "Bradley Cooper",
       "episodeDate": "2019-02-11",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/a-star-is-born-with-bill-simmons-amanda-dobbins/id1268527882?i=1000429610405&uo=4",
       "hosts": [
         "Bill Simmons",
         "Amanda Dobbins",
@@ -15972,7 +16014,7 @@
       "director": "Alan J. Pakula",
       "episodeDate": "2018-11-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/all-the-presidents-men-with-bill-simmons-sean/id1268527882?i=1000423453688&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -16013,7 +16055,7 @@
       "director": "Richard Linklater",
       "episodeDate": "2018-10-02",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/dazed-and-confused-25th-anniversary-with-bill/id1268527882?i=1000420890993&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -16054,7 +16096,7 @@
       "director": "Tony Scott",
       "episodeDate": "2018-09-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/true-romance-with-bill-simmons-chris-ryan-and/id1268527882?i=1000420106681&uo=4",
       "hosts": [
         "Bill Simmons"
       ],
@@ -16075,7 +16117,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-03-16",
+      "lastStreamingCheck": "2026-03-31",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16248,7 +16290,7 @@
       "director": "P.J. Hogan",
       "episodeDate": "2018-08-09",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/my-best-friends-wedding-with-bill-simmons-juliet/id1268527882?i=1000417546370&uo=4",
       "hosts": [
         "Bill Simmons",
         "Juliet Litman",
@@ -16373,7 +16415,7 @@
       "director": "Martin Brest",
       "episodeDate": "2018-07-20",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/midnight-run-with-bill-simmons-and-chris-ryan/id1268527882?i=1000416271218&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -16704,7 +16746,7 @@
       "director": "Rob Reiner",
       "episodeDate": "2018-04-12",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-princess-bride-with-juliet-litman-and-david-shoemaker/id1268527882?i=1000408706116&uo=4",
       "hosts": [
         "Juliet Litman",
         "David Shoemaker"
@@ -17122,7 +17164,7 @@
       "director": "Walter Hill",
       "episodeDate": "2017-12-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/another-48-hrs-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000746160681&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -17330,7 +17372,7 @@
       "director": "Amy Heckerling",
       "episodeDate": "2017-10-05",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/clueless-with-juliet-litman-amanda-dobbins-and-k/id1268527882?i=1000393104744&uo=4",
       "hosts": [
         "Juliet Litman",
         "Amanda Dobbins",
@@ -17535,7 +17577,7 @@
       "director": "Martin Scorsese",
       "episodeDate": "2017-08-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-departed-with-bill-simmons-and-chris-ryan/id1268527882?i=1000391150100&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -17697,7 +17739,7 @@
       "director": "Bennett Miller",
       "episodeDate": "2017-08-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/moneyball-with-bill-simmons-and-chris-ryan/id1268527882?i=1000390743411&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
