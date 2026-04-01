@@ -16,6 +16,15 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 9 — 2026-04-01
+- **Diagnosed auto-update partial failure:** L.A. Confidential (Mar 31) skeleton added with streaming + podcast URLs, but TMDB enrichment failed silently (year, director, genres, studio all empty)
+- **Root cause:** `enrich_metadata.py` returned 0 even on failure, so workflow looked green
+- **Filled out L.A. Confidential (1997):** Curtis Hanson, Warner Bros, Crime/Drama/Mystery/Thriller, Stan + Disney+
+- **Fixed TMDB failure visibility:** Script now exits non-zero on enrichment failure; workflow uses `continue-on-error` so streaming/podcast steps still run
+- **Added weekly email notifications via Resend:** Success (green), partial failure (warning), or no-op (info) sent to simon@reflive.com after every workflow run
+- **RESEND_API_KEY** added as GitHub repo secret
+- Gordo Framework v0.8.0, Session 2
+
 ### Session 8 — 2026-03-25
 - **Filled out The Nice Guys (2016)** skeleton: Shane Black, Warner Bros, Action/Comedy/Crime, Stan (AU), episode-specific Spotify + Apple Podcast URLs
 - **Built auto-enrichment pipeline:** New `scripts/enrich_metadata.py` uses TMDB API to fill year, director, genres, studio on skeleton entries
