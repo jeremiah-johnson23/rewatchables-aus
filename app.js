@@ -495,7 +495,10 @@ class RewatchablesApp {
                 day: 'numeric'
             });
             const el = document.getElementById('last-audit-date');
-            if (el) el.textContent = `Streaming availability last checked: ${formatted}`;
+            const text = `Streaming availability last checked: ${formatted}`;
+            if (el) el.textContent = text;
+            const headerEl = document.getElementById('header-audit-date');
+            if (headerEl) headerEl.textContent = text;
         }
     }
 
