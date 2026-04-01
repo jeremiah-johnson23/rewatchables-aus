@@ -252,6 +252,11 @@ def main():
             f.write("\n")
         print("Done!")
 
+    # Fail if any skeletons couldn't be enriched — makes workflow failures visible
+    if not_found > 0:
+        print(f"\n⚠️  {not_found} episode(s) failed TMDB enrichment")
+        return 1
+
     return 0
 
 

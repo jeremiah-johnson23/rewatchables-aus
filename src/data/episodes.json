@@ -3,8 +3,8 @@
     {
       "id": "l-a-confidential",
       "title": "L.A. Confidential",
-      "year": null,
-      "director": "",
+      "year": 1997,
+      "director": "Curtis Hanson",
       "episodeDate": "2026-03-31",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/l-a-confidential-with-bill-simmons-chris/id1268527882?i=1000758323065&uo=4",
@@ -15,7 +15,7 @@
         "Andy Greenwald"
       ],
       "guests": [],
-      "genres": [],
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -37,7 +37,7 @@
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "warner-bros"
     },
     {
       "id": "the-nice-guys-2016",
