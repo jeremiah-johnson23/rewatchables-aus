@@ -39,6 +39,7 @@ class RewatchablesApp {
             this.filteredEpisodes = [...this.episodes];
 
             document.getElementById('loading').classList.add('hidden');
+            this.updateLastAuditDate();
         } catch (error) {
             console.error('Error loading data:', error);
             document.getElementById('loading').innerHTML = `
@@ -479,6 +480,23 @@ class RewatchablesApp {
                 </div>
             </article>
         `;
+    }
+
+    updateLastAuditDate() {
+        const dates = this.episodes
+            .map(ep => ep.lastStreamingCheck)
+            .filter(Boolean)
+            .sort();
+        if (dates.length > 0) {
+            const latest = new Date(dates[dates.length - 1]);
+            const formatted = latest.toLocaleDateString('en-AU', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            const el = document.getElementById('last-audit-date');
+            if (el) el.textContent = `Streaming availability last checked: ${formatted}`;
+        }
     }
 
     renderStreamingBadges(streaming) {
