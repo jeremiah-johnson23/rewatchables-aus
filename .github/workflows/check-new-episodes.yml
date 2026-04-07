@@ -93,15 +93,21 @@ jobs:
             BODY="<h3>Weekly Update: No Changes</h3><p>No new episodes found in the RSS feed. Nothing to update.</p>"
           fi
 
-          curl -s -X POST https://api.resend.com/emails \
+          JSON=$(jq -n \
+            --arg from "Rewatchables AU <simon@reflive.com>" \
+            --arg to "simon@reflive.com" \
+            --arg subject "$SUBJECT" \
+            --arg html "$BODY" \
+            '{from: $from, to: [$to], subject: $subject, html: $html}')
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST https://api.resend.com/emails \
             -H "Authorization: Bearer ${RESEND_API_KEY}" \
             -H "Content-Type: application/json" \
-            -d "$(cat <<EOF
-          {
-            "from": "Rewatchables AU <simon@reflive.com>",
-            "to": ["simon@reflive.com"],
-            "subject": "${SUBJECT}",
-            "html": "${BODY}"
-          }
-          EOF
-          )"
+            -d "$JSON")
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY_RESP=$(echo "$RESPONSE" | sed '$d')
+          echo "Resend API response ($HTTP_CODE): $BODY_RESP"
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "::warning::Email notification failed (HTTP $HTTP_CODE): $BODY_RESP"
+          fi
