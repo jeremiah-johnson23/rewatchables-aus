@@ -11,6 +11,7 @@ Fills in: year, director, genres, studio for episodes missing that data.
 
 import json
 import os
+import re
 import time
 import urllib.request
 import urllib.parse
@@ -100,6 +101,12 @@ def tmdb_request(path, params=None):
     )
     with urllib.request.urlopen(req, timeout=15) as response:
         return json.loads(response.read().decode())
+
+
+def strip_episode_suffixes(title):
+    """Remove episode-type suffixes like (Live), (Part Two) so TMDB can match the base movie."""
+    cleaned = re.sub(r"\s*\((Live|Part\s+\w+)\)\s*$", "", title, flags=re.IGNORECASE)
+    return cleaned.strip()
 
 
 def search_movie(title):
@@ -195,11 +202,15 @@ def main():
 
     for idx, episode in skeletons:
         title = episode["title"]
-        print(f"  Searching: {title}")
+        search_title = strip_episode_suffixes(title)
+        if search_title != title:
+            print(f"  Searching: {title} (as \"{search_title}\")")
+        else:
+            print(f"  Searching: {title}")
 
         try:
-            results = search_movie(title)
-            match = find_best_match(title, results)
+            results = search_movie(search_title)
+            match = find_best_match(search_title, results)
 
             if not match:
                 print(f"  ✗ No results for {title}")

@@ -1,10 +1,10 @@
 {
   "episodes": [
     {
-      "id": "basic-instinct-live-from-sf",
-      "title": "Basic Instinct' Live From SF",
-      "year": null,
-      "director": "",
+      "id": "basic-instinct-live-2026-04-14",
+      "title": "Basic Instinct (Live)",
+      "year": 1992,
+      "director": "Paul Verhoeven",
       "episodeDate": "2026-04-14",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
@@ -15,7 +15,11 @@
         "Van Lathan"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": true,
@@ -36,7 +40,7 @@
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "tristar"
     },
     {
       "id": "eddie-and-the-cruisers",

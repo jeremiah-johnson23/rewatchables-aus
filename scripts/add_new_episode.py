@@ -79,18 +79,22 @@ def parse_episode_from_feed(item):
     # Extract movie title - handle both straight and curly quotes
     # Curly quotes: ' ' " " (U+2018, U+2019, U+201C, U+201D)
     all_quotes = '"\'\u2018\u2019\u201c\u201d'
-    clean_title = title.strip().strip(all_quotes)
 
-    # Try quoted pattern first (matches both straight and curly quotes)
-    quoted_match = re.match(r'^["\'\u2018\u201c](.+?)["\'\u2019\u201d][\s|]+[Ww]ith', clean_title)
+    # Prefer the quoted movie name if present (handles "'Basic Instinct' Live From SF | With ...").
+    # Search the raw title so we don't lose the opening quote to stripping.
+    quoted_match = re.search(r'["\'\u2018\u201c]([^"\'\u2018\u2019\u201c\u201d]+)["\'\u2019\u201d]', title)
+    clean_title = title.strip().strip(all_quotes)
     if quoted_match:
         movie_title = quoted_match.group(1).strip()
     else:
-        # Fallback: everything before " With" or " with"
         movie_title = re.split(r'\s+[Ww]ith\s', clean_title)[0]
 
     # Clean up any remaining quotes, pipes, whitespace
     movie_title = re.sub(r'^["\'\u2018\u2019\u201c\u201d\s]+|["\'\u2018\u2019\u201c\u201d\s|]+$', '', movie_title)
+
+    # Detect live episodes so they render as "Movie (Live)" and don't collide
+    # with the original movie's entry on the site.
+    is_live = bool(re.search(r'\blive\b', clean_title, re.IGNORECASE))
 
     # Extract hosts
     hosts = []
@@ -100,12 +104,13 @@ def parse_episode_from_feed(item):
         raw_hosts = re.split(r',\s+and\s+|,\s+|\s+and\s+', hosts_str)
         hosts = [h.strip() for h in raw_hosts if h.strip()]
 
-    # Generate episode ID
-    episode_id = re.sub(r'[^a-z0-9]+', '-', movie_title.lower()).strip('-')
+    display_title = f"{movie_title} (Live)" if is_live else movie_title
+    base_slug = re.sub(r'[^a-z0-9]+', '-', movie_title.lower()).strip('-')
+    episode_id = f"{base_slug}-live-{date_str}" if is_live else base_slug
 
     return {
         'id': episode_id,
-        'title': movie_title,
+        'title': display_title,
         'full_title': title,
         'date': date_str,
         'hosts': hosts,
