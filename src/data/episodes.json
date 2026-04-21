@@ -1,6 +1,43 @@
 {
   "episodes": [
     {
+      "id": "kindergarten-cop",
+      "title": "Kindergarten Cop",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-04-21",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/kindergarten-cop-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000762493706&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Kyle Brandt"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": true,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ]
+      },
+      "lastStreamingCheck": "2026-04-21",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "basic-instinct-live-2026-04-14",
       "title": "Basic Instinct (Live)",
       "year": 1992,
@@ -72,7 +109,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -851,7 +888,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1525,7 +1562,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2943,7 +2980,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5392,7 +5429,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5673,7 +5710,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6844,7 +6881,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8189,7 +8226,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9161,7 +9198,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9847,7 +9884,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10080,7 +10117,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10809,7 +10846,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11534,7 +11571,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11652,7 +11689,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14100,7 +14137,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16201,7 +16238,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-04-21",
       "communityRating": {
         "average": 0,
         "votes": 0
