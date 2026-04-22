@@ -3,8 +3,8 @@
     {
       "id": "kindergarten-cop",
       "title": "Kindergarten Cop",
-      "year": null,
-      "director": "",
+      "year": 1990,
+      "director": "Ivan Reitman",
       "episodeDate": "2026-04-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/kindergarten-cop-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000762493706&uo=4",
@@ -13,7 +13,11 @@
         "Kyle Brandt"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Comedy",
+        "Action",
+        "Thriller"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -35,7 +39,7 @@
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "universal"
     },
     {
       "id": "basic-instinct-live-2026-04-14",
@@ -1142,7 +1146,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill\u2019s Dad"
+        "Bill’s Dad"
       ],
       "guests": [],
       "genres": [
@@ -3115,7 +3119,7 @@
       "id": "the-blair-witch-project",
       "title": "The Blair Witch Project",
       "year": 1999,
-      "director": "Daniel Myrick, Eduardo S\u00e1nchez",
+      "director": "Daniel Myrick, Eduardo Sánchez",
       "episodeDate": "2024-10-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-blair-witch-project-with-bill-simmons-and-chris-ryan/id1268527882?i=1000671375494&uo=4",
@@ -11225,7 +11229,7 @@
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/sleeping-with-the-enemy-with-bill-simmons-and-van-lathan/id1268527882?i=1000509202110&uo=4",
       "hosts": [
-        "the Enemy\u2019 With Bill Simmons",
+        "the Enemy’ With Bill Simmons",
         "Van Lathan"
       ],
       "guests": [],
@@ -14069,7 +14073,7 @@
     },
     {
       "id": "once-upon-a-time-in-hollywood",
-      "title": "Once Upon a Time \u2026 in Hollywood (Live Show)",
+      "title": "Once Upon a Time … in Hollywood (Live Show)",
       "year": 2019,
       "director": "Quentin Tarantino",
       "episodeDate": "2020-02-06",
@@ -14612,7 +14616,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill\u2019s Dad"
+        "Bill’s Dad"
       ],
       "guests": [],
       "genres": [

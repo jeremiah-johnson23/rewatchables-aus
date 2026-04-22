@@ -37,12 +37,10 @@ jobs:
             echo "added=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Enrich metadata via TMDB
-        id: tmdb
+      - name: Enrich metadata via Wikidata
+        id: enrich
         if: steps.add.outputs.added == 'true'
         continue-on-error: true
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python scripts/enrich_metadata.py
 
       - name: Fetch streaming availability
@@ -53,9 +51,9 @@ jobs:
         if: steps.add.outputs.added == 'true'
         run: python scripts/fetch_apple_podcast_urls.py
 
-      - name: Warn if TMDB enrichment failed
-        if: steps.tmdb.outcome == 'failure'
-        run: echo "::warning::TMDB enrichment failed — episode(s) missing year, director, genres, studio. Check API key."
+      - name: Warn if metadata enrichment failed
+        if: steps.enrich.outcome == 'failure'
+        run: echo "::warning::Wikidata enrichment failed — episode(s) missing year, director, genres, studio."
 
       - name: Commit and push changes
         id: commit
@@ -78,15 +76,15 @@ jobs:
         run: |
           ADDED="${{ steps.add.outputs.added }}"
           TITLES="${{ steps.add.outputs.titles }}"
-          TMDB_OK="${{ steps.tmdb.outcome }}"
+          ENRICH_OK="${{ steps.enrich.outcome }}"
 
           if [ "$ADDED" = "true" ]; then
-            if [ "$TMDB_OK" = "failure" ]; then
-              SUBJECT="⚠️ Rewatchables AU: new episode added, TMDB enrichment failed"
-              BODY="<h3>Weekly Update: Partial Success</h3><p>New episode(s) added: <strong>${TITLES}</strong></p><p>Streaming and podcast data populated, but TMDB metadata (year, director, genres, studio) failed. Check the TMDB_API_KEY secret or <a href=\"https://github.com/jeremiah-johnson23/rewatchables-aus/actions\">review the workflow run</a>.</p>"
+            if [ "$ENRICH_OK" = "failure" ]; then
+              SUBJECT="⚠️ Rewatchables AU: new episode added, metadata enrichment failed"
+              BODY="<h3>Weekly Update: Partial Success</h3><p>New episode(s) added: <strong>${TITLES}</strong></p><p>Streaming and podcast data populated, but Wikidata metadata (year, director, genres, studio) failed. <a href=\"https://github.com/jeremiah-johnson23/rewatchables-aus/actions\">Review the workflow run</a>.</p>"
             else
               SUBJECT="✅ Rewatchables AU: new episode added"
-              BODY="<h3>Weekly Update: Success</h3><p>New episode(s) added and fully enriched: <strong>${TITLES}</strong></p><p>TMDB metadata, streaming availability, and podcast URLs all populated. <a href=\"https://rewatchables.au\">View the site</a>.</p>"
+              BODY="<h3>Weekly Update: Success</h3><p>New episode(s) added and fully enriched: <strong>${TITLES}</strong></p><p>Wikidata metadata, streaming availability, and podcast URLs all populated. <a href=\"https://rewatchables.au\">View the site</a>.</p>"
             fi
           else
             SUBJECT="ℹ️ Rewatchables AU: no new episodes this week"
