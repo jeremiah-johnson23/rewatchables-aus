@@ -16,6 +16,18 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 10 — 2026-04-22
+- **Diagnosed TMDB root cause:** Every CI run since Session 8 (Mar 25) returned HTTP 401 from TMDB on the first request. Episodes only got populated because Mr Bookman ran enrichment locally after each failure — the CI auto-enrichment has literally never worked
+- **Likely cause:** wrong credential type in `TMDB_API_KEY` secret (v4 Read Access Token pasted into v3-style `?api_key=` path)
+- **Fix path not taken:** patched the script for v3/v4 auto-detection (kept in git history); Mr Bookman declined the TMDB application form, so we switched source entirely
+- **Switched to Wikidata:** no API key, no signup, CC0. Pipeline: Wikipedia search (`?gsrsearch={title} film`) → Wikidata SPARQL for year, director, genres, production company (P272), distributor (P750)
+- **Studio field choice:** prefer P750 distributor over P272 production — P272 commonly names the producer (Imagine Entertainment for Kindergarten Cop, PolyGram for Fargo, Starz for Sicario) rather than the recognised studio. STUDIO_MAP naturally filters out secondary distributors like Netflix/Microsoft Store
+- **Genre cap:** Wikidata returns 5–13 overlapping genres per film; split on spaces, strip "film" suffix, match per-token, cap at 4 by priority (Drama/Comedy/Action/Crime/Thriller first)
+- **Filled Kindergarten Cop (1990):** Ivan Reitman, Universal, Comedy/Action/Thriller, Binge + rentals
+- **Workflow cleaned:** removed `TMDB_API_KEY` env var, renamed step, updated email copy. Live smoke test via `workflow_dispatch` passed (8s, green)
+- **Unresolved:** Eddie and the Cruisers (Apr 7) streaming=all-false unconfirmed; unused `TMDB_API_KEY` secret still in repo settings; Node 20 actions deprecation (forced June 2026)
+- Gordo Framework v0.8.0, Session 3
+
 ### Session 9 — 2026-04-01
 - **Diagnosed auto-update partial failure:** L.A. Confidential (Mar 31) skeleton added with streaming + podcast URLs, but TMDB enrichment failed silently (year, director, genres, studio all empty)
 - **Root cause:** `enrich_metadata.py` returned 0 even on failure, so workflow looked green
