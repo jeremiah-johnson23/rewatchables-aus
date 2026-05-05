@@ -1,6 +1,47 @@
 {
   "episodes": [
     {
+      "id": "there-s-something-about-mary",
+      "title": "There's Something About Mary",
+      "year": 1998,
+      "director": "Peter Farrelly, Bobby Farrelly",
+      "episodeDate": "2026-05-05",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
+      "guests": [],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ]
+      },
+      "lastStreamingCheck": "2026-05-05",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "20th-century"
+    },
+    {
       "id": "ghostbusters",
       "title": "Ghostbusters",
       "year": 1984,
@@ -155,7 +196,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -934,7 +975,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1608,7 +1649,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3026,7 +3067,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5475,7 +5516,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5756,7 +5797,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6927,7 +6968,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8272,7 +8313,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9244,7 +9285,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9930,7 +9971,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10163,7 +10204,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10892,7 +10933,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11617,7 +11658,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11735,7 +11776,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14183,7 +14224,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16284,7 +16325,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
