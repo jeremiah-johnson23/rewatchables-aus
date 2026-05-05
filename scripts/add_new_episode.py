@@ -179,7 +179,7 @@ def create_episode_object(parsed_ep):
         "director": "",
         "episodeDate": parsed_ep['date'],
         "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-        "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1320353041",
+        "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-rewatchables/id1268527882",
         "hosts": parsed_ep['hosts'],
         "guests": [],
         "genres": [],

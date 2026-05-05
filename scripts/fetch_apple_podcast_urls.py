@@ -10,6 +10,7 @@ with direct episode links.
 """
 
 import json
+import re
 import time
 import urllib.request
 import urllib.parse
@@ -40,15 +41,25 @@ def search_apple_podcasts(title, retries=3):
     return []
 
 
+def _normalize_for_match(s):
+    """Lowercase and fold curly quotes to straight so substring checks survive
+    Apple's typographic quoting (`'There's...'` with U+2018/U+2019)."""
+    s = s.lower()
+    s = s.replace('‘', "'").replace('’', "'")
+    s = s.replace('“', '"').replace('”', '"')
+    return s
+
+
 def find_best_match(title, results):
     """Find the best matching episode from search results."""
-    title_lower = title.lower()
+    # Drop our internal "(Live)" marker — Apple titles phrase live shows freely
+    # ("Live From SF"), so requiring "(Live)" in the track name would miss them.
+    needle = re.sub(r'\s*\(live\)\s*$', '', title, flags=re.IGNORECASE)
+    needle = _normalize_for_match(needle)
 
     for result in results:
-        track_name = result.get('trackName', '').lower()
-        # Check if our title appears in the track name
-        if title_lower in track_name:
-            # Make sure it's from The Rewatchables
+        track_name = _normalize_for_match(result.get('trackName', ''))
+        if needle in track_name:
             collection = result.get('collectionName', '').lower()
             if 'rewatchables' in collection:
                 return result.get('trackViewUrl')
