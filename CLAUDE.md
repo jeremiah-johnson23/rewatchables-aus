@@ -16,6 +16,18 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 11 — 2026-05-05
+- **Diagnosed Ghostbusters wrong-film bug:** Apr 28 auto-add filled the entry with the 2016 Paul Feig reboot when the episode was actually about the 1984 Ivan Reitman original. Same RSS-disambiguation failure mode flagged in Session 7
+- **Fixed data:** year 1984, Reitman, `sony` studio, streaming Stan + Prime Video FLATRATE per JustWatch AU (the reboot was incorrectly Stan + Binge for this title)
+- **Added year-hint pipeline:** `extract_year_from_description()` pulls the year out of the RSS description ("the 1984 comedy classic 'Ghostbusters'"), stored on the skeleton episode. `enrich_metadata.py` now uses the hint to bias the Wikipedia search and validates each candidate's Wikidata pubDate (±1 year), walking up to 5 results before falling back to the top match
+- **Verified end-to-end:** with hint=1984, top match is Q108745 (Reitman, sony, Comedy/Action/Horror/Sci-Fi). Without hint, top match was Q20120108 (2016 reboot, Feig)
+- **Fixed title parser apostrophe bug:** "There's Something About Mary" was being truncated to "There" because the non-greedy `[^quotes]+` class stopped at the internal `’`. Now strips the " With <hosts>" suffix first, then greedy-matches between outer quotes — the closing curly is unambiguous once hosts are removed. Verified against 7 sample titles + live RSS top 5
+- **Race won:** parser fix pushed at 06:48 UTC, cron fires at 07:00 — today's auto-run picks up "There's Something About Mary" cleanly with year_hint=1998
+- **Eddie and the Cruisers (1983) resolved:** JustWatch returns the right film with 0 AU offers (no FLATRATE, no rent, no buy). The all-false entry from Session 10 is correct
+- **Stale commit-message template:** workflow said "Auto-enriched: TMDB metadata" — updated to "Wikidata metadata" to match current pipeline
+- **Unresolved:** unused `TMDB_API_KEY` secret still in repo settings; Node 20 actions deprecation (forced June 2026); Spotify URLs still show-level (OAuth limitation)
+- Gordo Framework v0.8.0, Session 4
+
 ### Session 10 — 2026-04-22
 - **Diagnosed TMDB root cause:** Every CI run since Session 8 (Mar 25) returned HTTP 401 from TMDB on the first request. Episodes only got populated because Mr Bookman ran enrichment locally after each failure — the CI auto-enrichment has literally never worked
 - **Likely cause:** wrong credential type in `TMDB_API_KEY` secret (v4 Read Access Token pasted into v3-style `?api_key=` path)
