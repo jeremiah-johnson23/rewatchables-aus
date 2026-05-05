@@ -3,8 +3,8 @@
     {
       "id": "ghostbusters",
       "title": "Ghostbusters",
-      "year": 2016,
-      "director": "Paul Feig",
+      "year": 1984,
+      "director": "Ivan Reitman",
       "episodeDate": "2026-04-28",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/ghostbusters-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000763948410&uo=4",
@@ -16,16 +16,15 @@
       "guests": [],
       "genres": [
         "Comedy",
-        "Horror",
-        "Sci-Fi",
-        "Fantasy"
+        "Fantasy",
+        "Supernatural"
       ],
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": false,
-        "binge": true,
+        "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
@@ -36,7 +35,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-28",
+      "lastStreamingCheck": "2026-05-05",
       "communityRating": {
         "average": 0,
         "votes": 0
