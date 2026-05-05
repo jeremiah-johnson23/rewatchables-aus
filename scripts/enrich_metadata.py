@@ -123,24 +123,31 @@ def strip_episode_suffixes(title):
     return cleaned.strip()
 
 
-def find_film_qid(title):
-    """Search Wikipedia for a film matching the title; return (qid, page_title) or (None, None)."""
+def find_film_qids(title, year_hint=None, limit=5):
+    """Search Wikipedia for films matching title; return up to `limit` (qid, page_title) tuples.
+
+    When `year_hint` is provided, it is included in the search query to bias
+    results toward the right release year — important for titles with reboots
+    or remakes (e.g. Ghostbusters 1984 vs 2016).
+    """
+    search = f"{title} {year_hint} film" if year_hint else f"{title} film"
     data = http_get_json(WIKIPEDIA_API, {
         "action": "query",
         "format": "json",
         "generator": "search",
-        "gsrsearch": f"{title} film",
-        "gsrlimit": 5,
+        "gsrsearch": search,
+        "gsrlimit": limit,
         "prop": "pageprops",
         "ppprop": "wikibase_item",
     })
     pages = data.get("query", {}).get("pages", {})
     ordered = sorted(pages.values(), key=lambda p: p.get("index", 999))
+    out = []
     for page in ordered:
         qid = page.get("pageprops", {}).get("wikibase_item")
         if qid:
-            return qid, page.get("title", "")
-    return None, None
+            out.append((qid, page.get("title", "")))
+    return out
 
 
 def fetch_wikidata(qid):
@@ -245,21 +252,44 @@ def main():
     for idx, episode in skeletons:
         title = episode["title"]
         search_title = strip_episode_suffixes(title)
-        label = f"{title} (as \"{search_title}\")" if search_title != title else title
+        year_hint = episode.get("year")
+        hint_label = f", year={year_hint}" if year_hint else ""
+        label = f"{title} (as \"{search_title}\"{hint_label})" if search_title != title or year_hint else title
         print(f"  Searching: {label}")
 
         try:
-            qid, page = find_film_qid(search_title)
-            if not qid:
+            candidates = find_film_qids(search_title, year_hint=year_hint)
+            if not candidates:
                 print(f"  ✗ No Wikipedia film page found")
                 not_found += 1
                 time.sleep(0.5)
                 continue
 
-            time.sleep(0.3)  # be polite between calls
-            wd = fetch_wikidata(qid)
+            # Walk candidates and prefer the one whose Wikidata year matches the hint.
+            # If no hint or no match, fall back to the first candidate that returns data.
+            qid = page = wd = None
+            fallback = None
+            for cand_qid, cand_page in candidates:
+                time.sleep(0.3)
+                cand_wd = fetch_wikidata(cand_qid)
+                if not cand_wd:
+                    continue
+                if fallback is None:
+                    fallback = (cand_qid, cand_page, cand_wd)
+                if year_hint:
+                    cand_year = extract_year(cand_wd["pubDates"])
+                    if cand_year and abs(cand_year - year_hint) <= 1:
+                        qid, page, wd = cand_qid, cand_page, cand_wd
+                        break
+                else:
+                    qid, page, wd = cand_qid, cand_page, cand_wd
+                    break
+
+            if wd is None and fallback is not None:
+                qid, page, wd = fallback
+
             if not wd:
-                print(f"  ✗ Wikidata returned no data for {qid}")
+                print(f"  ✗ Wikidata returned no data for any candidate")
                 not_found += 1
                 time.sleep(0.5)
                 continue

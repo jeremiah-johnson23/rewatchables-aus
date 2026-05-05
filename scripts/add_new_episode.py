@@ -42,6 +42,24 @@ def is_non_movie_episode(title):
     return False
 
 
+def extract_year_from_description(desc):
+    """Pull the film's release year out of the RSS description.
+
+    Rewatchables descriptions typically include the year explicitly
+    ("the 1984 comedy classic 'Ghostbusters'", "Paul Verhoeven's 1992 erotic
+    thriller"). Returns the first plausible year, or None. Used downstream by
+    enrich_metadata.py to disambiguate reboots and remakes.
+    """
+    if not desc:
+        return None
+    current_year = datetime.now().year
+    for m in re.finditer(r'\b(19\d{2}|20\d{2})\b', desc):
+        y = int(m.group(1))
+        if 1920 <= y <= current_year + 1:
+            return y
+    return None
+
+
 def fetch_feed():
     """Fetch and parse the podcast RSS feed."""
     with urllib.request.urlopen(FEED_URL, timeout=30) as response:
@@ -68,6 +86,8 @@ def parse_episode_from_feed(item):
     """Parse a single episode from RSS item."""
     title = item.find('title').text or ""
     pub_date = item.find('pubDate').text or ""
+    desc_el = item.find('description')
+    description = (desc_el.text if desc_el is not None and desc_el.text else "") or ""
 
     # Parse the date
     try:
@@ -114,6 +134,7 @@ def parse_episode_from_feed(item):
         'full_title': title,
         'date': date_str,
         'hosts': hosts,
+        'year_hint': extract_year_from_description(description),
     }
 
 
@@ -136,14 +157,18 @@ def create_episode_object(parsed_ep):
     title = title.replace('\u201c', '"').replace('\u201d', '"')
     title = title.strip("'\"")
 
+    year_hint = parsed_ep.get('year_hint')
+
     print(f"  Adding: {title} ({parsed_ep['date']})")
     print(f"    Hosts: {', '.join(parsed_ep['hosts']) if parsed_ep['hosts'] else 'Unknown'}")
-    print(f"    ⚠️  Needs: year, director, genres, studio, streaming (check JustWatch AU)")
+    if year_hint:
+        print(f"    Year from description: {year_hint}")
+    print(f"    ⚠️  Needs: director, genres, studio, streaming (check JustWatch AU)")
 
     return {
         "id": parsed_ep['id'],
         "title": title,
-        "year": None,
+        "year": year_hint,
         "director": "",
         "episodeDate": parsed_ep['date'],
         "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
