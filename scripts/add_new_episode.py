@@ -100,14 +100,21 @@ def parse_episode_from_feed(item):
     # Curly quotes: ' ' " " (U+2018, U+2019, U+201C, U+201D)
     all_quotes = '"\'\u2018\u2019\u201c\u201d'
 
-    # Prefer the quoted movie name if present (handles "'Basic Instinct' Live From SF | With ...").
-    # Search the raw title so we don't lose the opening quote to stripping.
-    quoted_match = re.search(r'["\'\u2018\u201c]([^"\'\u2018\u2019\u201c\u201d]+)["\'\u2019\u201d]', title)
+    # Strip the host suffix first ("...With Bill Simmons, ..."), so internal
+    # apostrophes in the movie title (e.g. "There's Something About Mary") don't
+    # confuse the quote-matching regex below.
+    prefix = re.split(r'\s+[Ww]ith\s+', title, maxsplit=1)[0]
     clean_title = title.strip().strip(all_quotes)
+
+    # Greedy match from the first opening quote to the last closing quote in the
+    # prefix. Greedy is safe here because we've already chopped off the hosts.
+    quoted_match = re.search(
+        r'["\'\u2018\u201c](.+)["\'\u2019\u201d]', prefix
+    )
     if quoted_match:
         movie_title = quoted_match.group(1).strip()
     else:
-        movie_title = re.split(r'\s+[Ww]ith\s', clean_title)[0]
+        movie_title = prefix
 
     # Clean up any remaining quotes, pipes, whitespace
     movie_title = re.sub(r'^["\'\u2018\u2019\u201c\u201d\s]+|["\'\u2018\u2019\u201c\u201d\s|]+$', '', movie_title)
