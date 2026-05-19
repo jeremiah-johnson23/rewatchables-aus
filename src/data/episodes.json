@@ -32,7 +32,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -74,7 +74,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -115,7 +115,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-05-05",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -157,7 +157,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-05-05",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -198,7 +198,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-21",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -240,7 +240,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-14",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -277,7 +277,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -308,7 +308,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": true,
         "binge": false,
         "paramount": false,
@@ -321,7 +321,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -350,7 +350,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -363,7 +363,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -403,7 +403,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -445,7 +445,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -488,7 +488,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -515,7 +515,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -530,7 +530,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -558,7 +558,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -566,13 +566,12 @@
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
-          "Amazon",
           "Apple TV",
           "Google Play",
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "editorPick": false,
       "studio": "mgm"
     },
@@ -609,7 +608,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -651,7 +650,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -693,7 +692,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -735,7 +734,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -776,7 +775,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -816,7 +815,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -856,7 +855,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -938,7 +937,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -979,7 +978,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1020,7 +1019,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1056,7 +1055,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1096,7 +1095,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1135,7 +1134,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1161,7 +1160,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
@@ -1176,7 +1175,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1214,7 +1213,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1251,7 +1250,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1292,7 +1291,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1333,7 +1332,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1359,7 +1358,7 @@
         "Crime"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -1374,7 +1373,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1413,7 +1412,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1455,7 +1454,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1495,7 +1494,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1521,7 +1520,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": true,
         "disneyPlus": false,
@@ -1536,7 +1535,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1577,7 +1576,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1615,7 +1614,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1654,7 +1653,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1695,7 +1694,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1729,10 +1728,11 @@
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
-          "Amazon"
+          "Amazon",
+          "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1761,7 +1761,7 @@
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -1774,7 +1774,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1815,7 +1815,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1857,7 +1857,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1896,7 +1896,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1937,7 +1937,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1977,7 +1977,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2019,7 +2019,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2060,7 +2060,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2102,7 +2102,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2130,7 +2130,7 @@
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": true,
         "paramount": false,
@@ -2143,7 +2143,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2179,7 +2179,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2220,7 +2220,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2261,7 +2261,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2302,7 +2302,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2344,7 +2344,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2385,7 +2385,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2426,7 +2426,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2467,7 +2467,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2509,7 +2509,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2549,7 +2549,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2590,7 +2590,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2628,7 +2628,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2670,7 +2670,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2712,7 +2712,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2753,7 +2753,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2795,7 +2795,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2835,7 +2835,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2875,7 +2875,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2914,7 +2914,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2956,7 +2956,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -2995,7 +2995,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3036,7 +3036,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3075,7 +3075,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3115,7 +3115,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3150,7 +3150,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3191,7 +3191,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3221,7 +3221,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": true,
         "paramount": false,
@@ -3234,7 +3234,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3274,7 +3274,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3313,7 +3313,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3352,7 +3352,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3394,7 +3394,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3436,7 +3436,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3475,7 +3475,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3515,7 +3515,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3556,7 +3556,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3598,7 +3598,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3639,7 +3639,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3680,7 +3680,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3721,7 +3721,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3763,7 +3763,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3803,7 +3803,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3844,7 +3844,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3885,7 +3885,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3927,7 +3927,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3964,7 +3964,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4003,7 +4003,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4031,7 +4031,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -4045,7 +4045,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4085,7 +4085,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4113,7 +4113,7 @@
         "Sport"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -4128,7 +4128,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4170,7 +4170,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4212,7 +4212,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4253,7 +4253,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4295,7 +4295,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4336,7 +4336,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4376,7 +4376,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4407,7 +4407,7 @@
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
-        "paramount": false,
+        "paramount": true,
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
@@ -4417,7 +4417,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4458,7 +4458,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4498,7 +4498,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4540,7 +4540,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4581,7 +4581,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4621,7 +4621,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4663,7 +4663,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4703,7 +4703,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4745,7 +4745,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4785,7 +4785,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4827,7 +4827,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4869,7 +4869,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4897,7 +4897,7 @@
       ],
       "streaming": {
         "netflix": true,
-        "stan": false,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -4911,7 +4911,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4950,7 +4950,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4990,7 +4990,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5017,7 +5017,7 @@
         "Romance"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": true,
         "primeVideo": true,
         "disneyPlus": false,
@@ -5032,7 +5032,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5072,7 +5072,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5114,7 +5114,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5142,7 +5142,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": true,
         "binge": false,
         "paramount": false,
@@ -5155,7 +5155,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5182,13 +5182,13 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": false,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "hboMax": true,
+        "hboMax": false,
         "rentBuy": [
           "Amazon",
           "Apple TV",
@@ -5196,7 +5196,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5239,7 +5239,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5279,7 +5279,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5319,7 +5319,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5345,7 +5345,7 @@
         "Comedy"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": true,
         "primeVideo": false,
         "disneyPlus": true,
@@ -5360,7 +5360,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5401,7 +5401,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5443,7 +5443,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5480,7 +5480,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5521,7 +5521,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5562,7 +5562,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5599,7 +5599,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5638,7 +5638,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5679,7 +5679,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5720,7 +5720,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5761,7 +5761,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5802,7 +5802,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5844,7 +5844,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5880,7 +5880,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5922,7 +5922,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5962,7 +5962,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6002,7 +6002,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6029,7 +6029,7 @@
         "Thriller"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -6044,7 +6044,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6085,7 +6085,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6126,7 +6126,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6154,7 +6154,7 @@
       "streaming": {
         "netflix": true,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": true,
         "binge": false,
         "paramount": false,
@@ -6167,7 +6167,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6209,7 +6209,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6247,7 +6247,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6286,7 +6286,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6325,7 +6325,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6364,7 +6364,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6392,7 +6392,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
@@ -6406,7 +6406,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6447,7 +6447,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6487,7 +6487,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6512,7 +6512,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
@@ -6526,7 +6526,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6567,7 +6567,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6608,7 +6608,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6649,7 +6649,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6689,7 +6689,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6728,7 +6728,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6769,7 +6769,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6810,7 +6810,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6839,7 +6839,7 @@
         "netflix": false,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": false,
+        "disneyPlus": true,
         "binge": true,
         "paramount": false,
         "appleTv": false,
@@ -6851,7 +6851,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6892,7 +6892,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6924,7 +6924,7 @@
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
-        "paramount": true,
+        "paramount": false,
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
@@ -6934,7 +6934,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6974,7 +6974,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7004,7 +7004,7 @@
         "netflix": true,
         "stan": false,
         "primeVideo": true,
-        "disneyPlus": false,
+        "disneyPlus": true,
         "binge": false,
         "paramount": false,
         "appleTv": false,
@@ -7016,7 +7016,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7051,7 +7051,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7093,7 +7093,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7135,7 +7135,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7177,7 +7177,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7218,7 +7218,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7259,7 +7259,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7301,7 +7301,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7329,7 +7329,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -7342,7 +7342,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7383,7 +7383,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7424,7 +7424,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7464,7 +7464,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7506,7 +7506,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7536,7 +7536,7 @@
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -7547,7 +7547,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7589,7 +7589,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7631,7 +7631,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7672,7 +7672,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7714,7 +7714,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7753,7 +7753,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7794,7 +7794,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7833,7 +7833,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7872,7 +7872,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7913,7 +7913,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7955,7 +7955,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7981,7 +7981,7 @@
         "War"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
@@ -7996,7 +7996,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8037,7 +8037,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8061,7 +8061,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -8076,7 +8076,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8118,7 +8118,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8159,7 +8159,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8200,7 +8200,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8226,7 +8226,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -8240,7 +8240,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8280,7 +8280,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8320,7 +8320,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8360,7 +8360,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8396,7 +8396,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8435,7 +8435,7 @@
           "Google Play"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8476,7 +8476,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8503,7 +8503,7 @@
         "Romance"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -8518,7 +8518,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8559,7 +8559,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8600,7 +8600,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8643,7 +8643,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8684,7 +8684,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8724,7 +8724,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8765,7 +8765,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8806,7 +8806,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8846,7 +8846,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8887,7 +8887,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8928,7 +8928,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8970,7 +8970,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8996,7 +8996,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": false,
         "disneyPlus": true,
         "binge": false,
@@ -9010,7 +9010,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9051,7 +9051,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9089,7 +9089,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9129,7 +9129,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9170,7 +9170,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9210,7 +9210,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9250,7 +9250,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9291,7 +9291,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9332,7 +9332,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9368,7 +9368,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9409,7 +9409,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9451,7 +9451,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9492,7 +9492,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9533,7 +9533,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9560,7 +9560,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -9573,7 +9573,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9615,7 +9615,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9643,7 +9643,7 @@
       ],
       "streaming": {
         "netflix": true,
-        "stan": false,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -9657,7 +9657,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9699,7 +9699,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9738,7 +9738,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9779,7 +9779,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9819,7 +9819,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9849,7 +9849,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": true,
         "binge": false,
         "paramount": false,
@@ -9862,7 +9862,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9902,7 +9902,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9943,7 +9943,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9979,7 +9979,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10021,7 +10021,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10054,7 +10054,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10095,7 +10095,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10136,7 +10136,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10175,7 +10175,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10212,7 +10212,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10251,7 +10251,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10287,7 +10287,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10314,7 +10314,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -10327,7 +10327,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10367,7 +10367,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10408,7 +10408,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10435,7 +10435,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": false,
+        "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
@@ -10447,7 +10447,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10471,9 +10471,9 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": true,
         "binge": false,
         "paramount": false,
@@ -10486,7 +10486,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10526,7 +10526,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10568,7 +10568,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10610,7 +10610,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10649,7 +10649,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10691,7 +10691,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10732,7 +10732,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10771,7 +10771,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10813,7 +10813,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10855,7 +10855,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10895,7 +10895,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10938,7 +10938,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10979,7 +10979,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11016,7 +11016,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11055,7 +11055,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11094,7 +11094,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11135,7 +11135,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11176,7 +11176,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11218,7 +11218,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11259,7 +11259,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11299,7 +11299,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11339,7 +11339,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11379,7 +11379,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11420,7 +11420,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11461,7 +11461,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11502,7 +11502,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11543,7 +11543,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11584,7 +11584,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11624,7 +11624,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11664,7 +11664,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11692,7 +11692,7 @@
         "netflix": false,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": false,
+        "disneyPlus": true,
         "binge": true,
         "paramount": true,
         "appleTv": false,
@@ -11704,7 +11704,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11741,7 +11741,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11770,7 +11770,7 @@
         "netflix": true,
         "stan": false,
         "primeVideo": true,
-        "disneyPlus": true,
+        "disneyPlus": false,
         "binge": true,
         "paramount": true,
         "appleTv": false,
@@ -11782,7 +11782,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11823,7 +11823,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11859,7 +11859,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11898,7 +11898,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11938,7 +11938,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11979,7 +11979,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12021,7 +12021,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12063,7 +12063,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12103,7 +12103,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12144,7 +12144,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12187,7 +12187,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12227,7 +12227,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12269,7 +12269,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12311,7 +12311,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12351,7 +12351,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12391,7 +12391,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12432,7 +12432,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12473,7 +12473,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12515,7 +12515,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12544,7 +12544,7 @@
         "netflix": false,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": true,
+        "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
@@ -12555,7 +12555,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12595,7 +12595,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12627,7 +12627,7 @@
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "hboMax": false,
+        "hboMax": true,
         "rentBuy": [
           "Amazon",
           "Apple TV",
@@ -12635,7 +12635,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12665,7 +12665,7 @@
         "netflix": false,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": false,
+        "disneyPlus": true,
         "binge": true,
         "paramount": false,
         "appleTv": false,
@@ -12677,7 +12677,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12716,7 +12716,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12744,7 +12744,7 @@
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -12757,7 +12757,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12799,7 +12799,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12842,7 +12842,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12883,7 +12883,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12923,7 +12923,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12964,7 +12964,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13005,7 +13005,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13046,7 +13046,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13072,7 +13072,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": true,
         "disneyPlus": false,
@@ -13087,7 +13087,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13128,7 +13128,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13155,7 +13155,7 @@
         "Romance"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -13170,7 +13170,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13211,7 +13211,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13254,7 +13254,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13281,7 +13281,7 @@
         "Sci-Fi"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -13296,7 +13296,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13336,7 +13336,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13378,7 +13378,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13420,7 +13420,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13451,7 +13451,7 @@
         "netflix": false,
         "stan": false,
         "primeVideo": true,
-        "disneyPlus": true,
+        "disneyPlus": false,
         "binge": true,
         "paramount": true,
         "appleTv": false,
@@ -13463,7 +13463,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13502,7 +13502,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13544,7 +13544,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13585,7 +13585,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13625,7 +13625,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13664,7 +13664,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13705,7 +13705,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13747,7 +13747,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13774,7 +13774,7 @@
         "Sci-Fi"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
@@ -13789,7 +13789,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13829,7 +13829,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13869,7 +13869,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13909,7 +13909,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13950,7 +13950,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -13989,7 +13989,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14023,9 +14023,11 @@
         "paramount": true,
         "appleTv": false,
         "hboMax": false,
-        "rentBuy": []
+        "rentBuy": [
+          "Amazon"
+        ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14066,7 +14068,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14107,7 +14109,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14149,7 +14151,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14189,7 +14191,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14230,7 +14232,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14271,7 +14273,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14307,7 +14309,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14349,7 +14351,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14391,7 +14393,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14433,7 +14435,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14474,7 +14476,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14516,7 +14518,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14544,7 +14546,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
@@ -14558,7 +14560,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14588,7 +14590,7 @@
         "netflix": true,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": true,
+        "disneyPlus": false,
         "binge": true,
         "paramount": true,
         "appleTv": false,
@@ -14600,7 +14602,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14628,7 +14630,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -14641,7 +14643,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14683,7 +14685,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14722,7 +14724,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14764,7 +14766,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14789,14 +14791,14 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "hboMax": false,
+        "hboMax": true,
         "rentBuy": [
           "Amazon",
           "Apple TV",
@@ -14804,7 +14806,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14847,7 +14849,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14889,7 +14891,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14929,7 +14931,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14970,7 +14972,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14998,7 +15000,7 @@
         "Mystery"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": true,
         "primeVideo": true,
         "disneyPlus": true,
@@ -15013,7 +15015,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15055,7 +15057,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15096,7 +15098,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15138,7 +15140,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15179,7 +15181,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15221,7 +15223,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15263,7 +15265,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15304,7 +15306,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15346,7 +15348,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15374,7 +15376,7 @@
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -15387,7 +15389,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15428,7 +15430,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15453,7 +15455,7 @@
         "Comedy"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": false,
         "primeVideo": true,
         "disneyPlus": false,
@@ -15468,7 +15470,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15510,7 +15512,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15538,7 +15540,7 @@
         "netflix": false,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": true,
+        "disneyPlus": false,
         "binge": true,
         "paramount": true,
         "appleTv": false,
@@ -15550,7 +15552,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15577,7 +15579,7 @@
         "Fantasy"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
@@ -15592,7 +15594,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15630,7 +15632,7 @@
           "Amazon"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15671,7 +15673,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15713,7 +15715,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15753,7 +15755,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15796,7 +15798,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15838,7 +15840,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15880,7 +15882,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15921,7 +15923,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15948,7 +15950,7 @@
         "Romance"
       ],
       "streaming": {
-        "netflix": true,
+        "netflix": false,
         "stan": false,
         "primeVideo": true,
         "disneyPlus": false,
@@ -15963,7 +15965,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16004,7 +16006,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16045,7 +16047,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16075,7 +16077,7 @@
         "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
-        "binge": true,
+        "binge": false,
         "paramount": false,
         "appleTv": false,
         "hboMax": false,
@@ -16086,7 +16088,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16126,7 +16128,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16167,7 +16169,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16207,7 +16209,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16249,7 +16251,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16291,7 +16293,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16332,7 +16334,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16373,7 +16375,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16408,7 +16410,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-19",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16433,7 +16435,7 @@
         "Drama"
       ],
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "stan": true,
         "primeVideo": false,
         "disneyPlus": false,
@@ -16448,7 +16450,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16488,7 +16490,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16517,7 +16519,7 @@
       "streaming": {
         "netflix": true,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
@@ -16530,7 +16532,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16569,7 +16571,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16610,7 +16612,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16652,7 +16654,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16694,7 +16696,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16735,7 +16737,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16762,7 +16764,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": false,
+        "primeVideo": true,
         "disneyPlus": true,
         "binge": false,
         "paramount": false,
@@ -16775,7 +16777,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16817,7 +16819,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16857,7 +16859,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16899,7 +16901,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16941,7 +16943,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16984,7 +16986,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17025,7 +17027,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17054,7 +17056,7 @@
         "netflix": false,
         "stan": true,
         "primeVideo": false,
-        "disneyPlus": false,
+        "disneyPlus": true,
         "binge": false,
         "paramount": false,
         "appleTv": false,
@@ -17066,7 +17068,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17107,7 +17109,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17150,7 +17152,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17192,7 +17194,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17235,7 +17237,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17276,7 +17278,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17319,7 +17321,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17360,7 +17362,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17401,7 +17403,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17443,7 +17445,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17484,7 +17486,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17525,7 +17527,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17567,7 +17569,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17608,7 +17610,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17651,7 +17653,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17692,7 +17694,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17719,7 +17721,7 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": false,
         "disneyPlus": true,
         "binge": false,
@@ -17733,7 +17735,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17775,7 +17777,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17803,7 +17805,7 @@
       "streaming": {
         "netflix": false,
         "stan": true,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": true,
         "paramount": false,
@@ -17816,7 +17818,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17857,7 +17859,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17898,7 +17900,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17938,7 +17940,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17979,7 +17981,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -18019,7 +18021,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -18060,7 +18062,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -18102,7 +18104,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -18143,7 +18145,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -18182,7 +18184,7 @@
           "YouTube"
         ]
       },
-      "lastStreamingCheck": "2026-04-02",
+      "lastStreamingCheck": "2026-05-20",
       "communityRating": {
         "average": 0,
         "votes": 0
