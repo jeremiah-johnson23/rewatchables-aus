@@ -72,6 +72,12 @@ def find_best_match(title, results, year=None):
         track_name = _normalize_for_match(result.get('trackName', ''))
         # Strip " with <hosts>" preamble and any trailing "(YYYY)"/"YYYY"
         film_part = re.split(r'\s+with\s+', track_name, maxsplit=1)[0].strip()
+        # Apple wraps film titles in quotes ('Rocky', ‘Top Gun’) — strip the
+        # wrapping pair so exact-match comparison works. Preserves internal
+        # apostrophes like in "Mr. Holland's Opus". Also drop a trailing period
+        # that Apple sometimes leaves outside the closing quote ("'48 Hrs'.").
+        film_part = film_part.strip("'\"")
+        film_part = re.sub(r"[\s'\".]+$", "", film_part).strip()
         film_clean = re.sub(r'\s+\(?\d{4}\)?\s*$', '', film_part).strip()
 
         if film_clean == needle:
