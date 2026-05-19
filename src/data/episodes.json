@@ -2563,7 +2563,7 @@
       "director": "John G. Avildsen",
       "episodeDate": "2025-03-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/rocky-ii-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000739231168&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/rocky-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000697561780&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -5163,10 +5163,10 @@
       "studio": "warner-bros"
     },
     {
-      "id": "national-lampoon",
-      "title": "National Lampoon",
-      "year": 1983,
-      "director": "Harold Ramis",
+      "id": "national-lampoon-s-christmas-vacation",
+      "title": "National Lampoon's Christmas Vacation",
+      "year": 1989,
+      "director": "Jeremiah Chechik",
       "episodeDate": "2023-12-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/national-lampoons-christmas-vacation-with-bill-simmons/id1268527882?i=1000639029902&uo=4",
@@ -5201,7 +5201,7 @@
         "average": 0,
         "votes": 0
       },
-      "studio": "universal"
+      "studio": "warner-bros"
     },
     {
       "id": "the-pelican-brief",
@@ -5930,13 +5930,13 @@
       "studio": "warner-bros"
     },
     {
-      "id": "national-lampoon-2023-08-08",
-      "title": "National Lampoon",
+      "id": "national-lampoon-s-vacation-2023-08-08",
+      "title": "National Lampoon's Vacation",
       "year": 1983,
       "director": "Harold Ramis",
       "episodeDate": "2023-08-08",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/national-lampoons-christmas-vacation-with-bill-simmons/id1268527882?i=1000639029902&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/national-lampoons-vacation-with-bill-simmons-chris/id1268527882?i=1000623757116&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -6010,10 +6010,10 @@
       "studio": "sony"
     },
     {
-      "id": "the-devil",
-      "title": "The Devil",
-      "year": 2010,
-      "director": "John Erick Dowdle",
+      "id": "the-devil-s-advocate",
+      "title": "The Devil's Advocate",
+      "year": 1997,
+      "director": "Taylor Hackford",
       "episodeDate": "2023-07-25",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-devils-advocate-with-bill-simmons-chris-ryan/id1268527882?i=1000622224425&uo=4",
@@ -6024,7 +6024,7 @@
       ],
       "guests": [],
       "genres": [
-        "Horror",
+        "Drama",
         "Mystery",
         "Thriller"
       ],
@@ -7107,7 +7107,7 @@
       "director": "Penny Marshall",
       "episodeDate": "2023-01-24",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-big-chill-with-bill-simmons-chris-ryan/id1268527882?i=1000629154348&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/big-with-bill-simmons-mallory-rubin-and-van-lathan/id1268527882?i=1000596051379&uo=4",
       "hosts": [
         "Bill Simmons",
         "Mallory Rubin",
@@ -10226,7 +10226,7 @@
       "director": "Gavin O'Connor",
       "episodeDate": "2021-09-14",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-warriors-with-bill-simmons-shea-serrano/id1268527882?i=1000429205931&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/warrior-with-bill-simmons-and-ryen-russillo/id1268527882?i=1000535249840&uo=4",
       "hosts": [
         "Bill Simmons",
         "Ryen Russillo"
@@ -11873,7 +11873,7 @@
       "director": "Oliver Stone",
       "episodeDate": "2020-12-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-wolf-of-wall-street-with-sean-fennessey-chris/id1268527882?i=1000458531144&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/wall-street-with-bill-simmons-and-brian-koppelman/id1268527882?i=1000500915647&uo=4",
       "hosts": [
         "Bill Simmons",
         "Brian Koppelman"
@@ -11952,7 +11952,7 @@
       "director": "Chris Columbus",
       "episodeDate": "2020-11-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/home-alone-2-lost-in-new-york-with-bill-simmons-and/id1268527882?i=1000681516741&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/home-alone-with-chris-ryan-sean-fennessey-and-mina-kimes/id1268527882?i=1000498936987&uo=4",
       "hosts": [
         "Chris Ryan",
         "Sean Fennessey",
@@ -13268,7 +13268,7 @@
       "director": "Robert Zemeckis",
       "episodeDate": "2020-05-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/back-to-the-future-part-ii-with-bill-simmons-chris/id1268527882?i=1000656222681&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/back-to-the-future-with-bill-simmons-sean-fennessey/id1268527882?i=1000475041272&uo=4",
       "hosts": [
         "Bill Simmons",
         "Sean Fennessey",
@@ -14818,7 +14818,7 @@
       "director": "Martin Brest",
       "episodeDate": "2019-09-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/beverly-hills-cop-ii-with-bill-simmons-and-chris-ryan/id1268527882?i=1000560205848&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/beverly-hills-cop-with-bill-simmons-wesley-morris-sean/id1268527882?i=1000450067734&uo=4",
       "hosts": [
         "Bill Simmons",
         "Wesley Morris",
@@ -15193,7 +15193,7 @@
       "director": "Tony Scott",
       "episodeDate": "2019-07-23",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/top-gun-maverick-with-bill-simmons-and-chris-ryan/id1268527882?i=1000569618663&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/top-gun-with-bill-simmons-chris-ryan-mallory-rubin/id1268527882?i=1000445131403&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
@@ -16666,7 +16666,7 @@
       "director": "Brian De Palma",
       "episodeDate": "2018-07-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/mission-impossible-fallout-with-bill-simmons-chris/id1268527882?i=1000591357391&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/mission-impossible-with-chris-ryan-sean-fennessey/id1268527882?i=1000416643717&uo=4",
       "hosts": [
         "Chris Ryan",
         "Sean Fennessey",
@@ -17457,7 +17457,7 @@
       "director": "Walter Hill",
       "episodeDate": "2017-12-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/another-48-hrs-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000746160681&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/48-hrs-with-bill-simmons-and-chris-ryan/id1268527882?i=1000396669610&uo=4",
       "hosts": [
         "Bill Simmons",
         "Chris Ryan"
@@ -17498,7 +17498,7 @@
       "director": "F. Gary Gray",
       "episodeDate": "2017-11-30",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
-      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/friday-night-lights-with-bill-simmons-and-mallory-rubin/id1268527882?i=1000682200943&uo=4",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/friday-with-donnie-kwak-hannah-giorgis-and-justin-charity/id1268527882?i=1000395453758&uo=4",
       "hosts": [
         "Donnie Kwak",
         "Hannah Giorgis",
