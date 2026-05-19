@@ -1,6 +1,45 @@
 {
   "episodes": [
     {
+      "id": "borat",
+      "title": "Borat",
+      "year": 2006,
+      "director": "Larry Charles",
+      "episodeDate": "2026-05-19",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/borat-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000768480873&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Kyle Brandt"
+      ],
+      "guests": [],
+      "genres": [
+        "Comedy"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": false,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV",
+          "Google Play",
+          "YouTube"
+        ]
+      },
+      "lastStreamingCheck": "2026-05-19",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "20th-century"
+    },
+    {
       "id": "tropic-thunder",
       "title": "Tropic Thunder",
       "year": 2008,
@@ -238,7 +277,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1017,7 +1056,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3111,7 +3150,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5560,7 +5599,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5841,7 +5880,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7012,7 +7051,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8357,7 +8396,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9329,7 +9368,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10015,7 +10054,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10248,7 +10287,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10977,7 +11016,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11702,7 +11741,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11820,7 +11859,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14268,7 +14307,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16369,7 +16408,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-05-12",
+      "lastStreamingCheck": "2026-05-19",
       "communityRating": {
         "average": 0,
         "votes": 0
