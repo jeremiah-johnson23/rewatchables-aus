@@ -50,30 +50,85 @@ def _normalize_for_match(s):
     return s
 
 
-def find_best_match(title, results):
-    """Find the best matching episode from search results."""
-    # Drop our internal "(Live)" marker — Apple titles phrase live shows freely
-    # ("Live From SF"), so requiring "(Live)" in the track name would miss them.
-    needle = re.sub(r'\s*\(live\)\s*$', '', title, flags=re.IGNORECASE)
-    needle = _normalize_for_match(needle)
+def find_best_match(title, results, year=None):
+    """Find the best matching episode from search results.
 
+    Ranks candidates so an exact title match wins over a sibling-film substring.
+    Substring containment alone is too loose: searching "Rocky" used to match
+    "Rocky II With Bill Simmons…" because the substring is present.
+
+    Returns the URL of the best candidate, or None if nothing scores confidently.
+    """
+    # Drop our internal "(Live)" / "(Live Show)" markers — Apple titles phrase
+    # live shows freely ("Live From SF"), so requiring them in the track name
+    # would miss legitimate matches.
+    needle = re.sub(r'\s*\(live(?:\s+show)?\)\s*$', '', title, flags=re.IGNORECASE)
+    needle = _normalize_for_match(needle).strip()
+
+    candidates = []
     for result in results:
+        if 'rewatchables' not in result.get('collectionName', '').lower():
+            continue
         track_name = _normalize_for_match(result.get('trackName', ''))
-        if needle in track_name:
-            collection = result.get('collectionName', '').lower()
-            if 'rewatchables' in collection:
-                return result.get('trackViewUrl')
+        # Strip " with <hosts>" preamble and any trailing "(YYYY)"/"YYYY"
+        film_part = re.split(r'\s+with\s+', track_name, maxsplit=1)[0].strip()
+        film_clean = re.sub(r'\s+\(?\d{4}\)?\s*$', '', film_part).strip()
 
-    return None
+        if film_clean == needle:
+            score = 100  # exact film match (year stripped)
+        elif film_part == needle:
+            score = 95   # exact including year
+        elif film_clean.startswith(needle + ' ') or film_clean.startswith(needle + '-'):
+            # Distinguish multi-part episodes (Pulp Fiction Part 1) from
+            # sibling films (Rocky II, Top Gun Maverick).
+            extension = film_clean[len(needle):].lstrip(' -')
+            if re.match(r'(part|pt)\s+(\d+|i+)\b', extension):
+                score = 90   # multi-part episode of the named film
+            elif re.match(r'live(\s+from\b|$)', extension):
+                score = 90   # live-show variant of the named film
+            else:
+                score = 25   # likely sibling
+        elif needle in track_name:
+            score = 15   # substring anywhere
+        else:
+            continue
+
+        # Year corroboration: Apple often includes year in older-film titles
+        # ("Rocky 1976 With Bill Simmons…"). Use as a strong tiebreaker.
+        if year and re.search(rf'\b{year}\b', track_name):
+            score += 50
+
+        candidates.append((score, result.get('trackViewUrl')))
+
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: -x[0])
+    best_score, best_url = candidates[0]
+    # Reject low-confidence matches. A prefix-only hit without a year corroboration
+    # is almost always the wrong sibling — better to leave the URL alone than
+    # confidently link to a different film's episode.
+    if best_score < 50:
+        return None
+    return best_url
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Fetch Apple Podcasts URLs for episodes")
+    parser.add_argument("--force", action="store_true",
+                        help="Re-fetch even for entries that already have an episode URL")
+    parser.add_argument("--ids", help="Comma-separated episode ids to limit the run to")
+    args = parser.parse_args()
+
+    target_ids = set(s.strip() for s in args.ids.split(",")) if args.ids else None
+
     print("Loading episodes...")
     with open(EPISODES_PATH) as f:
         data = json.load(f)
 
     episodes = data['episodes']
     updated = 0
+    unchanged = 0
     skipped = 0
     not_found = 0
 
@@ -81,30 +136,40 @@ def main():
 
     for i, episode in enumerate(episodes):
         title = episode['title']
+        year = episode.get('year')
         current_url = episode.get('applePodcastsUrl', '')
 
-        # Skip if already has an episode-specific URL (contains ?i=)
-        if '?i=' in current_url:
+        if target_ids and episode.get('id') not in target_ids:
+            continue
+
+        # Skip if already has an episode-specific URL (unless --force)
+        if '?i=' in current_url and not args.force:
             skipped += 1
             continue
 
-        print(f"[{i+1}/{len(episodes)}] {title}...")
+        print(f"[{i+1}/{len(episodes)}] {title} ({year})...")
 
         results = search_apple_podcasts(title)
+        url = find_best_match(title, results, year=year) if results else None
 
-        if results:
-            url = find_best_match(title, results)
-            if url:
-                # Convert to AU store
-                url = url.replace('/us/', '/au/')
-                episode['applePodcastsUrl'] = url
-                print(f"  ✓ Found: {url[:60]}...")
-                updated += 1
+        # Year-augmented retry if first pass was rejected as low-confidence
+        if not url and year:
+            results = search_apple_podcasts(f"{title} {year}")
+            url = find_best_match(title, results, year=year) if results else None
+
+        if url:
+            url = url.replace('/us/', '/au/')
+            if url == current_url:
+                print(f"  = Unchanged")
+                unchanged += 1
             else:
-                print(f"  ✗ No match in results")
-                not_found += 1
+                episode['applePodcastsUrl'] = url
+                old_short = (current_url.split('?i=')[-1] or '<none>')[:18]
+                new_short = url.split('?i=')[-1][:18]
+                print(f"  ✓ {('updated' if current_url else 'set')}: i={old_short} → i={new_short}")
+                updated += 1
         else:
-            print(f"  ✗ No results")
+            print(f"  ✗ No confident match (existing URL left untouched)")
             not_found += 1
 
         # Rate limit - be nice to the API
@@ -112,6 +177,7 @@ def main():
 
     print(f"\n--- Summary ---")
     print(f"Updated: {updated}")
+    print(f"Unchanged (already correct): {unchanged}")
     print(f"Skipped (already have URL): {skipped}")
     print(f"Not found: {not_found}")
 
