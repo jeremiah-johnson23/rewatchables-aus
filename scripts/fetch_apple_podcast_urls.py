@@ -42,11 +42,14 @@ def search_apple_podcasts(title, retries=3):
 
 
 def _normalize_for_match(s):
-    """Lowercase and fold curly quotes to straight so substring checks survive
-    Apple's typographic quoting (`'There's...'` with U+2018/U+2019)."""
+    """Lowercase and drop all quote characters. Apple wraps film names in
+    single quotes ('Good Will Hunting' Live From Boston) so the closing
+    quote ends up *inside* film_part after the " with <hosts>" split,
+    breaking prefix matching. Stripping all quotes side-steps the issue and
+    also folds typographic apostrophes vs straight on both needle and
+    track name (e.g. 'Devil's Advocate' → 'devils advocate' on both sides)."""
     s = s.lower()
-    s = s.replace('‘', "'").replace('’', "'")
-    s = s.replace('“', '"').replace('”', '"')
+    s = re.sub(r"[‘’“”'\"]", "", s)
     return s
 
 
@@ -59,9 +62,12 @@ def find_best_match(title, results, year=None):
 
     Returns the URL of the best candidate, or None if nothing scores confidently.
     """
-    # Drop our internal "(Live)" / "(Live Show)" markers — Apple titles phrase
-    # live shows freely ("Live From SF"), so requiring them in the track name
-    # would miss legitimate matches.
+    # Stored titles use "(Live)" / "(Live Show)" to flag entries that
+    # represent a live-show episode. Strip the marker from the needle (Apple
+    # titles live shows freely as "Live From SF" etc.) but keep a flag so we
+    # can prefer the live-variant track for these entries — and conversely
+    # prefer the non-live track for entries without the marker.
+    is_live_entry = bool(re.search(r'\(live(?:\s+show)?\)\s*$', title, re.IGNORECASE))
     needle = re.sub(r'\s*\(live(?:\s+show)?\)\s*$', '', title, flags=re.IGNORECASE)
     needle = _normalize_for_match(needle).strip()
 
@@ -69,9 +75,16 @@ def find_best_match(title, results, year=None):
     for result in results:
         if 'rewatchables' not in result.get('collectionName', '').lower():
             continue
-        track_name = _normalize_for_match(result.get('trackName', ''))
-        # Strip " with <hosts>" preamble and any trailing "(YYYY)"/"YYYY"
-        film_part = re.split(r'\s+with\s+', track_name, maxsplit=1)[0].strip()
+        track_raw = result.get('trackName', '')
+        # Apple's host preamble: " With " followed by a capital-letter first
+        # name (Bill, Chris, Sean…). Film-title "With" connectors are followed
+        # by lowercase articles ("Die Hard With a Vengeance", "Gone With the
+        # Wind"). Require a capital letter after "With" so we split at the
+        # host preamble, not inside a film title. Also handle "Featuring"
+        # which Apple uses occasionally.
+        film_raw = re.split(r'\s+(?:With|Featuring)\s+(?=[A-Z])', track_raw, maxsplit=1)[0]
+        track_name = _normalize_for_match(track_raw)
+        film_part = _normalize_for_match(film_raw).strip()
         # Apple wraps film titles in quotes ('Rocky', ‘Top Gun’) — strip the
         # wrapping pair so exact-match comparison works. Preserves internal
         # apostrophes like in "Mr. Holland's Opus". Also drop a trailing period
@@ -81,28 +94,53 @@ def find_best_match(title, results, year=None):
         film_clean = re.sub(r'\s+\(?\d{4}\)?\s*$', '', film_part).strip()
 
         if film_clean == needle:
-            score = 100  # exact film match (year stripped)
+            # Exact non-live match. Prefer when entry is non-live; demote when
+            # entry is the live-show variant.
+            score = 30 if is_live_entry else 100
         elif film_part == needle:
-            score = 95   # exact including year
+            score = 30 if is_live_entry else 95
         elif film_clean.startswith(needle + ' ') or film_clean.startswith(needle + '-'):
-            # Distinguish multi-part episodes (Pulp Fiction Part 1) from
+            # Distinguish multi-part episodes (Pulp Fiction Part 1) and
+            # live-show variants (Good Will Hunting Live From Boston) from
             # sibling films (Rocky II, Top Gun Maverick).
             extension = film_clean[len(needle):].lstrip(' -')
             if re.match(r'(part|pt)\s+(\d+|i+)\b', extension):
                 score = 90   # multi-part episode of the named film
             elif re.match(r'live(\s+from\b|$)', extension):
-                score = 90   # live-show variant of the named film
+                # Live variant of the named film. Prefer when entry is live;
+                # demote when entry is non-live (so original wins).
+                score = 100 if is_live_entry else 30
+            elif re.match(r'\d+(st|nd|rd|th)\s+anniversary\b', extension):
+                # Anniversary re-cover of the named film (e.g. "Die Hard 30th
+                # Anniversary"). Treat as the canonical episode for the named
+                # film when no non-suffixed exact match exists.
+                score = 90 if not is_live_entry else 30
             else:
                 score = 25   # likely sibling
         elif needle in track_name:
-            score = 15   # substring anywhere
+            # Substring match. Bump if the entry is (Live Show) and the track
+            # carries a live marker ("LIVE" / "Live From X" anywhere in the
+            # film_part, before the " with <hosts>" preamble). Apple titles
+            # live re-cover episodes like "The Re-'Den of Thieves' LIVE With
+            # Bill Simmons" — film_part is "the re-den of thieves live".
+            if is_live_entry and re.search(r'\blive\b', film_part):
+                score = 80
+            else:
+                score = 15   # bare substring, low confidence
         else:
             continue
 
-        # Year corroboration: Apple often includes year in older-film titles
-        # ("Rocky 1976 With Bill Simmons…"). Use as a strong tiebreaker.
-        if year and re.search(rf'\b{year}\b', track_name):
-            score += 50
+        # Year handling. Apple often disambiguates same-name films with a year
+        # suffix ("Bad Boys 1983"). Boost when stored year corroborates the
+        # track; demote when a different year appears in the film_part, which
+        # almost always means we matched the wrong same-name film.
+        if year:
+            if re.search(rf'\b{year}\b', track_name):
+                score += 50
+            else:
+                film_year = re.search(r'\b(\d{4})\b', film_part)
+                if film_year and film_year.group(1) != str(year):
+                    score -= 70
 
         candidates.append((score, result.get('trackViewUrl')))
 
