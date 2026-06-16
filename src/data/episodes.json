@@ -1,6 +1,46 @@
 {
   "episodes": [
     {
+      "id": "the-hand-that-rocks-the-cradle",
+      "title": "The Hand That Rocks the Cradle",
+      "year": 1992,
+      "director": "Curtis Hanson",
+      "episodeDate": "2026-06-15",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-hand-that-rocks-the-cradle-with-bill-simmons/id1268527882?i=1000772703121&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Joanna Robinson"
+      ],
+      "guests": [],
+      "genres": [
+        "Thriller",
+        "Horror",
+        "Mystery"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-06-16",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "single-white-female",
       "title": "Single White Female",
       "year": 1992,
@@ -386,7 +426,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1164,7 +1204,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3259,7 +3299,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5708,7 +5748,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5989,7 +6029,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7160,7 +7200,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8505,7 +8545,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9477,7 +9517,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10163,7 +10203,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10396,7 +10436,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11125,7 +11165,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11850,7 +11890,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11968,7 +12008,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14418,7 +14458,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16519,7 +16559,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-09",
+      "lastStreamingCheck": "2026-06-16",
       "communityRating": {
         "average": 0,
         "votes": 0
