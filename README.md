@@ -68,7 +68,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 ## Data Accuracy
 
-- Streaming availability is checked against [JustWatch AU](https://www.justwatch.com/au)
+- Streaming availability is compiled from public sources and community-verified
 - Each entry shows when it was last verified
 - Availability can change at any time - please report any errors you find!
 
