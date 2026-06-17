@@ -42,16 +42,26 @@ def is_non_movie_episode(title):
     return False
 
 
-def extract_year_from_description(desc):
+def extract_year_from_description(desc, movie_title=None):
     """Pull the film's release year out of the RSS description.
 
     Rewatchables descriptions typically include the year explicitly
     ("the 1984 comedy classic 'Ghostbusters'", "Paul Verhoeven's 1992 erotic
     thriller"). Returns the first plausible year, or None. Used downstream by
     enrich_metadata.py to disambiguate reboots and remakes.
+
+    When a film title itself contains a four-digit number (e.g. "2001: A Space
+    Odyssey", "2012", "1941"), that number must NOT be read as the release year
+    — the 2001 entry was tagged year=2001 instead of 1968 because the title was
+    the only "year" in the description. We strip occurrences of the title from
+    the description first. Word boundaries keep short numeric titles (e.g. "9",
+    "21") from clobbering a digit inside a real year like "2009".
     """
     if not desc:
         return None
+    if movie_title:
+        desc = re.sub(r'\b%s\b' % re.escape(movie_title), ' ', desc,
+                      flags=re.IGNORECASE)
     current_year = datetime.now().year
     for m in re.finditer(r'\b(19\d{2}|20\d{2})\b', desc):
         y = int(m.group(1))
@@ -141,7 +151,7 @@ def parse_episode_from_feed(item):
         'full_title': title,
         'date': date_str,
         'hosts': hosts,
-        'year_hint': extract_year_from_description(description),
+        'year_hint': extract_year_from_description(description, movie_title),
     }
 
 
