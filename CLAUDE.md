@@ -16,6 +16,15 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 13 — 2026-06-17
+- **Pulled 4 auto-added episodes** (catalog 447 → 451): 2001: A Space Odyssey (Jun 1), Animal House (May 26), Single White Female (Jun 8), The Hand That Rocks the Cradle (Jun 15) — all arrived as partial skeletons
+- **Fixed 2001: A Space Odyssey year bug:** entry had `year=2001` (parsed from the title, not the film — real year is 1968). Corrected to 1968. Re-fetched streaming with the right year: was `primeVideo` (a wrong-year JustWatch match), actually on **hboMax** + Amazon/Apple TV rent
+- **Hand-filled metadata** (Wikidata SPARQL was in an active outage — 429s, 1 req/min, couldn't run `enrich_metadata.py`): 2001 → Kubrick / Sci-Fi,Adventure / mgm; Animal House → Landis / Comedy / universal; The Hand That Rocks the Cradle → studio `disney` (Hollywood Pictures label, absent from STUDIO_MAP so enrich leaves it blank). Re-run enrich later to confirm against Wikidata once it recovers
+- **Single White Female:** not actually missing data — already had `rentBuy: Apple TV` (no AU subscription), correctly skipped by the streaming fetch
+- **Streaming fetch side effect:** 16 no-AU-offer films (all-false streaming) get re-checked every run since they read as "no streaming data" — their `lastStreamingCheck` bumped to today. Harmless/accurate, same as the weekly workflow
+- **Root-caused + fixed the recurring year-from-title bug** (same failure class as Ghostbusters S11, It/Sinners S7): `extract_year_from_description()` in `add_new_episode.py` returned the first 4-digit number in the RSS description. When the title contains one (2001, 2012, 1941), that number won the match — and for 2001 the real year wasn't even in the description. Fix: strip the parsed movie title from the description before scanning, word-boundary matched so short numeric titles (9, 21) don't clobber a digit inside a real year (2009). Title==year films (1984) yield a None hint, which is benign (enrich recovers via Wikipedia search; a wrong hint would mislead it). Verified against the live feed: 2001 → None (was 2001), all other recent episodes unchanged
+- **Unresolved (carried from S12):** unused `TMDB_API_KEY` secret still in repo settings; Node 20 actions deprecation (forced June 2026 — now overdue, check workflow); Spotify URLs still show-level; 24 entries with low-confidence Apple URLs awaiting hand-review; Cloudflare Web Analytics beacon pending Simon's token; Wikidata SPARQL outage (transient)
+
 ### Session 12 — 2026-05-20
 - **Header logo swap:** replaced the Extracting Ideas wordmark with Simon's monogram (`assets/simon-logo.png`) in the "Built by Simon" header
 - **Full streaming audit:** ran `fetch_streaming_availability.py --force` across all 447 entries. 446 updated, 1 absent (The Sure Thing 1985, confirmed not on JustWatch AU since Session 7). Catalog grew from 445 → 447 mid-session as the weekly workflow added Tropic Thunder + Borat. Provider shifts: netflix +3, stan -3, primeVideo -7, binge -1, hboMax +1; disney/paramount/appleTv unchanged
