@@ -38,7 +38,7 @@
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "disney"
     },
     {
       "id": "single-white-female",
@@ -82,7 +82,7 @@
       "id": "animal-house",
       "title": "Animal House",
       "year": 1978,
-      "director": "",
+      "director": "John Landis",
       "episodeDate": "2026-05-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/animal-house-with-bill-simmons-and-chris-ryan/id1268527882?i=1000769563484&uo=4",
@@ -91,7 +91,9 @@
         "Chris Ryan"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Comedy"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
@@ -111,13 +113,13 @@
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "universal"
     },
     {
       "id": "2001-a-space-odyssey",
       "title": "2001: A Space Odyssey",
-      "year": 2001,
-      "director": "",
+      "year": 1968,
+      "director": "Stanley Kubrick",
       "episodeDate": "2026-06-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/2001-a-space-odyssey-with-bill-simmons-steven/id1268527882?i=1000770486102&uo=4",
@@ -127,27 +129,30 @@
         "Sean Fennessey"
       ],
       "guests": [],
-      "genres": [],
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
       "streaming": {
         "netflix": false,
         "stan": false,
-        "primeVideo": true,
+        "primeVideo": false,
         "disneyPlus": false,
         "binge": false,
         "paramount": false,
         "appleTv": false,
-        "hboMax": false,
+        "hboMax": true,
         "rentBuy": [
           "Amazon",
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-06-02",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
       },
-      "studio": ""
+      "studio": "mgm"
     },
     {
       "id": "borat",
@@ -426,7 +431,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1204,7 +1209,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3299,7 +3304,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5748,7 +5753,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6029,7 +6034,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7200,7 +7205,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8545,7 +8550,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9517,7 +9522,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10203,7 +10208,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10436,7 +10441,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11165,7 +11170,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11890,7 +11895,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12008,7 +12013,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14458,7 +14463,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16559,7 +16564,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-16",
+      "lastStreamingCheck": "2026-06-17",
       "communityRating": {
         "average": 0,
         "votes": 0
