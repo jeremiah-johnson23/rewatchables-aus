@@ -1,6 +1,82 @@
 {
   "episodes": [
     {
+      "id": "the-good-son",
+      "title": "The Good Son",
+      "year": 1993,
+      "director": "Joseph Ruben",
+      "episodeDate": "2026-06-26",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-good-son-with-bill-simmons-chris-ryan-and-sean-fennessey/id1268527882?i=1000774263327&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Sean Fennessey"
+      ],
+      "guests": [],
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": true,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-06-30",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "20th-century"
+    },
+    {
+      "id": "pacific-heights",
+      "title": "Pacific Heights",
+      "year": null,
+      "director": "",
+      "episodeDate": "2026-06-30",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/pacific-heights-with-bill-simmons-chris-ryan-and/id1268527882?i=1000774779611&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Kyle Brandt"
+      ],
+      "guests": [],
+      "genres": [],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-06-30",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "domestic-disturbance",
       "title": "Domestic Disturbance",
       "year": 2001,
@@ -467,7 +543,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1245,7 +1321,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3340,7 +3416,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -5789,7 +5865,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6070,7 +6146,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7241,7 +7317,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8586,7 +8662,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9558,7 +9634,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10244,7 +10320,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10477,7 +10553,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11206,7 +11282,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11931,7 +12007,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12049,7 +12125,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14499,7 +14575,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16600,7 +16676,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-23",
+      "lastStreamingCheck": "2026-06-30",
       "communityRating": {
         "average": 0,
         "votes": 0
