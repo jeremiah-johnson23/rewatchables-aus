@@ -16,6 +16,15 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 
 ## Session Memory
 
+### Session 14 — 2026-07-01
+- **Root-caused the recurring "Wikidata metadata failed" weekly email** (Session 13 also hit this on 2026-06-17): `enrich_metadata.py` used the Wikidata Query Service (WDQS, `query.wikidata.org/sparql`) for year/director/genre/studio lookups. WDQS is a separate, notoriously fragile Wikidata subsystem — during degraded periods it returns 429 "Aggressively rate-limiting... active wdqs outage" with an unreliable `Retry-After` (saw 1000s, but a retry after waiting that long still 429'd — the outage duration isn't accurately predicted by the header)
+- **Reproduced deterministically:** a Wikipedia search call immediately followed by a WDQS SPARQL call 429'd consistently; an isolated WDQS call sometimes succeeded, sometimes not — genuinely unpredictable, not something client-side pacing/backoff can reliably route around
+- **Real fix:** rewrote `fetch_wikidata()` to use the standard Wikidata Action API (`www.wikidata.org/w/api.php`, `wbgetentities`) instead of SPARQL — same underlying data (P577/P57/P136/P272/P750 claims + a batched label lookup for referenced QIDs), but this endpoint isn't gated by the WDQS outage rule. Verified 5/5 immediately after a Wikipedia call (the exact pattern that broke SPARQL every time)
+- **Verified against the two episodes stuck since last week's partial-failure email:** Pacific Heights (1990, John Schlesinger, Thriller, 20th Century) and Domestic Disturbance (2001, Harold Becker, Drama/Thriller, Paramount) — both enriched correctly, script is idempotent (`✓ No skeleton episodes to enrich` on re-run)
+- **New episodes checked:** only "A Rewatchables Summer Mailbag!" (2026-06-05) in the RSS feed — correctly excluded by `add_new_episode.py`'s `SKIP_PATTERNS` (not a movie episode), nothing to add
+- **Byproduct:** re-running `enrich_metadata.py`'s full-file JSON write (pre-existing `ensure_ascii=False` in `json.dump`) normalized a handful of unrelated `\uXXXX` escapes elsewhere in `episodes.json` into literal UTF-8 characters (curly quotes, accented names) — cosmetic, valid JSON, harmless, not something this session's fix introduced
+- Gordo Framework v0.8.0, Session 7
+
 ### Session 13 — 2026-06-17
 - **Pulled 4 auto-added episodes** (catalog 447 → 451): 2001: A Space Odyssey (Jun 1), Animal House (May 26), Single White Female (Jun 8), The Hand That Rocks the Cradle (Jun 15) — all arrived as partial skeletons
 - **Fixed 2001: A Space Odyssey year bug:** entry had `year=2001` (parsed from the title, not the film — real year is 1968). Corrected to 1968. Re-fetched streaming with the right year: was `primeVideo` (a wrong-year JustWatch match), actually on **hboMax** + Amazon/Apple TV rent

@@ -15,7 +15,7 @@ from pathlib import Path
 
 EPISODES_PATH = Path(__file__).parent.parent / "src" / "data" / "episodes.json"
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
-WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
+WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 
 # Wikimedia requires a descriptive User-Agent with contact info.
 USER_AGENT = "RewatchablesAU/1.0 (https://rewatchables.au; simon@reflive.com)"
@@ -150,37 +150,84 @@ def find_film_qids(title, year_hint=None, limit=5):
     return out
 
 
+PROP_PUBLICATION_DATE = "P577"
+PROP_DIRECTOR = "P57"
+PROP_GENRE = "P136"
+PROP_PRODUCTION = "P272"
+PROP_DISTRIBUTOR = "P750"
+
+
+def _claim_qids(claims, prop):
+    """Extract the item QIDs (e.g. directors, genres) referenced by a claim."""
+    out = []
+    for stmt in claims.get(prop, []):
+        value = stmt.get("mainsnak", {}).get("datavalue", {}).get("value")
+        if isinstance(value, dict) and "id" in value:
+            out.append(value["id"])
+    return out
+
+
+def _claim_times(claims, prop):
+    out = []
+    for stmt in claims.get(prop, []):
+        value = stmt.get("mainsnak", {}).get("datavalue", {}).get("value")
+        if isinstance(value, dict) and "time" in value:
+            out.append(value["time"].lstrip("+"))
+    return out
+
+
+def fetch_labels(qids):
+    """Batch-resolve English labels for a list of item QIDs via wbgetentities."""
+    if not qids:
+        return {}
+    data = http_get_json(WIKIDATA_API, {
+        "action": "wbgetentities",
+        "ids": "|".join(qids),
+        "props": "labels",
+        "languages": "en",
+        "format": "json",
+    })
+    labels = {}
+    for entity_qid, entity in data.get("entities", {}).items():
+        label = entity.get("labels", {}).get("en", {}).get("value")
+        if label:
+            labels[entity_qid] = label
+    return labels
+
+
 def fetch_wikidata(qid):
-    """Run a SPARQL query for a film's year, directors, genres, production, and distribution."""
-    query = f"""
-SELECT
-  (GROUP_CONCAT(DISTINCT ?pubDateStr; separator="|") AS ?pubDates)
-  (GROUP_CONCAT(DISTINCT ?directorLabel; separator="|") AS ?directors)
-  (GROUP_CONCAT(DISTINCT ?genreLabel; separator="|") AS ?genres)
-  (GROUP_CONCAT(DISTINCT ?prodLabel; separator="|") AS ?productions)
-  (GROUP_CONCAT(DISTINCT ?distLabel; separator="|") AS ?distributors)
-WHERE {{
-  BIND(wd:{qid} AS ?film)
-  OPTIONAL {{ ?film wdt:P577 ?pubDate . BIND(STR(?pubDate) AS ?pubDateStr) }}
-  OPTIONAL {{ ?film wdt:P57 ?director .
-             ?director rdfs:label ?directorLabel . FILTER(LANG(?directorLabel)="en") }}
-  OPTIONAL {{ ?film wdt:P136 ?genre .
-             ?genre rdfs:label ?genreLabel . FILTER(LANG(?genreLabel)="en") }}
-  OPTIONAL {{ ?film wdt:P272 ?prod .
-             ?prod rdfs:label ?prodLabel . FILTER(LANG(?prodLabel)="en") }}
-  OPTIONAL {{ ?film wdt:P750 ?dist .
-             ?dist rdfs:label ?distLabel . FILTER(LANG(?distLabel)="en") }}
-}}
-"""
-    data = http_get_json(WIKIDATA_SPARQL,
-                         {"query": query, "format": "json"},
-                         accept="application/sparql-results+json")
-    bindings = data.get("results", {}).get("bindings", [])
-    if not bindings:
+    """Fetch a film's year, directors, genres, production, and distribution via the
+    Wikidata Action API (wbgetentities) — not the SPARQL query service (WDQS), which
+    is prone to prolonged outages with an aggressive, hard-to-predict rate limiter."""
+    data = http_get_json(WIKIDATA_API, {
+        "action": "wbgetentities",
+        "ids": qid,
+        "props": "claims",
+        "format": "json",
+    })
+    entity = data.get("entities", {}).get(qid)
+    if not entity or "claims" not in entity:
         return None
-    row = bindings[0]
-    return {k: row.get(k, {}).get("value", "") for k in
-            ["pubDates", "directors", "genres", "productions", "distributors"]}
+    claims = entity["claims"]
+
+    director_qids = _claim_qids(claims, PROP_DIRECTOR)
+    genre_qids = _claim_qids(claims, PROP_GENRE)
+    production_qids = _claim_qids(claims, PROP_PRODUCTION)
+    distributor_qids = _claim_qids(claims, PROP_DISTRIBUTOR)
+
+    all_qids = list(dict.fromkeys(director_qids + genre_qids + production_qids + distributor_qids))
+    labels = fetch_labels(all_qids)
+
+    def joined_labels(qids):
+        return "|".join(labels[q] for q in qids if q in labels)
+
+    return {
+        "pubDates": "|".join(_claim_times(claims, PROP_PUBLICATION_DATE)),
+        "directors": joined_labels(director_qids),
+        "genres": joined_labels(genre_qids),
+        "productions": joined_labels(production_qids),
+        "distributors": joined_labels(distributor_qids),
+    }
 
 
 def extract_year(pub_dates_str):
