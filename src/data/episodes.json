@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "id": "ali",
+      "title": "Ali",
+      "year": 2001,
+      "director": "Michael Mann",
+      "episodeDate": "2026-07-07",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/ali-with-bill-simmons-chris-ryan-and-van-lathan/id1268527882?i=1000775730158&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Van Lathan"
+      ],
+      "guests": [],
+      "genres": [
+        "Drama"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-07-07",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "sony"
+    },
+    {
       "id": "the-good-son",
       "title": "The Good Son",
       "year": 1993,
@@ -548,7 +586,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1326,7 +1364,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1580,7 +1618,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill’s Dad"
+        "Bill\u2019s Dad"
       ],
       "guests": [],
       "genres": [
@@ -3421,7 +3459,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3556,7 +3594,7 @@
       "id": "the-blair-witch-project",
       "title": "The Blair Witch Project",
       "year": 1999,
-      "director": "Daniel Myrick, Eduardo Sánchez",
+      "director": "Daniel Myrick, Eduardo S\u00e1nchez",
       "episodeDate": "2024-10-01",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-blair-witch-project-with-bill-simmons-and-chris-ryan/id1268527882?i=1000671375494&uo=4",
@@ -5870,7 +5908,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6151,7 +6189,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7322,7 +7360,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8667,7 +8705,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9639,7 +9677,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10325,7 +10363,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10558,7 +10596,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11287,7 +11325,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11666,7 +11704,7 @@
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/sleeping-with-the-enemy-with-bill-simmons-and-van-lathan/id1268527882?i=1000509202110&uo=4",
       "hosts": [
-        "the Enemy’ With Bill Simmons",
+        "the Enemy\u2019 With Bill Simmons",
         "Van Lathan"
       ],
       "guests": [],
@@ -12012,7 +12050,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12130,7 +12168,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14512,7 +14550,7 @@
     },
     {
       "id": "once-upon-a-time-in-hollywood",
-      "title": "Once Upon a Time … in Hollywood (Live Show)",
+      "title": "Once Upon a Time \u2026 in Hollywood (Live Show)",
       "year": 2019,
       "director": "Quentin Tarantino",
       "episodeDate": "2020-02-06",
@@ -14580,7 +14618,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15055,7 +15093,7 @@
       "hosts": [
         "Bill Simmons",
         "Chris Ryan",
-        "Bill’s Dad"
+        "Bill\u2019s Dad"
       ],
       "guests": [],
       "genres": [
@@ -16681,7 +16719,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-06-30",
+      "lastStreamingCheck": "2026-07-07",
       "communityRating": {
         "average": 0,
         "votes": 0
