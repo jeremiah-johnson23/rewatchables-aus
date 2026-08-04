@@ -1,6 +1,45 @@
 {
   "episodes": [
     {
+      "id": "the-karate-kid-part-ii",
+      "title": "The Karate Kid Part II",
+      "year": 1986,
+      "director": "John G. Avildsen",
+      "episodeDate": "2026-08-03",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-karate-kid-part-ii-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000779766547&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Kyle Brandt"
+      ],
+      "guests": [],
+      "genres": [
+        "Drama",
+        "Action",
+        "Romance"
+      ],
+      "streaming": {
+        "netflix": true,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": true,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-08-04",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "sony"
+    },
+    {
       "id": "obsession",
       "title": "Obsession",
       "year": 2025,
@@ -702,7 +741,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1480,7 +1519,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3575,7 +3614,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6024,7 +6063,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6305,7 +6344,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7476,7 +7515,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8821,7 +8860,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9793,7 +9832,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10479,7 +10518,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10712,7 +10751,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11441,7 +11480,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12166,7 +12205,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12284,7 +12323,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14734,7 +14773,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16835,7 +16874,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-07-28",
+      "lastStreamingCheck": "2026-08-04",
       "communityRating": {
         "average": 0,
         "votes": 0
