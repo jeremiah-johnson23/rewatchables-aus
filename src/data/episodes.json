@@ -1,6 +1,46 @@
 {
   "episodes": [
     {
+      "id": "about-last-night",
+      "title": "About Last Night",
+      "year": 1986,
+      "director": "Edward Zwick",
+      "episodeDate": "2026-08-13",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/about-last-night-with-bill-simmons-chris-ryan-and/id1268527882?i=1000783210051&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Chris Ryan",
+        "Mallory Rubin"
+      ],
+      "guests": [],
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-08-18",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "tristar"
+    },
+    {
       "id": "the-italian-job",
       "title": "The Italian Job",
       "year": 2003,
@@ -782,7 +822,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1560,7 +1600,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3655,7 +3695,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6104,7 +6144,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6385,7 +6425,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7556,7 +7596,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -8901,7 +8941,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9873,7 +9913,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10559,7 +10599,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10792,7 +10832,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11521,7 +11561,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12246,7 +12286,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12364,7 +12404,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14814,7 +14854,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -16915,7 +16955,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-08-11",
+      "lastStreamingCheck": "2026-08-18",
       "communityRating": {
         "average": 0,
         "votes": 0
