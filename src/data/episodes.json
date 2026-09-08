@@ -1,6 +1,45 @@
 {
   "episodes": [
     {
+      "id": "talladega-nights",
+      "title": "Talladega Nights",
+      "year": 2006,
+      "director": "Adam McKay",
+      "episodeDate": "2026-09-08",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/talladega-nights-with-craig-horlbeck-danny-heifetz/id1268527882?i=1000788382490&uo=4",
+      "hosts": [
+        "Craig Horlbeck",
+        "Danny Heifetz",
+        "Danny Kelly"
+      ],
+      "guests": [],
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": true,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-09-08",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "sony"
+    },
+    {
       "id": "aliens",
       "title": "Aliens",
       "year": 1986,
@@ -903,7 +942,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1681,7 +1720,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3776,7 +3815,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6225,7 +6264,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6506,7 +6545,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7677,7 +7716,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9022,7 +9061,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9994,7 +10033,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10680,7 +10719,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10913,7 +10952,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11642,7 +11681,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12367,7 +12406,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12485,7 +12524,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -14935,7 +14974,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17036,7 +17075,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-01",
+      "lastStreamingCheck": "2026-09-08",
       "communityRating": {
         "average": 0,
         "votes": 0
