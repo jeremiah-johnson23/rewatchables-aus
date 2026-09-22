@@ -1,6 +1,46 @@
 {
   "episodes": [
     {
+      "id": "law-abiding-citizen",
+      "title": "Law Abiding Citizen",
+      "year": 2009,
+      "director": "F. Gary Gray",
+      "episodeDate": "2026-09-22",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/law-abiding-citizen-with-bill-simmons-van-lathan-and/id1268527882?i=1000791024999&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Van Lathan",
+        "Craig Horlbeck"
+      ],
+      "guests": [],
+      "genres": [
+        "Drama",
+        "Action",
+        "Thriller"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": true,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-09-22",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": ""
+    },
+    {
       "id": "rambo-first-blood-part-ii",
       "title": "Rambo: First Blood Part II",
       "year": 1982,
@@ -982,7 +1022,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1760,7 +1800,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -3855,7 +3895,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6304,7 +6344,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6585,7 +6625,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7756,7 +7796,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9101,7 +9141,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10073,7 +10113,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10759,7 +10799,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10992,7 +11032,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11721,7 +11761,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12446,7 +12486,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12564,7 +12604,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15014,7 +15054,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17115,7 +17155,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-09-15",
+      "lastStreamingCheck": "2026-09-22",
       "communityRating": {
         "average": 0,
         "votes": 0
