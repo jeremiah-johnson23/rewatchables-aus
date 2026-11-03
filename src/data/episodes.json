@@ -1,6 +1,44 @@
 {
   "episodes": [
     {
+      "id": "all-the-right-moves",
+      "title": "All the Right Moves",
+      "year": 1983,
+      "director": "Michael Chapman",
+      "episodeDate": "2026-11-03",
+      "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
+      "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/all-the-right-moves-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000799526935&uo=4",
+      "hosts": [
+        "Bill Simmons",
+        "Kyle Brandt"
+      ],
+      "guests": [],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "streaming": {
+        "netflix": false,
+        "stan": false,
+        "primeVideo": false,
+        "disneyPlus": false,
+        "binge": false,
+        "paramount": false,
+        "appleTv": false,
+        "hboMax": false,
+        "rentBuy": [
+          "Amazon",
+          "Apple TV"
+        ]
+      },
+      "lastStreamingCheck": "2026-11-03",
+      "communityRating": {
+        "average": 0,
+        "votes": 0
+      },
+      "studio": "20th-century"
+    },
+    {
       "id": "a-nightmare-on-elm-street",
       "title": "A Nightmare on Elm Street",
       "year": 1984,
@@ -1220,7 +1258,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -1998,7 +2036,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -4093,7 +4131,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6542,7 +6580,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -6823,7 +6861,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -7994,7 +8032,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -9339,7 +9377,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10311,7 +10349,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -10997,7 +11035,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11230,7 +11268,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11959,7 +11997,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12684,7 +12722,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -12802,7 +12840,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -15252,7 +15290,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -17353,7 +17391,7 @@
         "hboMax": false,
         "rentBuy": []
       },
-      "lastStreamingCheck": "2026-10-27",
+      "lastStreamingCheck": "2026-11-03",
       "communityRating": {
         "average": 0,
         "votes": 0
