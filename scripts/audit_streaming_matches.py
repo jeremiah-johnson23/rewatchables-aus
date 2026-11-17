@@ -88,12 +88,17 @@ query Search($country: Country!, $filter: TitleFilter!, $first: Int!) {
 _query_level = 0  # index into QUERY_VARIANTS that JustWatch accepts
 
 
+NUM_WORDS = {w: str(i) for i, w in enumerate(
+    "zero one two three four five six seven eight nine ten eleven twelve".split())}
+
+
 def norm(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     s = s.lower().replace("&", "and")
     s = re.sub(r"\(live show\)|\(live\)", "", s)
     s = re.sub(r"[^a-z0-9 ]+", " ", s)
     s = re.sub(r"^(the|a|an) ", "", s.strip())
+    s = " ".join(NUM_WORDS.get(w, w) for w in s.split())
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -115,12 +120,19 @@ def jw_search(query, first=8):
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
         })
         t0 = time.time()
-        for attempt in range(3):
+        for attempt in range(4):
             try:
                 with urllib.request.urlopen(req, timeout=10) as r:
                     data = json.loads(r.read().decode())
                 break
             except urllib.error.HTTPError as e:
+                if e.code == 429:
+                    wait = int(e.headers.get("Retry-After") or 0) or 30 * (attempt + 1)
+                    print(f"    429 - backing off {wait}s")
+                    time.sleep(min(wait, 180))
+                    if attempt == 3:
+                        return []
+                    continue
                 # GraphQL validation errors come back as HTTP 400 with a JSON body
                 try:
                     data = json.loads(e.read().decode())
@@ -128,12 +140,12 @@ def jw_search(query, first=8):
                         break
                 except Exception:
                     pass
-                if attempt == 2:
+                if attempt == 3:
                     print(f"    ! request failed: {e}")
                     return []
                 time.sleep(2 * (attempt + 1))
             except Exception as e:  # network hiccup / 429
-                if attempt == 2:
+                if attempt == 3:
                     print(f"    ! request failed: {e}")
                     return []
                 time.sleep(2 * (attempt + 1))
@@ -172,8 +184,13 @@ def grade(ep, candidates):
         c = n.get("content") or {}
         t, y = norm(c.get("title")), c.get("originalReleaseYear")
         score, why = 0, []
+        raw = c.get("title") or ""
+        base = norm(raw.split(":")[0])
+        want_base = norm(ep["title"].split(":")[0])
         if t == want_t:
             score += 100
+        elif want_t in (base,) or t == want_base:
+            score += 90; why.append(f"subtitle variant '{raw}'")
         elif want_t and (want_t in t or t in want_t):
             score += 40; why.append(f"partial title '{c.get('title')}'")
         else:
@@ -208,7 +225,10 @@ def grade(ep, candidates):
     if rivals and dir_state != "match":
         why = why + [f"{len(rivals)} other JustWatch title(s) with same name/year"]
 
-    exact = t == want_t and (not want_y or not y or abs(y - want_y) <= 1)
+    # A subtitle variant with matching year + director is the same film
+    if dir_state == "match" and why and all(w.startswith("subtitle variant") for w in why):
+        why = []
+    exact = (t == want_t or dir_state == "match") and (not want_y or not y or abs(y - want_y) <= 1)
     if exact and dir_state == "match" and not why:
         g = "verified"
     elif exact and dir_state == "n/a" and not why:
@@ -241,8 +261,10 @@ def main():
             for n in jw_search(q):
                 if n.get("id") not in seen:
                     seen.add(n.get("id")); cands.append(n)
-            time.sleep(0.25)
-        node, g, why, dir_state = grade(ep, cands)
+            time.sleep(1.0)
+            node, g, why, dir_state = grade(ep, cands)
+            if g == "verified":
+                break  # no need for the broader title-only query
 
         old = ep.get("streaming") or {}
         row = {

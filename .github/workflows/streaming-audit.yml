@@ -16,7 +16,7 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v6
 
@@ -58,4 +58,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add src/data/episodes.json audit/
           git diff --staged --quiet || git commit -m "Streaming match audit $(date -u +%F)"
-          git push --force
+          git push --force origin HEAD:refs/heads/audit-results-${{ github.run_id }}
