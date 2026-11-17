@@ -29,6 +29,7 @@ import json
 import re
 import time
 import unicodedata
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -119,6 +120,18 @@ def jw_search(query, first=8):
                 with urllib.request.urlopen(req, timeout=10) as r:
                     data = json.loads(r.read().decode())
                 break
+            except urllib.error.HTTPError as e:
+                # GraphQL validation errors come back as HTTP 400 with a JSON body
+                try:
+                    data = json.loads(e.read().decode())
+                    if data.get("errors"):
+                        break
+                except Exception:
+                    pass
+                if attempt == 2:
+                    print(f"    ! request failed: {e}")
+                    return []
+                time.sleep(2 * (attempt + 1))
             except Exception as e:  # network hiccup / 429
                 if attempt == 2:
                     print(f"    ! request failed: {e}")
@@ -209,6 +222,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--ids")
+    ap.add_argument("--dry", action="store_true", help="print results, write nothing")
     args = ap.parse_args()
 
     data = json.loads(EPISODES_PATH.read_text())
@@ -258,6 +272,11 @@ def main():
         flag = "" if g in ("verified", "likely") else "  <-- " + "; ".join(why)
         print(f"[{i}/{len(eps)}] {g:8s} {title} ({year}){flag}")
 
+    if args.dry:
+        print(f"query level: {QUERY_VARIANTS[_query_level][0]}")
+        for r in rows:
+            print(json.dumps({k: r.get(k) for k in ("title", "grade", "reasons", "jw", "new")}))
+        return
     AUDIT_DIR.mkdir(exist_ok=True)
     (AUDIT_DIR / "streaming-audit.json").write_text(json.dumps(
         {"date": today, "queryLevel": QUERY_VARIANTS[_query_level][0], "rows": rows}, indent=2, ensure_ascii=False))

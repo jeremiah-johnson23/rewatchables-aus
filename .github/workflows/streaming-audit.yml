@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Probe JustWatch query support
+        run: python -u scripts/audit_streaming_matches.py --ids heat,jaws --dry
+
       - name: Probe JustWatch latency
         run: |
           for t in Heat Jaws Rocky; do
@@ -55,4 +58,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add src/data/episodes.json audit/
           git diff --staged --quiet || git commit -m "Streaming match audit $(date -u +%F)"
-          git push
+          git push --force
