@@ -14,7 +14,7 @@
       ],
       "guests": [],
       "genres": [
-        "Crime"
+        "Comedy"
       ],
       "streaming": {
         "netflix": true,
@@ -354,8 +354,8 @@
     {
       "id": "rambo-first-blood-part-ii",
       "title": "Rambo: First Blood Part II",
-      "year": 1982,
-      "director": "Ted Kotcheff",
+      "year": 1985,
+      "director": "George P. Cosmatos",
       "episodeDate": "2026-09-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/rambo-first-blood-part-ii-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000789688948&uo=4",
@@ -3910,7 +3910,7 @@
       "id": "running-scared-1986",
       "title": "Running Scared",
       "year": 1986,
-      "director": "David Hemmings",
+      "director": "Peter Hyams",
       "episodeDate": "2024-11-26",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/running-scared-1986-with-bill-simmons-and-chris-ryan/id1268527882?i=1000678241825&uo=4",
@@ -3949,7 +3949,7 @@
       "id": "the-replacements",
       "title": "The Replacements",
       "year": 2000,
-      "director": "Howard Deutsch",
+      "director": "Howard Deutch",
       "episodeDate": "2024-11-19",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-replacements-with-bill-simmons-and-van-lathan/id1268527882?i=1000677421528&uo=4",
@@ -4253,9 +4253,9 @@
     },
     {
       "id": "over-the-top",
-      "title": "Over The Top",
+      "title": "Over the Top",
       "year": 1987,
-      "director": "Simon Wincer",
+      "director": "Menahem Golan",
       "episodeDate": "2024-09-24",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/over-the-top-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000670480357&uo=4",
@@ -6445,7 +6445,7 @@
       "id": "toy-soldiers",
       "title": "Toy Soldiers",
       "year": 1991,
-      "director": "Hal Barwood",
+      "director": "Daniel Petrie Jr.",
       "episodeDate": "2023-10-03",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/toy-soldiers-with-bill-simmons-and-kyle-brandt/id1268527882?i=1000629992849&uo=4",
@@ -7809,8 +7809,8 @@
     {
       "id": "the-vanishing",
       "title": "The Vanishing",
-      "year": 1988,
-      "director": "Carl Schenkel",
+      "year": 1993,
+      "director": "George Sluizer",
       "episodeDate": "2023-02-07",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-vanishing-with-bill-simmons-and-chris-ryan/id1268527882?i=1000598384813&uo=4",
@@ -7839,7 +7839,7 @@
         "average": 0,
         "votes": 0
       },
-      "studio": "paramount"
+      "studio": "20th-century"
     },
     {
       "id": "deliverance",
@@ -8745,9 +8745,9 @@
     },
     {
       "id": "tango-and-cash",
-      "title": "Tango and Cash",
+      "title": "Tango & Cash",
       "year": 1989,
-      "director": "Albert Magnoli",
+      "director": "Andrei Konchalovsky",
       "episodeDate": "2022-08-30",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/tango-and-cash-with-bill-simmons-and-shea-serrano/id1268527882?i=1000577752107&uo=4",
@@ -10182,7 +10182,7 @@
       "id": "the-devil-wears-prada",
       "title": "The Devil Wears Prada",
       "year": 2006,
-      "director": "David Fincher",
+      "director": "David Frankel",
       "episodeDate": "2022-01-04",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/the-devil-wears-prada-with-bill-simmons-juliet/id1268527882?i=1000414821407&uo=4",
@@ -10837,7 +10837,7 @@
       "id": "dirty-work",
       "title": "Dirty Work",
       "year": 1998,
-      "director": "Bob Goldthwait",
+      "director": "Bob Saget",
       "episodeDate": "2021-09-21",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/dirty-work-with-bill-simmons-and-sean-fennessey/id1268527882?i=1000536099681&uo=4",
@@ -12385,7 +12385,7 @@
       "id": "country-strong",
       "title": "Country Strong",
       "year": 2010,
-      "director": "Shana Stein",
+      "director": "Shana Feste",
       "episodeDate": "2020-12-15",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/country-strong-with-bill-simmons-amanda-dobbins-and/id1268527882?i=1000502417835&uo=4",
@@ -12894,7 +12894,7 @@
       "id": "easy-a",
       "title": "Easy A",
       "year": 2010,
-      "director": "Will Glodell",
+      "director": "Will Gluck",
       "episodeDate": "2020-09-17",
       "spotifyUrl": "https://open.spotify.com/show/1lUPomulZRPquVAOOd56EW",
       "applePodcastsUrl": "https://podcasts.apple.com/au/podcast/easy-a-with-juliet-litman-amanda-dobbins-and-shea-serrano/id1268527882?i=1000491527420&uo=4",
@@ -14576,8 +14576,8 @@
       "studio": "warner-bros"
     },
     {
-      "id": "ocean",
-      "title": "Ocean",
+      "id": "ocean-s-eleven",
+      "title": "Ocean's Eleven",
       "year": 2001,
       "director": "Steven Soderbergh",
       "episodeDate": "2020-03-05",
@@ -17284,8 +17284,8 @@
       "studio": "universal"
     },
     {
-      "id": "ocean-2018-06-07",
-      "title": "Ocean",
+      "id": "ocean-s-eleven-2018-06-07",
+      "title": "Ocean's Eleven",
       "year": 2001,
       "director": "Steven Soderbergh",
       "episodeDate": "2018-06-07",
@@ -18399,8 +18399,8 @@
       "studio": "sony"
     },
     {
-      "id": "white-men-can",
-      "title": "White Men Can",
+      "id": "white-men-can-t-jump",
+      "title": "White Men Can't Jump",
       "year": 1992,
       "director": "Ron Shelton",
       "episodeDate": "2017-08-07",

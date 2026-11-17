@@ -103,7 +103,7 @@ def norm(s):
 
 
 def surname(name):
-    parts = norm(name).split()
+    parts = [w for w in norm(name).split() if w not in ("jr", "sr", "ii", "iii", "brothers")]
     return parts[-1] if parts else ""
 
 

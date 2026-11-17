@@ -50,7 +50,7 @@ jobs:
         run: python scripts/fetch_streaming_availability.py
 
       - name: Audit + apply trusted matches
-        run: python -u scripts/audit_streaming_matches.py --apply
+        run: python -u scripts/audit_streaming_matches.py --apply $( [ -s audit/ids.txt ] && echo --ids $(cat audit/ids.txt) )
 
       - name: Commit results
         run: |
