@@ -1,0 +1,49 @@
+name: Streaming Match Audit
+
+# Runs on pushes to audit/* branches (and manually once merged to main).
+# Pulls any new episodes, then re-checks every film against JustWatch AU,
+# grades match confidence, applies only trusted matches and commits the
+# report + data back to the same branch for review before merging.
+
+on:
+  push:
+    branches: ['audit/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Add new episodes
+        run: python scripts/add_new_episode.py --count 5
+
+      - name: Enrich metadata
+        continue-on-error: true
+        run: python scripts/enrich_metadata.py
+
+      - name: Fetch Apple Podcast URLs
+        continue-on-error: true
+        run: python scripts/fetch_apple_podcast_urls.py
+
+      - name: Streaming for new episodes
+        run: python scripts/fetch_streaming_availability.py
+
+      - name: Audit + apply trusted matches
+        run: python scripts/audit_streaming_matches.py --apply
+
+      - name: Commit results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/episodes.json audit/
+          git diff --staged --quiet || git commit -m "Streaming match audit $(date -u +%F)"
+          git push
