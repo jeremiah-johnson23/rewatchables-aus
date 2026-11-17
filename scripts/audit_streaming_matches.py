@@ -242,6 +242,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--ids")
+    ap.add_argument("--empty", action="store_true",
+                    help="only episodes with no streaming data yet (weekly new-episode mode, no report)")
     ap.add_argument("--dry", action="store_true", help="print results, write nothing")
     args = ap.parse_args()
 
@@ -251,6 +253,10 @@ def main():
         wanted = set(args.ids.split(","))
         eps = [e for e in eps if e["id"] in wanted]
 
+    if args.empty:
+        eps = [e for e in eps if not any((e.get("streaming") or {}).get(k) for k in SERVICES)
+               and not (e.get("streaming") or {}).get("rentBuy")]
+        print(f"{len(eps)} episode(s) with no streaming data")
     today = time.strftime("%Y-%m-%d")
     rows = []
     for i, ep in enumerate(eps, 1):
@@ -294,6 +300,13 @@ def main():
         flag = "" if g in ("verified", "likely") else "  <-- " + "; ".join(why)
         print(f"[{i}/{len(eps)}] {g:8s} {title} ({year}){flag}")
 
+    if args.empty:
+        for r in rows:
+            if r["grade"] not in ("verified", "likely"):
+                print(f"::warning::Streaming not applied for {r['title']} ({r['year']}): {r['grade']} - {'; '.join(r['reasons'])}")
+        if args.apply:
+            EPISODES_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+        return
     if args.dry:
         print(f"query level: {QUERY_VARIANTS[_query_level][0]}")
         for r in rows:

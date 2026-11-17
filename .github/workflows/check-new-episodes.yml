@@ -45,7 +45,7 @@ jobs:
 
       - name: Fetch streaming availability
         if: steps.add.outputs.added == 'true'
-        run: python scripts/fetch_streaming_availability.py
+        run: python -u scripts/audit_streaming_matches.py --apply --empty
 
       - name: Fetch Apple Podcast URLs
         if: steps.add.outputs.added == 'true'

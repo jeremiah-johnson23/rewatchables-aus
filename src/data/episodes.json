@@ -6810,21 +6810,19 @@
       ],
       "streaming": {
         "netflix": false,
-        "stan": true,
+        "stan": false,
         "primeVideo": false,
         "disneyPlus": false,
-        "binge": false,
-        "paramount": false,
+        "binge": true,
+        "paramount": true,
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
           "Amazon",
-          "Apple TV",
-          "Google Play",
-          "YouTube"
+          "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-05-20",
+      "lastStreamingCheck": "2026-11-17",
       "communityRating": {
         "average": 0,
         "votes": 0
@@ -11044,12 +11042,10 @@
         "hboMax": false,
         "rentBuy": [
           "Amazon",
-          "Apple TV",
-          "Google Play",
-          "YouTube"
+          "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-05-20",
+      "lastStreamingCheck": "2026-11-17",
       "communityRating": {
         "average": 0,
         "votes": 0

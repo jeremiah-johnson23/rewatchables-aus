@@ -1,6 +1,7 @@
 name: Streaming Match Audit
 
-# Runs on pushes to audit/* branches (and manually once merged to main).
+# Runs on pushes to audit/* branches, or manually from the Actions tab.
+# Results land on an audit-results-<run id> branch for review before merging.
 # Pulls any new episodes, then re-checks every film against JustWatch AU,
 # grades match confidence, applies only trusted matches and commits the
 # report + data back to the same branch for review before merging.
@@ -47,7 +48,7 @@ jobs:
         run: python scripts/fetch_apple_podcast_urls.py
 
       - name: Streaming for new episodes
-        run: python scripts/fetch_streaming_availability.py
+        run: python -u scripts/audit_streaming_matches.py --apply --empty
 
       - name: Audit + apply trusted matches
         run: python -u scripts/audit_streaming_matches.py --apply $( [ -s audit/ids.txt ] && echo --ids $(cat audit/ids.txt) )
