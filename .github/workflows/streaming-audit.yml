@@ -16,12 +16,21 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v6
 
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+
+      - name: Probe JustWatch latency
+        run: |
+          for t in Heat Jaws Rocky; do
+            curl -s -o /dev/null -w "$t %{http_code} %{time_total}s\n" -X POST https://apis.justwatch.com/graphql \
+              -H 'Content-Type: application/json' -H 'User-Agent: Mozilla/5.0' \
+              -d '{"query":"query{popularTitles(country:AU,filter:{searchQuery:\"'$t'\"},first:3){edges{node{id}}}}"}'
+          done
 
       - name: Add new episodes
         run: python scripts/add_new_episode.py --count 5
@@ -38,7 +47,7 @@ jobs:
         run: python scripts/fetch_streaming_availability.py
 
       - name: Audit + apply trusted matches
-        run: python scripts/audit_streaming_matches.py --apply
+        run: python -u scripts/audit_streaming_matches.py --apply
 
       - name: Commit results
         run: |

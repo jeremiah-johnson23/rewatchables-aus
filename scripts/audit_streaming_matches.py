@@ -113,9 +113,10 @@ def jw_search(query, first=8):
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
         })
+        t0 = time.time()
         for attempt in range(3):
             try:
-                with urllib.request.urlopen(req, timeout=20) as r:
+                with urllib.request.urlopen(req, timeout=10) as r:
                     data = json.loads(r.read().decode())
                 break
             except Exception as e:  # network hiccup / 429
@@ -123,6 +124,8 @@ def jw_search(query, first=8):
                     print(f"    ! request failed: {e}")
                     return []
                 time.sleep(2 * (attempt + 1))
+        if time.time() - t0 > 5:
+            print(f"    slow request {time.time() - t0:.1f}s for '{query}'")
         if data.get("errors") and _query_level < len(QUERY_VARIANTS) - 1:
             print(f"    ! query level '{name}' rejected: {data['errors'][0].get('message','')[:120]}")
             _query_level += 1
