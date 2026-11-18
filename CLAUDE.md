@@ -17,6 +17,7 @@ This project is shipped and mostly in maintenance mode. Focus on keeping data ac
 ## Session Memory
 
 ### Session 16 — 2026-11-19
+- **Cloudflare Web Analytics live:** site `rewatchables.au` added in Simon's Cloudflare account (Web Analytics → manual JS snippet, since the site is on GitHub Pages not Cloudflare). Beacon in `index.html` before `</body>`, token f89d3db59e4443e78458b9d1107bd26c (public by design). Closes the long-open "beacon pending token" item. extractingideas.com was already tracked via Cloudflare Pages automatic setup
 - **The Vanishing confirmed** by Simon as the 1993 Jeff Bridges remake (Sluizer) — the Session 15 guess stands
 - **Memento streaming set by hand** from justwatch.com/au/movie/memento: Prime Video (only tracked flatrate service; also Foxtel Now + Rialto, which we don't track), Paramount+ dropped, rent/buy Amazon + Apple TV
 - **Monthly audit scheduled:** `streaming-audit.yml` runs on the 2nd of each month at 13:17 UTC. Scheduled (main) runs commit verified changes straight to main, trigger deploy (added to `deploy.yml` workflow_run list) and email a summary via Resend (`scripts/audit_email.py`) listing suspect/missing films. Push to `audit/**` or manual dispatch still goes to an `audit-results-<run id>` branch. `concurrency: streaming-audit` stops overlapping runs (JustWatch 429s)
