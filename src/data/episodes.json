@@ -11386,7 +11386,7 @@
         "primeVideo": true,
         "disneyPlus": false,
         "binge": false,
-        "paramount": true,
+        "paramount": false,
         "appleTv": false,
         "hboMax": false,
         "rentBuy": [
@@ -11394,7 +11394,7 @@
           "Apple TV"
         ]
       },
-      "lastStreamingCheck": "2026-05-20",
+      "lastStreamingCheck": "2026-11-19",
       "communityRating": {
         "average": 0,
         "votes": 0

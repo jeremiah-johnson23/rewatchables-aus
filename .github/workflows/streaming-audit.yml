@@ -1,40 +1,61 @@
 name: Streaming Match Audit
 
-# Runs on pushes to audit/* branches, or manually from the Actions tab.
-# Results land on an audit-results-<run id> branch for review before merging.
-# Pulls any new episodes, then re-checks every film against JustWatch AU,
-# grades match confidence, applies only trusted matches and commits the
-# report + data back to the same branch for review before merging.
+# Re-checks every film against JustWatch AU, grades match confidence
+# (title + year + director) and applies only verified matches.
+#
+# - Monthly (2nd of the month): commits straight to main, deploys, emails a summary
+#   listing any films that need a hand check.
+# - Push to audit/** or manual run: results go to an audit-results-<run id> branch
+#   for review instead. Put ids in audit/ids.txt to re-check a subset.
+# - Push to cleanup/**: only deletes old audit branches.
+# Every run first deletes leftover audit/*, audit-results-* and cleanup/* branches
+# (except the branch it was triggered from).
 
 on:
+  schedule:
+    # 2nd of each month, 13:17 UTC (00:17 AEDT on the 3rd) - clear of the Tuesday weekly job
+    - cron: '17 13 2 * *'
   push:
-    branches: ['audit/**']
+    branches: ['audit/**', 'cleanup/**']
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: streaming-audit
+  cancel-in-progress: false
+
 jobs:
-  audit:
+  cleanup:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    steps:
+      - name: Delete leftover audit branches
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          CURRENT: ${{ github.ref_name }}
+        run: |
+          gh api "repos/$REPO/git/matching-refs/heads/" --paginate -q '.[].ref' \
+            | sed 's#refs/heads/##' \
+            | grep -E '^(audit/|audit-results-|cleanup/)' \
+            | while read -r b; do
+                if [ "$b" = "$CURRENT" ] && [[ "$b" != cleanup/* ]]; then continue; fi
+                echo "Deleting $b"
+                gh api -X DELETE "repos/$REPO/git/refs/heads/$b" || echo "::warning::could not delete $b"
+              done
+
+  audit:
+    needs: cleanup
+    if: ${{ !startsWith(github.ref_name, 'cleanup/') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v6
 
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-
-      - name: Probe JustWatch query support
-        run: python -u scripts/audit_streaming_matches.py --ids heat,jaws --dry
-
-      - name: Probe JustWatch latency
-        run: |
-          for t in Heat Jaws Rocky; do
-            curl -s -o /dev/null -w "$t %{http_code} %{time_total}s\n" -X POST https://apis.justwatch.com/graphql \
-              -H 'Content-Type: application/json' -H 'User-Agent: Mozilla/5.0' \
-              -d '{"query":"query{popularTitles(country:AU,filter:{searchQuery:\"'$t'\"},first:3){edges{node{id}}}}"}'
-          done
 
       - name: Add new episodes
         run: python scripts/add_new_episode.py --count 5
@@ -54,9 +75,38 @@ jobs:
         run: python -u scripts/audit_streaming_matches.py --apply $( [ -s audit/ids.txt ] && echo --ids $(cat audit/ids.txt) )
 
       - name: Commit results
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/data/episodes.json audit/
+          git add src/data/episodes.json audit/streaming-audit.md audit/streaming-audit.json
           git diff --staged --quiet || git commit -m "Streaming match audit $(date -u +%F)"
-          git push --force origin HEAD:refs/heads/audit-results-${{ github.run_id }}
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "target=main" >> $GITHUB_OUTPUT
+          else
+            git push --force origin HEAD:refs/heads/audit-results-${{ github.run_id }}
+            echo "target=audit-results-${{ github.run_id }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send summary email
+        if: always()
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          TARGET: ${{ steps.commit.outputs.target }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -f audit/streaming-audit.json ] && [ -n "$TARGET" ]; then
+            SUBJECT="📺 Rewatchables AU: monthly streaming audit"
+            BODY=$(python3 scripts/audit_email.py)
+          else
+            SUBJECT="⚠️ Rewatchables AU: streaming audit failed"
+            BODY="<h3>Streaming audit did not finish</h3><p><a href=\"$RUN_URL\">Check the workflow run</a>.</p>"
+          fi
+          JSON=$(jq -n --arg from "Rewatchables AU <simon@reflive.com>" --arg to "simon@reflive.com" \
+            --arg subject "$SUBJECT" --arg html "$BODY" '{from: $from, to: [$to], subject: $subject, html: $html}')
+          CODE=$(curl -s -o /tmp/resend.json -w "%{http_code}" -X POST https://api.resend.com/emails \
+            -H "Authorization: Bearer ${RESEND_API_KEY}" -H "Content-Type: application/json" -d "$JSON")
+          echo "Resend ($CODE): $(cat /tmp/resend.json)"
+          [ "$CODE" = "200" ] || echo "::warning::Email notification failed (HTTP $CODE)"

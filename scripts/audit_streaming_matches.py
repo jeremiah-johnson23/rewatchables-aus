@@ -173,9 +173,23 @@ def parse_offers(node):
     return s
 
 
+# Episodes whose JustWatch AU title differs from the episode title
+TITLE_ALIASES = {
+    "victory": "Escape to Victory",          # US title vs JustWatch AU title
+    "a-few-good-re-men": "A Few Good Men",   # live re-cover episode
+}
+
+# JustWatch search can't surface these; their streaming is checked by hand.
+# They're reported separately in the audit so they don't read as new problems.
+HAND_CHECKED = {
+    "memento": "JW search only returns Memento Mori - check https://www.justwatch.com/au/movie/memento",
+    "the-sure-thing-1985": "Not listed on JustWatch AU",
+}
+
+
 def grade(ep, candidates):
     """Pick the best candidate and return (node, grade, reasons)."""
-    want_t = norm(ep["title"])
+    want_t = norm(TITLE_ALIASES.get(ep.get("id"), ep["title"]))
     want_y = ep.get("year")
     want_dir = {surname(d) for d in re.split(r",| and |/", ep.get("director") or "") if d.strip()}
 
@@ -186,7 +200,7 @@ def grade(ep, candidates):
         score, why = 0, []
         raw = c.get("title") or ""
         base = norm(raw.split(":")[0])
-        want_base = norm(ep["title"].split(":")[0])
+        want_base = norm(TITLE_ALIASES.get(ep.get("id"), ep["title"]).split(":")[0])
         if t == want_t:
             score += 100
         elif want_t in (base,) or t == want_base:
@@ -261,7 +275,7 @@ def main():
     rows = []
     for i, ep in enumerate(eps, 1):
         title, year = ep["title"], ep.get("year")
-        clean = re.sub(r"\s*\((live show|live)\)\s*", "", title, flags=re.I)
+        clean = re.sub(r"\s*\((live show|live)\)\s*", "", TITLE_ALIASES.get(ep["id"], title), flags=re.I)
         cands, seen = [], set()
         for q in ([f"{clean} {year}"] if year else []) + [clean]:
             for n in jw_search(q):
@@ -272,6 +286,8 @@ def main():
             if g == "verified":
                 break  # no need for the broader title-only query
 
+        if ep["id"] in HAND_CHECKED and g not in ("verified", "likely"):
+            g, why = "hand", [HAND_CHECKED[ep["id"]]]
         old = ep.get("streaming") or {}
         row = {
             "id": ep["id"], "title": title, "year": year, "director": ep.get("director"),
@@ -334,7 +350,7 @@ def write_markdown(rows, today):
     L = [f"# Streaming match audit — {today}", "",
          f"JustWatch query level: `{QUERY_VARIANTS[_query_level][0]}`", "",
          "| Grade | Count |", "|---|---|"]
-    for k in ("verified", "likely", "suspect", "missing"):
+    for k in ("verified", "likely", "suspect", "missing", "hand"):
         L.append(f"| {k} | {g.get(k, 0)} |")
     L += ["", f"Of {len(trusted)} trusted matches, {len(changed)} had stored subscription data that was out of date "
           f"({len(trusted) - len(changed)} unchanged).", ""]
@@ -350,6 +366,10 @@ def write_markdown(rows, today):
             jw = r.get("jw") or {}
             L.append(f"- **{r['title']}** ({r['year']}, {r['director']}) — {r['grade']}: {'; '.join(r['reasons'])}. "
                      f"JW → {jw.get('title')} ({jw.get('year')}) {jw.get('url','')}. Stored: {svc_list(r['old'])}")
+    L += ["", "## Checked by hand (known)", ""]
+    for r in rows:
+        if r["grade"] == "hand":
+            L.append(f"- **{r['title']}** ({r['year']}) — {r['reasons'][0]}. Stored: {svc_list(r['old'])}")
     L += ["", "## Changes applied", ""]
     for r in changed:
         L.append(f"- {r['title']} ({r['year']}): +{', '.join(r['added']) or '—'} / -{', '.join(r['removed']) or '—'}")

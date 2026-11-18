@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   workflow_run:
-    workflows: ["Weekly Episode Update"]
+    workflows: ["Weekly Episode Update", "Streaming Match Audit"]
     types: [completed]
     branches: [main]
 
